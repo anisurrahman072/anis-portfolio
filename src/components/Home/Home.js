@@ -4,7 +4,6 @@ import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import { Tilt } from "react-tilt";
 
 function Home() {
   return (
@@ -32,14 +31,16 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <Tilt tiltEnable={true}>
-                <img
-                  src={homeLogo}
-                  alt="home pic"
-                  className="img-fluid book-pic"
-                  style={{ maxHeight: "600px", borderRadius: "10px" }}
-                />
-              </Tilt>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid book-pic"
+                style={{
+                  maxHeight: "600px",
+                  borderRadius: "10px",
+                  position: "relative",
+                }}
+              />
             </Col>
           </Row>
         </Container>
