@@ -104,23 +104,29 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <div style={{ position: "relative" }}>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/anisurrahman072/React-Native-Advanced-Guide"
-                  className="custom-link cursor-pointer"
+                <motion.div
+                  initial={{ x: "300%" }} // Initial position (off-screen to the left)
+                  animate={{ x: 0 }} // Animate to the center (0%)
+                  transition={{ duration: 4 }} // Animation duration
                 >
-                  <img
-                    src={homeLogo}
-                    alt="home pic"
-                    className="img-fluid book-pic"
-                    style={{
-                      maxHeight: "600px",
-                      borderRadius: "15px",
-                      position: "relative",
-                    }}
-                  />
-                </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/anisurrahman072/React-Native-Advanced-Guide"
+                    className="custom-link cursor-pointer"
+                  >
+                    <img
+                      src={homeLogo}
+                      alt="home pic"
+                      className="img-fluid book-pic"
+                      style={{
+                        maxHeight: "600px",
+                        borderRadius: "15px",
+                        position: "relative",
+                      }}
+                    />
+                  </a>
+                </motion.div>
               </div>
             </Col>
           </Row>
