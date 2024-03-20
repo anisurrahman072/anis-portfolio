@@ -55,7 +55,7 @@ function Home() {
                   textAlign: "left",
                 }}
               >
-                🟢 My BOOK was endorsed by Top{" "}
+                🎖️ My BOOK was endorsed by Top{" "}
                 <b style={{ color: "gold" }}>Company</b> - ( Callstack )
               </h5>
 
@@ -65,7 +65,7 @@ function Home() {
                   textAlign: "left",
                 }}
               >
-                🟢 I was featured on the Top{" "}
+                🎖️ I was featured on the Top{" "}
                 <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite Red
                 )
               </h5>
