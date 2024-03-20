@@ -287,7 +287,9 @@ button:focus {
 
 @media (max-width: 767px) {
   .book-pic {
-    margin: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 80px;
     display: block !important;
   }
 }
@@ -305,6 +307,12 @@ button:focus {
 .endorse-title {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+}
+
+@media (max-width: 767px) {
+  .endorse-title {
+    text-align: center;
+  }
 }
 
 .main-name {
