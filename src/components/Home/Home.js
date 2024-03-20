@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -42,51 +42,58 @@ function Home() {
                 <b style={{ color: "gold" }}>MERN</b>) expert.
               </h5>
 
-              <h1 className="endorse-title" style={{ marginTop: "80px" }}>
-                COMMUNITY <strong className="main-name">ENDORSED ME 🔥</strong>
-              </h1>
-
-              <h5
-                style={{
-                  paddingTop: 30,
-                  paddingLeft: 50,
-                  paddingRight: 50,
-                  paddingBottom: 20,
-                  textAlign: "left",
-                  position: "relative",
-                }}
+              <motion.div
+                initial={{ x: "-100%" }} // Initial position (off-screen to the left)
+                animate={{ x: 0 }} // Animate to the center (0%)
+                transition={{ duration: 2 }} // Animation duration
               >
-                🎖️{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://x.com/mdj_dev/status/1750908771713315326?s=20"
-                  className="custom-link cursor-pointer"
-                >
-                  My BOOK was <b style={{ color: "gold" }}>endorsed</b> by Top
-                  RN Company - ( Callstack ) 🔗
-                </a>
-              </h5>
+                <h1 className="endorse-title" style={{ marginTop: "80px" }}>
+                  COMMUNITY{" "}
+                  <strong className="main-name">ENDORSED ME 🔥</strong>
+                </h1>
 
-              <h5
-                style={{
-                  paddingLeft: 50,
-                  textAlign: "left",
-                  position: "relative",
-                }}
-              >
-                🎖️{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
-                  className="custom-link cursor-pointer"
+                <h5
+                  style={{
+                    paddingTop: 30,
+                    paddingLeft: 50,
+                    paddingRight: 50,
+                    paddingBottom: 20,
+                    textAlign: "left",
+                    position: "relative",
+                  }}
                 >
-                  I was featured on the Top{" "}
-                  <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite
-                  Red ) 🔗
-                </a>
-              </h5>
+                  🎖️{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://x.com/mdj_dev/status/1750908771713315326?s=20"
+                    className="custom-link cursor-pointer"
+                  >
+                    My BOOK was <b style={{ color: "gold" }}>endorsed</b> by Top
+                    RN Company - ( Callstack ) 🔗
+                  </a>
+                </h5>
+
+                <h5
+                  style={{
+                    paddingLeft: 50,
+                    textAlign: "left",
+                    position: "relative",
+                  }}
+                >
+                  🎖️{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
+                    className="custom-link cursor-pointer"
+                  >
+                    I was featured on the Top{" "}
+                    <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite
+                    Red ) 🔗
+                  </a>
+                </h5>
+              </motion.div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
