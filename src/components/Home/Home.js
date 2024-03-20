@@ -13,39 +13,45 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> ANISUR RAHMAN </strong>
-              </h1>
-
-              <h5
-                style={{
-                  paddingTop: 30,
-                  paddingLeft: 50,
-                  paddingRight: 50,
-                  paddingBottom: 20,
-                  textAlign: "left",
-                }}
-              >
-                🟢 Sr. Software Engineer with{" "}
-                <b style={{ color: "gold" }}>5+ years</b> of JS{" "}
-                <b style={{ color: "gold" }}>Full Stack</b> experience.
-              </h5>
-
-              <h5
-                style={{
-                  paddingLeft: 50,
-                  textAlign: "left",
-                }}
-              >
-                🟢 React, React Native & Node.js (
-                <b style={{ color: "gold" }}>MERN</b>) expert.
-              </h5>
-
               <motion.div
-                initial={{ x: "-100%" }} // Initial position (off-screen to the left)
+                initial={{ x: "-200%" }} // Initial position (off-screen to the left)
                 animate={{ x: 0 }} // Animate to the center (0%)
                 transition={{ duration: 2 }} // Animation duration
+              >
+                <h1 className="heading-name">
+                  I'M
+                  <strong className="main-name"> ANISUR RAHMAN </strong>
+                </h1>
+
+                <h5
+                  style={{
+                    paddingTop: 30,
+                    paddingLeft: 50,
+                    paddingRight: 50,
+                    paddingBottom: 20,
+                    textAlign: "left",
+                  }}
+                >
+                  🟢 Sr. Software Engineer with{" "}
+                  <b style={{ color: "gold" }}>5+ years</b> of JS{" "}
+                  <b style={{ color: "gold" }}>Full Stack</b> experience.
+                </h5>
+
+                <h5
+                  style={{
+                    paddingLeft: 50,
+                    textAlign: "left",
+                  }}
+                >
+                  🟢 React, React Native & Node.js (
+                  <b style={{ color: "gold" }}>MERN</b>) expert.
+                </h5>
+              </motion.div>
+
+              <motion.div
+                initial={{ x: "-200%" }} // Initial position (off-screen to the left)
+                animate={{ x: 0 }} // Animate to the center (0%)
+                transition={{ duration: 3 }} // Animation duration
               >
                 <h1 className="endorse-title" style={{ marginTop: "80px" }}>
                   COMMUNITY{" "}
