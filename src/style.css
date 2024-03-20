@@ -253,7 +253,6 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -310,6 +309,15 @@ button:focus {
 
 .main-name {
   color: #cd5ff8;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: white !important;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .Typewriter__wrapper {
