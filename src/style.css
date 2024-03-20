@@ -261,17 +261,30 @@ button:focus {
   padding-top: 30px !important;
 }
 
+@media (max-width: 767px) {
+  .home-section {
+    background-size: cover;
+  }
+}
+
 .home-content {
   padding: 6rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
 
-.book-pic {
-  box-shadow: 0px 1px 73px -41px rgba(255,255,255,0.4);
-  -webkit-box-shadow: 0px 1px 73px -41px rgba(255,255,255,0.4);
-  -moz-box-shadow: 0px 1px 73px -41px rgba(255,255,255,0.4);
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 2rem 0 2rem !important;
+  }
 }
+
+.book-pic {
+  box-shadow: 0px 1px 73px -10px rgba(255,255,255,0.4);
+  -webkit-box-shadow: 0px 1px 73px -10px rgba(255,255,255,0.4);
+  -moz-box-shadow: 0px 1px 73px -10px rgba(255,255,255,0.4);
+  }
 
 @media (max-width: 767px) {
   .book-pic {
@@ -286,6 +299,11 @@ button:focus {
 }
 
 .heading-name {
+  font-size: 2.5em !important;
+  padding-left: 45px !important;
+}
+
+.endorse-title {
   font-size: 2.5em !important;
   padding-left: 45px !important;
 }
