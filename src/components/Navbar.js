@@ -5,10 +5,12 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import github from "../Assets/github.svg";
+import { motion } from "framer-motion";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -19,6 +21,10 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+
+  const handleHover = () => {
+    setIsHovered(!isHovered);
+  };
 
   return (
     <Navbar
@@ -32,7 +38,7 @@ function NavBar() {
       }}
     >
       <Nav className="" defaultActiveKey="#home">
-        <div
+        <motion.div
           style={{
             border: "1px solid #676767c7",
             borderRadius: "25px",
@@ -49,6 +55,8 @@ function NavBar() {
             marginBottom: "10px",
           }}
           className="nav-github-star-box cursor-pointer"
+          onHoverStart={handleHover}
+          onHoverEnd={handleHover}
         >
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
             <img src={github} height="20px" />
@@ -64,10 +72,26 @@ function NavBar() {
           >
             1212
           </h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>⭐️</h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+            <motion.div
+              initial={{ rotate: 0 }}
+              animate={{ rotate: isHovered ? 720 : 0 }}
+              transition={{ duration: 1 }}
+            >
+              ⭐️
+            </motion.div>
+          </h6>
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>Give a STAR</h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>➤</h6>
-        </div>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+            <motion.div
+              initial={{ x: 0, y: 0 }}
+              animate={{ x: isHovered ? "15%" : 0 }}
+              transition={{ duration: 0.1 }}
+            >
+              ➤
+            </motion.div>
+          </h6>
+        </motion.div>
       </Nav>
     </Navbar>
   );
