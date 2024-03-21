@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
@@ -6,6 +6,12 @@ import Home2 from "./Home2";
 import { motion } from "framer-motion";
 
 function Home() {
+  const [isHoveredBook, setIsHoveredBook] = useState(false);
+
+  const handleHoverBook = () => {
+    setIsHoveredBook(!isHoveredBook);
+  };
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -106,11 +112,13 @@ function Home() {
                 <motion.div
                   initial={{ scale: 0.1, opacity: 0 }} // Initial state: very small and invisible
                   animate={{
-                    scale: 1, // Zoom in
+                    scale: isHoveredBook ? 1.03 : 1, // Zoom in
                     opacity: 1, // Fade in
-                    rotate: 362, // Rotate 360 degrees (circulating)
+                    rotate: isHoveredBook ? 360 : 362, // Rotate 360 degrees (circulating)
                   }}
-                  transition={{ duration: 2.5 }} // Animation duration (in seconds)
+                  transition={{ duration: isHoveredBook ? 0.5 : 2.5 }} // Animation duration (in seconds)
+                  onHoverStart={handleHoverBook}
+                  onHoverEnd={handleHoverBook}
                 >
                   <a
                     target="_blank"
