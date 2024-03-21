@@ -3,10 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import github from "../Assets/github.svg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -28,42 +26,38 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
     >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          
-        </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
+      <Nav className="" defaultActiveKey="#home">
+        <div
+          style={{
+            border: "1px solid white",
+            borderRadius: "25px",
+            paddingLeft: "5px",
+            paddingRight: "5px",
+            paddingTop: "7px",
+            paddingBottom: "2px",
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            margin: 0,
+            lineHeight: 1,
+            marginTop: "10px",
+            marginBottom: "10px",
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
-
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+            <img src={github} height="20px" />
+          </h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>1212</h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>|</h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>Give a STAR</h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>➤</h6>
+        </div>
+      </Nav>
     </Navbar>
   );
 }

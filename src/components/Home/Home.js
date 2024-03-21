@@ -54,7 +54,7 @@ function Home() {
                 transition={{ duration: 4 }} // Animation duration
               >
                 <h1 className="endorse-title" style={{ marginTop: "80px" }}>
-                  TOP <strong className="main-name">ENDORSEMENTS 🔥</strong>
+                  TOP <strong className="main-name">REMARKS 🔥</strong>
                 </h1>
 
                 <h5
@@ -108,7 +108,7 @@ function Home() {
                   animate={{
                     scale: 1, // Zoom in
                     opacity: 1, // Fade in
-                    rotate: 363, // Rotate 360 degrees (circulating)
+                    rotate: 362, // Rotate 360 degrees (circulating)
                   }}
                   transition={{ duration: 2.5 }} // Animation duration (in seconds)
                 >
