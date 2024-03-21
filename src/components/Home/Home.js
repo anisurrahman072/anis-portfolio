@@ -14,8 +14,8 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <motion.div
-                initial={{ x: "-200%" }} // Initial position (off-screen to the left)
-                animate={{ x: 0 }} // Animate to the center (0%)
+                initial={{ x: "-200%", y: "-300%" }} // Initial position (off-screen to the left)
+                animate={{ x: 0, y: 0 }} // Animate to the center (0%)
                 transition={{ duration: 2 }} // Animation duration
               >
                 <h1 className="heading-name">
@@ -34,7 +34,7 @@ function Home() {
                 >
                   🟢 Sr. Software Engineer with{" "}
                   <b style={{ color: "gold" }}>5+ years</b> of JS{" "}
-                  <b style={{ color: "gold" }}>Full Stack</b> experience.
+                  <b style={{ color: "gold" }}>Full Stack</b> exp.
                 </h5>
 
                 <h5
@@ -49,13 +49,12 @@ function Home() {
               </motion.div>
 
               <motion.div
-                initial={{ x: "-200%" }} // Initial position (off-screen to the left)
+                initial={{ x: "-300%" }} // Initial position (off-screen to the left)
                 animate={{ x: 0 }} // Animate to the center (0%)
-                transition={{ duration: 3 }} // Animation duration
+                transition={{ duration: 4 }} // Animation duration
               >
                 <h1 className="endorse-title" style={{ marginTop: "80px" }}>
-                  COMMUNITY{" "}
-                  <strong className="main-name">ENDORSED ME 🔥</strong>
+                  TOP <strong className="main-name">ENDORSEMENTS 🔥</strong>
                 </h1>
 
                 <h5
@@ -75,8 +74,8 @@ function Home() {
                     href="https://x.com/mdj_dev/status/1750908771713315326?s=20"
                     className="custom-link cursor-pointer"
                   >
-                    My BOOK was <b style={{ color: "gold" }}>endorsed</b> by Top
-                    RN Company - ( Callstack ) 🔗
+                    I was <b style={{ color: "gold" }}>endorsed</b> by Top RN
+                    Company - ( Callstack ) 🔗
                   </a>
                 </h5>
 
@@ -105,9 +104,13 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <div style={{ position: "relative" }}>
                 <motion.div
-                  initial={{ x: "300%" }} // Initial position (off-screen to the left)
-                  animate={{ x: 0 }} // Animate to the center (0%)
-                  transition={{ duration: 4 }} // Animation duration
+                  initial={{ scale: 0.1, opacity: 0 }} // Initial state: very small and invisible
+                  animate={{
+                    scale: 1, // Zoom in
+                    opacity: 1, // Fade in
+                    rotate: 363, // Rotate 360 degrees (circulating)
+                  }}
+                  transition={{ duration: 2.5 }} // Animation duration (in seconds)
                 >
                   <a
                     target="_blank"
