@@ -57,6 +57,9 @@ function NavBar() {
           className="nav-github-star-box cursor-pointer"
           onHoverStart={handleHover}
           onHoverEnd={handleHover}
+          initial={{ x: 0, y: "-100%", opacity: 0 }} // Initial position (off-screen to the left)
+          animate={{ x: 0, y: 0, opacity: 1 }} // Animate to the center (0%)
+          transition={{ duration: 2 }} // Animation duration
         >
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
             <img src={github} height="20px" />
