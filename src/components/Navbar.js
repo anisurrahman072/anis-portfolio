@@ -34,12 +34,12 @@ function NavBar() {
       <Nav className="" defaultActiveKey="#home">
         <div
           style={{
-            border: "1px solid white",
+            border: "1px solid #676767c7",
             borderRadius: "25px",
             paddingLeft: "5px",
             paddingRight: "5px",
-            paddingTop: "7px",
-            paddingBottom: "2px",
+            paddingTop: "5px",
+            paddingBottom: "0px",
             display: "flex",
             alignItems: "center",
             color: "white",
@@ -48,12 +48,23 @@ function NavBar() {
             marginTop: "10px",
             marginBottom: "10px",
           }}
+          className="nav-github-star-box cursor-pointer"
         >
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
             <img src={github} height="20px" />
           </h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>1212</h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>|</h6>
+          <h6
+            style={{
+              marginLeft: "5px",
+              marginRight: "5px",
+              fontWeight: "bolder",
+              color: "gold",
+            }}
+            className="github-star-count"
+          >
+            1212
+          </h6>
+          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>⭐️</h6>
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>Give a STAR</h6>
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>➤</h6>
         </div>
