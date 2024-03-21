@@ -73,7 +73,7 @@ function NavBar() {
             }}
             className="github-star-count"
           >
-            1212
+            1214
           </h6>
           <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
             <motion.div
