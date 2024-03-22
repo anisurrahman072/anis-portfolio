@@ -60,9 +60,26 @@ function Home() {
                 animate={{ x: 0 }} // Animate to the center (0%)
                 transition={{ duration: 3 }} // Animation duration
               >
-                <h1 className="endorse-title" style={{ marginTop: "80px" }}>
-                  TOP <strong className="main-name">REMARKS 🔥</strong>
-                </h1>
+                <motion.div
+                  animate={{
+                    // It will blink for 2 times
+                    textShadow: [
+                      "0 0 10px rgba(255, 255, 255, 0)",
+                      "0 0 60px rgba(246, 255, 0, 1)",
+                      "0 0 10px rgba(255, 255, 255, 0)",
+                      "0 0 10px rgba(255, 255, 255, 0)",
+                    ],
+                  }}
+                  transition={{
+                    duration: 1,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                  }}
+                >
+                  <h1 className="endorse-title" style={{ marginTop: "80px" }}>
+                    TOP <strong className="main-name">REMARKS 🔥</strong>
+                  </h1>
+                </motion.div>
 
                 <h5
                   style={{

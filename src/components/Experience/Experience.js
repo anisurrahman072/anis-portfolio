@@ -20,12 +20,12 @@ function Experience() {
     <motion.section
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: true, amount: 0.25 }}
+      viewport={{ once: true }}
     >
       <motion.div
         variants={{
           hidden: {
-            y: -200,
+            y: -100,
             opacity: 0,
           },
           show: {
@@ -38,7 +38,16 @@ function Experience() {
           },
         }}
       >
-        <p style={{ color: "white", fontSize: "60px" }}>Work Experience</p>
+        <h1
+          style={{
+            color: "white",
+            fontSize: "60px",
+            marginTop: "50px",
+            marginBottom: "50px",
+          }}
+        >
+          Work Experience
+        </h1>
       </motion.div>
 
       <Container fluid className="" id="home">
