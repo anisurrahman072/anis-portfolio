@@ -109,7 +109,13 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <div style={{ position: "relative" }}>
+              <div
+                style={{
+                  position: "relative",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
                 <motion.div
                   initial={{ scale: 0.1, opacity: 0 }} // Initial state: very small and invisible
                   animate={{
@@ -120,6 +126,7 @@ function Home() {
                   transition={{ duration: isHoveredBook ? 0.5 : 2.5 }} // Animation duration (in seconds)
                   onHoverStart={handleHoverBook}
                   onHoverEnd={handleHoverBook}
+                  style={{ display: "inline-block" }}
                 >
                   <a
                     target="_blank"
