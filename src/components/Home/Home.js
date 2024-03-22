@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import { motion } from "framer-motion";
+import Experience from "../Experience/Experience";
 
 function Home() {
   const [isHoveredBook, setIsHoveredBook] = useState(false);
@@ -143,6 +144,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      {/* Experience Component */}
+      <Experience />
       <Home2 />
     </section>
   );
