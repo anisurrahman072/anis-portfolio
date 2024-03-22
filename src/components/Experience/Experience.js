@@ -17,7 +17,30 @@ function Experience() {
   };
 
   return (
-    <section>
+    <motion.section
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: true, amount: 0.25 }}
+    >
+      <motion.div
+        variants={{
+          hidden: {
+            y: -200,
+            opacity: 0,
+          },
+          show: {
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",
+              duration: 1.25,
+            },
+          },
+        }}
+      >
+        <p style={{ color: "white", fontSize: "60px" }}>Work Experience</p>
+      </motion.div>
+
       <Container fluid className="" id="home">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
@@ -98,7 +121,7 @@ function Experience() {
           ))}
         </VerticalTimeline>
       </Container>
-    </section>
+    </motion.section>
   );
 }
 

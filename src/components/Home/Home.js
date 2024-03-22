@@ -58,7 +58,7 @@ function Home() {
               <motion.div
                 initial={{ x: "-300%" }} // Initial position (off-screen to the left)
                 animate={{ x: 0 }} // Animate to the center (0%)
-                transition={{ duration: 4 }} // Animation duration
+                transition={{ duration: 3 }} // Animation duration
               >
                 <h1 className="endorse-title" style={{ marginTop: "80px" }}>
                   TOP <strong className="main-name">REMARKS 🔥</strong>
