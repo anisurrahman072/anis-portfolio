@@ -248,7 +248,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 70px !important;
 }
 
 .home-section {
@@ -333,11 +333,13 @@ button:focus {
 .endorse-title {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  margin-top: 100px;
 }
 
 @media (max-width: 767px) {
   .endorse-title {
     text-align: center;
+    margin-top: 70px;
   }
 }
 

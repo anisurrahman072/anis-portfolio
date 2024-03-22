@@ -76,7 +76,7 @@ function Home() {
                     repeatType: "reverse",
                   }}
                 >
-                  <h1 className="endorse-title" style={{ marginTop: "80px" }}>
+                  <h1 className="endorse-title">
                     TOP <strong className="main-name">REMARKS 🔥</strong>
                   </h1>
                 </motion.div>
