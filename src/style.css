@@ -12,6 +12,10 @@ html {
   );
 
   --imp-text-color: #c770f0;
+
+  p {
+    margin: 0;
+  }
 }
 
 .purple {
@@ -330,6 +334,13 @@ button:focus {
   padding-left: 45px !important;
 }
 
+@media (max-width: 767px) {
+  .heading-name {
+    padding-left: 0px !important;
+    text-align: center;
+  }
+}
+
 .endorse-title {
   font-size: 2.5em !important;
   padding-left: 45px !important;
@@ -338,9 +349,30 @@ button:focus {
 
 @media (max-width: 767px) {
   .endorse-title {
+    padding-left: 0px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .endorse-title {
     text-align: center;
     margin-top: 70px;
   }
+}
+
+.skills-container {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+.react-native-skill-box {
+  background-color: rgb(22, 28, 39);
+  -webkit-box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
+  -moz-box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
+  box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
+  border: 1px solid #53acffbf;
+  color: rgb(222, 234, 248);
 }
 
 .main-name {

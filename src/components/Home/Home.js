@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import { motion } from "framer-motion";
 import Experience from "../Experience/Experience";
+import Skills from "../Skils/Skills";
 
 function Home() {
   const [isHoveredBook, setIsHoveredBook] = useState(false);
@@ -168,6 +169,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      {/* Skills Component */}
+      <Skills />
       {/* Experience Component */}
       <Experience />
       <Home2 />
