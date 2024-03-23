@@ -59,7 +59,7 @@ function Skills() {
               <div
                 style={{
                   position: "absolute",
-                  top: 7,
+                  top: 5,
                   right: 7,
                   color: "red",
                 }}
@@ -101,8 +101,8 @@ function Skills() {
                   color: "rgb(144 165 201)",
                 }}
               >
-                Complex SDK integrations (IAP, Video Stream, Camera, more) & App
-                deployments.
+                Integrated complex SDKs (IAP, Video Stream, Camera, more) &
+                maintained deployments.
               </p>
             </div>
           </Col>
