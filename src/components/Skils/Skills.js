@@ -120,6 +120,7 @@ function Skills() {
                 padding: "20px",
                 textAlign: "left",
                 position: "relative",
+                height: "100%",
               }}
             >
               <div
@@ -166,7 +167,8 @@ function Skills() {
                   color: "rgb(144 199 201)",
                 }}
               >
-                Handled complex rendering (Join multiple Live Streams, more).
+                Handled complex renderings (Join multiple Live Streams with
+                distinct Socket data, more).
               </p>
             </div>
           </Col>
