@@ -366,6 +366,9 @@ button:focus {
   padding-right: 50px !important;
 }
 
+/* REACT NATIVE SKILL */
+/* REACT NATIVE SKILL */
+/* REACT NATIVE SKILL */
 .react-native-skill-box {
   background-color: rgb(22, 28, 39);
   -webkit-box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
@@ -377,12 +380,11 @@ button:focus {
 }
 
 .react-native-skill-box:hover {
-  -webkit-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
-  -moz-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
-  box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
+  -webkit-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 40px -8px rgba(51, 82, 131,1);
+  -moz-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 40px -8px rgba(51, 82, 131,1);
+  box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 40px -8px rgba(51, 82, 131,1);
 
   border: 1px solid #7abfffbf;
-  color: rgb(222, 234, 248);
 }
 
 .react-native-special-job {
@@ -394,13 +396,34 @@ button:focus {
   color: rgb(175, 199, 239) !important;
 }
 
+/* REACT SKILL */
+/* REACT SKILL */
+/* REACT SKILL */
 .react-skill-box {
   background-color: rgb(22, 39, 35);
   -webkit-box-shadow: inset 0px 0px 76px -8px rgb(44, 115, 104);
   -moz-box-shadow: inset 0px 0px 76px -8px rgba(44, 115, 104, 1);
   box-shadow: inset 0px 0px 76px -8px rgba(44, 115, 104, 1);
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
   border: 1px solid #53fffcbf;
   color: rgb(188, 255, 255);
+}
+
+.react-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(44, 115, 104), 0px 0px 40px -8px rgb(49, 132, 119);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(44, 115, 104), 0px 0px 40px -8px rgb(49, 132, 119);
+  box-shadow: inset 0px 0px 120px 5px rgb(44, 115, 104), 0px 0px 40px -8px rgb(49, 132, 119);
+
+  border: 1px solid #8ffffdbf;
+}
+
+.react-special-job {
+  color: rgb(144 199 201);
+  transition: color 0.3s ease; 
+}
+
+.react-skill-box:hover .react-special-job {
+  color: rgb(179, 244, 246) !important;
 }
 
 .main-name {

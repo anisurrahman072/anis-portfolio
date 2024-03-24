@@ -135,7 +135,7 @@ function Skills() {
             }}
           >
             <div
-              className="react-skill-box"
+              className="react-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -185,8 +185,8 @@ function Skills() {
                 style={{
                   fontWeight: "normal",
                   fontSize: "12px",
-                  color: "rgb(144 199 201)",
                 }}
+                className="react-special-job"
               >
                 Handled complex renderings (Join multiple Live Streams with
                 distinct Socket data, more).
