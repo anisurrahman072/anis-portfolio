@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import reactNativeLogo from "../../Assets/react-native.svg";
 import reactLogo from "../../Assets/react.svg";
 import { motion } from "framer-motion";
 
@@ -61,10 +62,9 @@ function Skills() {
                   position: "absolute",
                   top: 5,
                   right: 7,
-                  color: "red",
                 }}
               >
-                <img src={reactLogo} height={60} />
+                <img src={reactNativeLogo} height={60} />
               </div>
               <p
                 style={{
@@ -106,9 +106,69 @@ function Skills() {
               </p>
             </div>
           </Col>
-          <Col sm={6} md={3} style={{ backgroundColor: "green" }}>
-            {" "}
-            React
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <div
+              className="react-skill-box"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: 5,
+                  right: 7,
+                }}
+              >
+                <img src={reactLogo} height={60} />
+              </div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "rgb(82, 179, 208)",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+              >
+                5 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                React
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  color: "rgb(144 199 201)",
+                }}
+              >
+                Handled complex rendering (Join multiple Live Streams, more).
+              </p>
+            </div>
           </Col>
           <Col sm={6} md={3} style={{ backgroundColor: "yellow" }}>
             Node.js

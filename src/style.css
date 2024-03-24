@@ -375,6 +375,15 @@ button:focus {
   color: rgb(222, 234, 248);
 }
 
+.react-skill-box {
+  background-color: rgb(22, 39, 35);
+  -webkit-box-shadow: inset 0px 0px 76px -8px rgb(44, 115, 104);
+  -moz-box-shadow: inset 0px 0px 76px -8px rgba(44, 115, 104, 1);
+  box-shadow: inset 0px 0px 76px -8px rgba(44, 115, 104, 1);
+  border: 1px solid #53fffcbf;
+  color: rgb(188, 255, 255);
+}
+
 .main-name {
   color: #cd5ff8;
 }
