@@ -5,6 +5,13 @@ import reactLogo from "../../Assets/react.svg";
 import { motion } from "framer-motion";
 
 function Skills() {
+  // Hover STATES
+  const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
+
+  const handleHoverReactNative = () => {
+    setIsHoveredReactNative(!isHoveredReactNative);
+  };
+
   return (
     <motion.section
       initial="hidden"
@@ -48,15 +55,29 @@ function Skills() {
               padding: "10px",
             }}
           >
-            <div
-              className="react-native-skill-box"
+            <motion.div
+              className="react-native-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
                 textAlign: "left",
                 position: "relative",
+                overflow: "hidden",
               }}
+              onHoverStart={handleHoverReactNative}
+              onHoverEnd={handleHoverReactNative}
             >
+              <div
+                style={{
+                  position: "absolute",
+                  top: -20,
+                  right: -10,
+                  opacity: 0.2,
+                }}
+              >
+                <img src={reactNativeLogo} height={100} />
+              </div>
+
               <div
                 style={{
                   position: "absolute",
@@ -104,7 +125,7 @@ function Skills() {
                 Integrated complex SDKs (IAP, Video Stream, Camera, more) &
                 maintained deployments.
               </p>
-            </div>
+            </motion.div>
           </Col>
           <Col
             sm={6}

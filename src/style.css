@@ -370,8 +370,18 @@ button:focus {
   background-color: rgb(22, 28, 39);
   -webkit-box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
   -moz-box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
   box-shadow: inset 0px 0px 76px -8px rgba(44,71,115,1);
   border: 1px solid #53acffbf;
+  color: rgb(222, 234, 248);
+}
+
+.react-native-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
+  -moz-box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
+  box-shadow: inset 0px 0px 211px 5px rgba(44,71,115,1), 0px 0px 76px -8px rgba(51, 82, 131,1);
+
+  border: 1px solid #7abfffbf;
   color: rgb(222, 234, 248);
 }
 
