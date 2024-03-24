@@ -385,6 +385,15 @@ button:focus {
   color: rgb(222, 234, 248);
 }
 
+.react-native-special-job {
+  color: rgb(144 165 201);
+  transition: color 0.3s ease; 
+}
+
+.react-native-skill-box:hover .react-native-special-job {
+  color: rgb(175, 199, 239) !important;
+}
+
 .react-skill-box {
   background-color: rgb(22, 39, 35);
   -webkit-box-shadow: inset 0px 0px 76px -8px rgb(44, 115, 104);

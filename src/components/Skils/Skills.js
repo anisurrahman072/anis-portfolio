@@ -119,8 +119,8 @@ function Skills() {
                 style={{
                   fontWeight: "normal",
                   fontSize: "12px",
-                  color: "rgb(144 165 201)",
                 }}
+                className="react-native-special-job"
               >
                 Integrated complex SDKs (IAP, Video Stream, Camera, more) &
                 maintained deployments.
