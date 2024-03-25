@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
@@ -8,11 +8,33 @@ import Experience from "../Experience/Experience";
 import Skills from "../Skils/Skills";
 
 function Home() {
+  // STATE for mobile device
+  const [isMobile, setIsMobile] = useState(false);
+
+  // STATE for checking Hover
   const [isHoveredBook, setIsHoveredBook] = useState(false);
 
   const handleHoverBook = () => {
     setIsHoveredBook(!isHoveredBook);
   };
+
+  // Check if the device is a mobile or not (Assuming less than 767 is a MOBILE)
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 767);
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <section>
@@ -61,28 +83,34 @@ function Home() {
                 animate={{ x: 0 }} // Animate to the center (0%)
                 transition={{ duration: 3 }} // Animation duration
               >
-                <motion.div
-                  animate={{
-                    // It will blink for 2 times
-                    textShadow: [
-                      "0 0 10px rgba(255, 255, 255, 0)",
-                      "0 0 60px rgba(246, 255, 0, 1)",
-                      "0 0 10px rgba(255, 255, 255, 0)",
-                      "0 0 10px rgba(255, 255, 255, 0)",
-                    ],
-                    scale: [1, 1.1],
-                    x: [0, 40],
-                  }}
-                  transition={{
-                    duration: 1,
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                  }}
-                >
-                  <h1 className="endorse-title">
-                    TOP <strong className="main-name">REMARKS 🔥</strong>
-                  </h1>
-                </motion.div>
+                <div className="remarks-title-container">
+                  {}
+                  <motion.div
+                    animate={{
+                      // It will blink for 2 times
+                      textShadow: [
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                        "0 0 60px rgba(246, 255, 0, 1)",
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                      ],
+                      scale: isMobile ? [1] : [1, 1.1],
+                      x: isMobile ? [0] : [0, 13],
+                    }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                    style={{
+                      display: "inline-block",
+                    }}
+                  >
+                    <h1 className="endorse-title">
+                      TOP <strong className="main-name">REMARKS 🔥</strong>
+                    </h1>
+                  </motion.div>
+                </div>
 
                 <h5
                   style={{
