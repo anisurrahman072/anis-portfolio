@@ -101,6 +101,7 @@ function Skills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
+                className="react-native-years"
               >
                 3 yrs
               </p>
@@ -159,7 +160,7 @@ function Skills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "rgb(82, 179, 208)",
+                  backgroundColor: "#3b91aa",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
@@ -167,6 +168,7 @@ function Skills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
+                className="react-years"
               >
                 5 yrs
               </p>
