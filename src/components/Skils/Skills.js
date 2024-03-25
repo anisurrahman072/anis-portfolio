@@ -150,8 +150,8 @@ function Skills() {
                 }}
                 className="react-native-special-job"
               >
-                Integrated complex SDKs (IAP, Video Stream, Camera, more) &
-                maintained deployments.
+                Integrated complex SDKs (<b>IAP</b>, <b>Video Stream</b>,
+                <b> Camera</b>, <b>Jest</b>, more) & maintained deployments.
               </p>
             </motion.div>
           </Col>
@@ -248,8 +248,8 @@ function Skills() {
                 }}
                 className="react-special-job"
               >
-                Handled complex renderings (Join multiple Live Streams with
-                distinct Socket data, more).
+                Handled complex <b>Renderings</b> (Join multiple Live Streams
+                with distinct Socket data, more).
               </p>
             </motion.div>
           </Col>
@@ -344,8 +344,8 @@ function Skills() {
                 }}
                 className="node-special-job"
               >
-                Integrated tons of complex APIs (STRIPE Subscriptions,
-                Blockchain Transactions, AWS S3 module, more)
+                Integrated tons of complex APIs (<b>STRIPE</b> Subscriptions,
+                <b> Blockchain</b> Transactions, <b>AWS S3</b> module, more)
               </p>
             </motion.div>
           </Col>
