@@ -152,7 +152,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "normal",
-                  fontSize: "12px",
+                  fontSize: "13px",
                 }}
                 className="react-native-special-job"
               >
@@ -250,7 +250,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "normal",
-                  fontSize: "12px",
+                  fontSize: "13px",
                 }}
                 className="react-special-job"
               >
@@ -346,12 +346,12 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "normal",
-                  fontSize: "12px",
+                  fontSize: "13px",
                 }}
                 className="node-special-job"
               >
                 Integrated tons of complex APIs (<b>STRIPE</b> Subscriptions,
-                <b> Blockchain</b> Transactions, <b>AWS S3</b> module, more)
+                <b> Blockchain</b> Transactions, <b>AWS S3</b>, more)
               </p>
             </motion.div>
           </Col>
@@ -442,12 +442,12 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "normal",
-                  fontSize: "12px",
+                  fontSize: "13px",
                 }}
                 className="mongo-special-job"
               >
                 Led teams in <b>architecting schema</b> structures to handle
-                complex features (Ex: 64K NFTs data schema, more)
+                complex features (Ex: 64K NFTs schema, more)
               </p>
             </motion.div>
           </Col>
