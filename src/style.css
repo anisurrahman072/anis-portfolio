@@ -498,7 +498,7 @@ button:focus {
   box-shadow: inset 0px 0px 76px -8px #4e2b6b;
   transition: box-shadow 1s ease; /* Add a smooth transition effect */
   border: 1px solid #b368ff;
-  color: rgb(231, 205, 255);
+  color: #ecdef9;
 }
 
 .mongo-skill-box:hover {
@@ -515,7 +515,7 @@ button:focus {
 }
 
 .mongo-skill-box:hover .mongo-special-job {
-  color: rgb(231, 205, 255) !important;
+  color: #ecdef9 !important;
 }
 
 .mongo-years {

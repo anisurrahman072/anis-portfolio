@@ -382,17 +382,19 @@ function Skills() {
                 style={{
                   position: "absolute",
                   top: -10,
-                  right: -5,
+                  right: -9,
                   opacity: 0.2,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
                   rotate: isHoveredMongo ? -20 : 0,
-                  scale: isHoveredMongo ? 0 : 1,
+                  scale: isHoveredMongo ? 0.5 : 1,
+                  x: isHoveredMongo ? -60 : 0,
+                  y: isHoveredMongo ? 20 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={100} />
+                <img src={mongodbLogo} height={110} />
               </motion.div>
 
               <motion.div
@@ -408,7 +410,7 @@ function Skills() {
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={60} />
+                <img src={mongodbLogo} height={70} />
               </motion.div>
               <p
                 style={{
