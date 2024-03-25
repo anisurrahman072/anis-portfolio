@@ -7,9 +7,14 @@ import { motion } from "framer-motion";
 function Skills() {
   // Hover STATES
   const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
+  const [isHoveredReact, setIsHoveredReact] = useState(false);
 
   const handleHoverReactNative = () => {
     setIsHoveredReactNative(!isHoveredReactNative);
+  };
+
+  const handleHoverReact = () => {
+    setIsHoveredReact(!isHoveredReact);
   };
 
   return (
@@ -48,6 +53,9 @@ function Skills() {
 
       <Container className="skills-container">
         <Row>
+          {/* REACT NATIVE SKILL */}
+          {/* REACT NATIVE SKILL */}
+          {/* REACT NATIVE SKILL */}
           <Col
             sm={6}
             md={3}
@@ -63,6 +71,7 @@ function Skills() {
                 textAlign: "left",
                 position: "relative",
                 overflow: "hidden",
+                height: "100%",
               }}
               onHoverStart={handleHoverReactNative}
               onHoverEnd={handleHoverReactNative}
@@ -128,6 +137,10 @@ function Skills() {
               </p>
             </motion.div>
           </Col>
+
+          {/* REACT SKILL */}
+          {/* REACT SKILL */}
+          {/* REACT SKILL */}
           <Col
             sm={6}
             md={3}
@@ -135,16 +148,30 @@ function Skills() {
               padding: "10px",
             }}
           >
-            <div
+            <motion.div
               className="react-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
                 textAlign: "left",
                 position: "relative",
+                overflow: "hidden",
                 height: "100%",
               }}
+              onHoverStart={handleHoverReact}
+              onHoverEnd={handleHoverReact}
             >
+              <div
+                style={{
+                  position: "absolute",
+                  top: -20,
+                  right: -10,
+                  opacity: 0.2,
+                }}
+              >
+                <img src={reactLogo} height={100} />
+              </div>
+
               <div
                 style={{
                   position: "absolute",
@@ -193,7 +220,7 @@ function Skills() {
                 Handled complex renderings (Join multiple Live Streams with
                 distinct Socket data, more).
               </p>
-            </div>
+            </motion.div>
           </Col>
           <Col sm={6} md={3} style={{ backgroundColor: "yellow" }}>
             Node.js
