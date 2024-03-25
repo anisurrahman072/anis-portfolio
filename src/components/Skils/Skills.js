@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import reactNativeLogo from "../../Assets/react-native.svg";
 import reactLogo from "../../Assets/react.svg";
+import nodeJsLogo from "../../Assets/nodejs.svg";
 import { motion } from "framer-motion";
 
 function Skills() {
   // Hover STATES
   const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
   const [isHoveredReact, setIsHoveredReact] = useState(false);
+  const [isHoveredNode, setIsHoveredNode] = useState(false);
 
   const handleHoverReactNative = () => {
     setIsHoveredReactNative(!isHoveredReactNative);
@@ -15,6 +17,10 @@ function Skills() {
 
   const handleHoverReact = () => {
     setIsHoveredReact(!isHoveredReact);
+  };
+
+  const handleHoverNode = () => {
+    setIsHoveredNode(!isHoveredNode);
   };
 
   return (
@@ -247,8 +253,102 @@ function Skills() {
               </p>
             </motion.div>
           </Col>
-          <Col sm={6} md={3} style={{ backgroundColor: "yellow" }}>
-            Node.js
+          {/* NODE SKILL */}
+          {/* NODE SKILL */}
+          {/* NODE SKILL */}
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <motion.div
+              className="node-skill-box cursor-pointer"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+                overflow: "hidden",
+                height: "100%",
+              }}
+              onHoverStart={handleHoverNode}
+              onHoverEnd={handleHoverNode}
+            >
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: -20,
+                  right: -10,
+                  opacity: 0.2,
+                }}
+                initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                animate={{
+                  rotate: isHoveredNode ? -40 : 0,
+                  scale: isHoveredNode ? 0.4 : 1,
+                  x: isHoveredNode ? -60 : 0,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={nodeJsLogo} height={100} />
+              </motion.div>
+
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: 5,
+                  right: 7,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredNode ? -40 : 0,
+                  scale: isHoveredNode ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={nodeJsLogo} height={60} />
+              </motion.div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "#3b91aa",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+                className="node-years"
+              >
+                5 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                Node.js
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                }}
+                className="node-special-job"
+              >
+                Integrated tons of complex APIs (STRIPE Subscriptions,
+                Blockchain Transactions, AWS S3 module, more)
+              </p>
+            </motion.div>
           </Col>
           <Col sm={6} md={3} style={{ backgroundColor: "green" }}>
             MongoDb
