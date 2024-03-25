@@ -129,8 +129,30 @@ function Home() {
                     href="https://x.com/mdj_dev/status/1750908771713315326?s=20"
                     className="custom-link cursor-pointer"
                   >
-                    I was <b style={{ color: "gold" }}>endorsed</b> by Top RN
-                    Company - ( Callstack ) 🔗
+                    Top <b style={{ color: "gold" }}>RN Company</b> ( Callstack
+                    ) endorsed me 🔗
+                  </a>
+                </h5>
+
+                <h5
+                  style={{
+                    paddingLeft: 50,
+                    paddingRight: 50,
+                    paddingBottom: 20,
+                    textAlign: "left",
+                    position: "relative",
+                  }}
+                >
+                  🎖️{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
+                    className="custom-link cursor-pointer"
+                  >
+                    I was featured on the top{" "}
+                    <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite
+                    Red ) 🔗
                   </a>
                 </h5>
 
@@ -145,12 +167,11 @@ function Home() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
+                    href="https://github.com/anisurrahman072/React-Native-Advanced-Guide/blob/master/Testing/RNTL-Component-Testing-ultimate-guide.md"
                     className="custom-link cursor-pointer"
                   >
-                    I was featured on the Top{" "}
-                    <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite
-                    Red ) 🔗
+                    I'm <b style={{ color: "gold" }}>official</b> community
+                    contributor of RN Testing Lib 🔗
                   </a>
                 </h5>
               </motion.div>
