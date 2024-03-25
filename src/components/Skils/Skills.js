@@ -173,26 +173,39 @@ function Skills() {
               onHoverStart={handleHoverReact}
               onHoverEnd={handleHoverReact}
             >
-              <div
+              <motion.div
                 style={{
                   position: "absolute",
                   top: -20,
                   right: -10,
                   opacity: 0.2,
                 }}
+                initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                animate={{
+                  rotate: isHoveredReact ? -40 : 0,
+                  scale: isHoveredReact ? 0.4 : 1,
+                  x: isHoveredReact ? -60 : 0,
+                }}
+                transition={{ duration: 0.45 }}
               >
                 <img src={reactLogo} height={100} />
-              </div>
+              </motion.div>
 
-              <div
+              <motion.div
                 style={{
                   position: "absolute",
                   top: 5,
                   right: 7,
                 }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredReact ? -40 : 0,
+                  scale: isHoveredReact ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
               >
                 <img src={reactLogo} height={60} />
-              </div>
+              </motion.div>
               <p
                 style={{
                   fontWeight: "bold",
