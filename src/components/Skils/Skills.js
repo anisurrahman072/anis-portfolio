@@ -315,7 +315,7 @@ function Skills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "#3b91aa",
+                  backgroundColor: "#aa9f3b",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
