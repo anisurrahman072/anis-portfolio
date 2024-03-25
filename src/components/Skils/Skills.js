@@ -279,15 +279,14 @@ function Skills() {
               <motion.div
                 style={{
                   position: "absolute",
-                  top: -20,
-                  right: -10,
+                  top: -10,
+                  right: -5,
                   opacity: 0.2,
                 }}
-                initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredNode ? -40 : 0,
-                  scale: isHoveredNode ? 0.4 : 1,
-                  x: isHoveredNode ? -60 : 0,
+                  rotate: isHoveredNode ? -20 : 0,
+                  scale: isHoveredNode ? 0 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -297,12 +296,12 @@ function Skills() {
               <motion.div
                 style={{
                   position: "absolute",
-                  top: 5,
-                  right: 7,
+                  top: 10,
+                  right: 12,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredNode ? -40 : 0,
+                  rotate: isHoveredNode ? 20 : 0,
                   scale: isHoveredNode ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
