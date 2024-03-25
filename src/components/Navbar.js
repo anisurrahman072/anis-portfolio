@@ -38,63 +38,72 @@ function NavBar() {
       }}
     >
       <Nav className="" defaultActiveKey="#home">
-        <motion.div
-          style={{
-            border: "1px solid #676767c7",
-            borderRadius: "25px",
-            paddingLeft: "5px",
-            paddingRight: "5px",
-            paddingTop: "5px",
-            paddingBottom: "0px",
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            margin: 0,
-            lineHeight: 1,
-            marginTop: "10px",
-            marginBottom: "10px",
-          }}
-          className="nav-github-star-box cursor-pointer"
-          onHoverStart={handleHover}
-          onHoverEnd={handleHover}
-          initial={{ x: 0, y: "-100%", opacity: 0 }} // Initial position (off-screen to the left)
-          animate={{ x: 0, y: 0, opacity: 1 }} // Animate to the center (0%)
-          transition={{ duration: 2 }} // Animation duration
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/anisurrahman072/React-Native-Advanced-Guide"
+          className="custom-link cursor-pointer"
         >
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
-            <img src={github} height="20px" />
-          </h6>
-          <h6
+          <motion.div
             style={{
-              marginLeft: "5px",
-              marginRight: "5px",
-              fontWeight: "bolder",
-              color: "gold",
+              border: "1px solid #676767c7",
+              borderRadius: "25px",
+              paddingLeft: "5px",
+              paddingRight: "5px",
+              paddingTop: "5px",
+              paddingBottom: "0px",
+              display: "flex",
+              alignItems: "center",
+              color: "white",
+              margin: 0,
+              lineHeight: 1,
+              marginTop: "10px",
+              marginBottom: "10px",
             }}
-            className="github-star-count"
+            className="nav-github-star-box cursor-pointer"
+            onHoverStart={handleHover}
+            onHoverEnd={handleHover}
+            initial={{ x: 0, y: "-100%", opacity: 0 }} // Initial position (off-screen to the left)
+            animate={{ x: 0, y: 0, opacity: 1 }} // Animate to the center (0%)
+            transition={{ duration: 2 }} // Animation duration
           >
-            1214
-          </h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
-            <motion.div
-              initial={{ rotate: 0 }}
-              animate={{ rotate: isHovered ? 720 : 0 }}
-              transition={{ duration: 1 }}
+            <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+              <img src={github} height="20px" />
+            </h6>
+            <h6
+              style={{
+                marginLeft: "5px",
+                marginRight: "5px",
+                fontWeight: "bolder",
+                color: "gold",
+              }}
+              className="github-star-count"
             >
-              ⭐️
-            </motion.div>
-          </h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>Give a STAR</h6>
-          <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
-            <motion.div
-              initial={{ x: 0, y: 0 }}
-              animate={{ x: isHovered ? "15%" : 0 }}
-              transition={{ duration: 0.1 }}
-            >
-              ➤
-            </motion.div>
-          </h6>
-        </motion.div>
+              1214
+            </h6>
+            <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+              <motion.div
+                initial={{ rotate: 0 }}
+                animate={{ rotate: isHovered ? 720 : 0 }}
+                transition={{ duration: 1 }}
+              >
+                ⭐️
+              </motion.div>
+            </h6>
+            <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+              Give a STAR
+            </h6>
+            <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
+              <motion.div
+                initial={{ x: 0, y: 0 }}
+                animate={{ x: isHovered ? "15%" : 0 }}
+                transition={{ duration: 0.1 }}
+              >
+                ➤
+              </motion.div>
+            </h6>
+          </motion.div>
+        </a>
       </Nav>
     </Navbar>
   );
