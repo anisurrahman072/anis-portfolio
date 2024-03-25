@@ -70,6 +70,8 @@ function Home() {
                       "0 0 10px rgba(255, 255, 255, 0)",
                       "0 0 10px rgba(255, 255, 255, 0)",
                     ],
+                    scale: [1, 1.1],
+                    x: [0, 40],
                   }}
                   transition={{
                     duration: 1,
