@@ -488,6 +488,47 @@ button:focus {
   background-color: rgb(208, 202, 82) !important;
 }
 
+/* MONGO SKILL */
+/* MONGO SKILL */
+/* MONGO SKILL */
+.mongo-skill-box {
+  background-color: rgb(21 16 24);
+  -webkit-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  -moz-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #b368ff;
+  color: rgb(231, 205, 255);
+}
+
+.mongo-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(122, 76, 171);
+
+  border: 1px solid #c78fffbf;
+}
+
+.mongo-special-job {
+  color: #ccadeeed;
+  transition: color 0.3s ease; 
+}
+
+.mongo-skill-box:hover .mongo-special-job {
+  color: rgb(231, 205, 255) !important;
+}
+
+.mongo-years {
+  transition: background-color 0.3s ease; 
+}
+
+.mongo-skill-box:hover .mongo-years {
+  background-color: rgb(183, 148, 241) !important;
+}
+
+
+
+
 
 
 .main-name {

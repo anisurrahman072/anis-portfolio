@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import reactNativeLogo from "../../Assets/react-native.svg";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
+import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
 
 function Skills() {
@@ -10,6 +11,7 @@ function Skills() {
   const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
   const [isHoveredReact, setIsHoveredReact] = useState(false);
   const [isHoveredNode, setIsHoveredNode] = useState(false);
+  const [isHoveredMongo, setIsHoveredMongo] = useState(false);
 
   const handleHoverReactNative = () => {
     setIsHoveredReactNative(!isHoveredReactNative);
@@ -21,6 +23,10 @@ function Skills() {
 
   const handleHoverNode = () => {
     setIsHoveredNode(!isHoveredNode);
+  };
+
+  const handleHoverMMongo = () => {
+    setIsHoveredMongo(!isHoveredMongo);
   };
 
   return (
@@ -349,8 +355,101 @@ function Skills() {
               </p>
             </motion.div>
           </Col>
-          <Col sm={6} md={3} style={{ backgroundColor: "green" }}>
-            MongoDb
+          {/* MONGODB SKILL */}
+          {/* MONGODB SKILL */}
+          {/* MONGODB SKILL */}
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <motion.div
+              className="mongo-skill-box cursor-pointer"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+                overflow: "hidden",
+                height: "100%",
+              }}
+              onHoverStart={handleHoverMMongo}
+              onHoverEnd={handleHoverMMongo}
+            >
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: -10,
+                  right: -5,
+                  opacity: 0.2,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? -20 : 0,
+                  scale: isHoveredMongo ? 0 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={100} />
+              </motion.div>
+
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 12,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? 20 : 0,
+                  scale: isHoveredMongo ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={60} />
+              </motion.div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "#8a5ed3",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+                className="mongo-years"
+              >
+                3 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                MongoDB
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                }}
+                className="mongo-special-job"
+              >
+                Led teams in <b>architecting schema</b> structures to handle
+                complex features (Ex: 64K NFTs data schema, more)
+              </p>
+            </motion.div>
           </Col>
         </Row>
       </Container>
