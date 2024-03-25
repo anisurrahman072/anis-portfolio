@@ -76,26 +76,38 @@ function Skills() {
               onHoverStart={handleHoverReactNative}
               onHoverEnd={handleHoverReactNative}
             >
-              <div
+              <motion.div
                 style={{
                   position: "absolute",
                   top: -20,
                   right: -10,
                   opacity: 0.2,
                 }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredReactNative ? 40 : 0,
+                  scale: isHoveredReactNative ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.4 }}
               >
                 <img src={reactNativeLogo} height={100} />
-              </div>
+              </motion.div>
 
-              <div
+              <motion.div
                 style={{
                   position: "absolute",
                   top: 5,
                   right: 7,
                 }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredReactNative ? 30 : 0,
+                  scale: isHoveredReactNative ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
               >
                 <img src={reactNativeLogo} height={60} />
-              </div>
+              </motion.div>
               <p
                 style={{
                   fontWeight: "bold",
