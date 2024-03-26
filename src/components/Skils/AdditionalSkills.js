@@ -6,7 +6,7 @@ import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
 
-function Skills() {
+function AdditionalSkills() {
   // Hover STATES
   const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
   const [isHoveredReact, setIsHoveredReact] = useState(false);
@@ -55,15 +55,14 @@ function Skills() {
         <h1
           style={{
             color: "white",
-            marginTop: "100px",
             marginBottom: "50px",
           }}
         >
-          MY <strong className="main-name">5 YEARS</strong> FULL-STACK SKILLS
+          MORE <strong className="main-name">R&D</strong> SKILLS
         </h1>
       </motion.div>
 
-      <Container className="skills-container" style={{ marginBottom: "100px" }}>
+      <Container className="skills-container">
         <Row>
           {/* REACT NATIVE SKILL */}
           {/* REACT NATIVE SKILL */}
@@ -522,4 +521,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default AdditionalSkills;

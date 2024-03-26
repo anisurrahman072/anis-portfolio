@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import { motion } from "framer-motion";
 import Experience from "../Experience/Experience";
 import Skills from "../Skils/Skills";
+import AdditionalSkills from "../Skils/AdditionalSkills";
 
 function Home() {
   // STATE for mobile device
@@ -222,6 +223,8 @@ function Home() {
       </Container>
       {/* Skills Component */}
       <Skills />
+      {/* Additional Skills */}
+      <AdditionalSkills />
       {/* Experience Component */}
       <Experience />
       <Home2 />
