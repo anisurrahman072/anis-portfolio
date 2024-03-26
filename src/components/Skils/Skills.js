@@ -59,35 +59,8 @@ function Skills() {
             marginBottom: "50px",
           }}
         >
-          MY <strong className="main-name">5 YEARS</strong> SKILLS
+          MY <strong className="main-name">5 YEARS</strong> FULL-STACK SKILLS
         </h1>
-      </motion.div>
-
-      <motion.div
-        variants={{
-          hidden: {
-            x: -100,
-            opacity: 0,
-          },
-          show: {
-            x: 0,
-            opacity: 1,
-            transition: {
-              type: "spring",
-              duration: 1.25,
-            },
-          },
-        }}
-      >
-        <h5
-          style={{
-            color: "white",
-            marginTop: "70px",
-            marginBottom: "50px",
-          }}
-        >
-          (FULL STACK EXPERTISE - ANDROID, iOS & WEB)
-        </h5>
       </motion.div>
 
       <Container className="skills-container">
