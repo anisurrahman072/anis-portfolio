@@ -55,12 +55,39 @@ function Skills() {
         <h1
           style={{
             color: "white",
-            marginTop: "50px",
+            marginTop: "100px",
             marginBottom: "50px",
           }}
         >
           MY <strong className="main-name">5 YEARS</strong> SKILLS
         </h1>
+      </motion.div>
+
+      <motion.div
+        variants={{
+          hidden: {
+            x: -100,
+            opacity: 0,
+          },
+          show: {
+            x: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",
+              duration: 1.25,
+            },
+          },
+        }}
+      >
+        <h5
+          style={{
+            color: "white",
+            marginTop: "70px",
+            marginBottom: "50px",
+          }}
+        >
+          (FULL STACK EXPERTISE - ANDROID, iOS & WEB)
+        </h5>
       </motion.div>
 
       <Container className="skills-container">
@@ -87,6 +114,21 @@ function Skills() {
               }}
               onHoverStart={handleHoverReactNative}
               onHoverEnd={handleHoverReactNative}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 0,
+                  },
+                },
+              }}
             >
               <motion.div
                 style={{
@@ -184,6 +226,22 @@ function Skills() {
               }}
               onHoverStart={handleHoverReact}
               onHoverEnd={handleHoverReact}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 0.5,
+                  },
+                  visibility: 2,
+                },
+              }}
             >
               <motion.div
                 style={{
@@ -281,6 +339,22 @@ function Skills() {
               }}
               onHoverStart={handleHoverNode}
               onHoverEnd={handleHoverNode}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 1,
+                  },
+                  visibility: 2,
+                },
+              }}
             >
               <motion.div
                 style={{
@@ -377,6 +451,22 @@ function Skills() {
               }}
               onHoverStart={handleHoverMMongo}
               onHoverEnd={handleHoverMMongo}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 1.5,
+                  },
+                  visibility: 2,
+                },
+              }}
             >
               <motion.div
                 style={{

@@ -41,7 +41,7 @@ function Experience() {
         <h1
           style={{
             color: "white",
-            marginTop: "50px",
+            marginTop: "150px",
             marginBottom: "50px",
           }}
         >
