@@ -289,6 +289,7 @@ function AdditionalSkills() {
               </p>
             </motion.div>
           </Col>
+
           {/* NODE SKILL */}
           {/* NODE SKILL */}
           {/* NODE SKILL */}
@@ -401,6 +402,7 @@ function AdditionalSkills() {
               </p>
             </motion.div>
           </Col>
+
           {/* MONGODB SKILL */}
           {/* MONGODB SKILL */}
           {/* MONGODB SKILL */}
