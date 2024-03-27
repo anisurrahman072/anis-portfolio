@@ -526,6 +526,44 @@ button:focus {
   background-color: rgb(183, 148, 241) !important;
 }
 
+/* ADDITIONAL GRAPHQL SKILL */
+/* ADDITIONAL GRAPHQL SKILL */
+/* ADDITIONAL GRAPHQL SKILL */
+.graphql-skill-box {
+  background-color: rgb(39 33 22);
+  -webkit-box-shadow: inset 0px 0px 76px -8px rgb(115 93 44);
+  -moz-box-shadow: inset 0px 0px 76px -8px rgb(115 93 44);
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  box-shadow: inset 0px 0px 76px -8px rgb(115 93 44);
+  border: 1px solid #ffbf53bf;
+  color: rgb(248 239 222);
+}
+
+.graphql-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 211px 5px rgb(115 93 44), 0px 0px 40px -8px rgb(131, 111, 51);
+  -moz-box-shadow: inset 0px 0px 211px 5px rgb(115 93 44), 0px 0px 40px -8px rgb(131, 111, 51);
+  box-shadow: inset 0px 0px 211px 5px rgb(115 93 44), 0px 0px 40px -8px rgb(131, 111, 51);
+
+  border: 1px solid #ffde7abf;
+}
+
+.graphql-special-job {
+  color: rgb(201 178 144);
+  transition: color 0.3s ease; 
+}
+
+.graphql-skill-box:hover .graphql-special-job {
+  color: rgb(248 239 222) !important;
+}
+
+.graphql-years {
+  transition: background-color 0.3s ease; 
+}
+
+.graphql-skill-box:hover .graphql-years {
+  background-color: #eec25c !important;
+}
+
 
 
 

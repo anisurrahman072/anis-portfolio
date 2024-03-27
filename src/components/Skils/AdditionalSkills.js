@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import reactNativeLogo from "../../Assets/react-native.svg";
+import graphqlLogo from "../../Assets/graphql.svg";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
@@ -75,7 +75,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="react-native-skill-box cursor-pointer"
+              className="graphql-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -105,34 +105,34 @@ function AdditionalSkills() {
               <motion.div
                 style={{
                   position: "absolute",
-                  top: -20,
-                  right: -10,
+                  top: -10,
+                  right: -13,
                   opacity: 0.2,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredReactNative ? 40 : 0,
+                  rotate: isHoveredReactNative ? -20 : 0,
                   scale: isHoveredReactNative ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.4 }}
               >
-                <img src={reactNativeLogo} height={100} />
+                <img src={graphqlLogo} height={100} />
               </motion.div>
 
               <motion.div
                 style={{
                   position: "absolute",
-                  top: 5,
+                  top: 10,
                   right: 7,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredReactNative ? 30 : 0,
-                  scale: isHoveredReactNative ? 1.3 : 1,
+                  rotate: isHoveredReactNative ? 359 : 0,
+                  scale: isHoveredReactNative ? 1.2 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={reactNativeLogo} height={60} />
+                <img src={graphqlLogo} height={60} />
               </motion.div>
               <p
                 style={{
@@ -140,7 +140,7 @@ function AdditionalSkills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "rgb(68, 118, 192)",
+                  backgroundColor: "rgb(192 142 68)",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
@@ -148,7 +148,7 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="react-native-years"
+                className="graphql-years"
               >
                 3 yrs
               </p>
@@ -158,6 +158,7 @@ function AdditionalSkills() {
                   fontWeight: "bold",
                   fontSize: "20px",
                   marginBottom: "6px",
+                  position: "relative",
                 }}
               >
                 GraphQL
@@ -168,7 +169,7 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="react-native-special-job"
+                className="graphql-special-job"
               >
                 Built complex in-app features using Apollo Client-Server.{" "}
                 <b>Wrote 400+</b> Queries & Mutations.
