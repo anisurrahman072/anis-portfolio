@@ -63,7 +63,7 @@ function Skills() {
         </h1>
       </motion.div>
 
-      <Container className="skills-container" style={{ marginBottom: "100px" }}>
+      <Container className="skills-container" style={{ marginBottom: "60px" }}>
         <Row>
           {/* REACT NATIVE SKILL */}
           {/* REACT NATIVE SKILL */}
