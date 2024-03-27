@@ -529,7 +529,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="mongo-skill-box cursor-pointer"
+              className="rabbitmq-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -605,7 +605,7 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="mongo-years"
+                className="rabbitmq-years"
               >
                 1 yrs
               </p>
@@ -625,7 +625,7 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="mongo-special-job"
+                className="rabbitmq-special-job"
               >
                 <b>Led team</b> to implement RabbitMQ in 7 Microservices with{" "}
                 <b>SAGA</b> (communication) pattern.
