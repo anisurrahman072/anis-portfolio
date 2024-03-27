@@ -564,6 +564,54 @@ button:focus {
   background-color: #eec25c !important;
 }
 
+/* NEXTJS SKILL */
+/* NEXTJS SKILL */
+/* NEXTJS SKILL */
+.nextjs-skill-box {
+  background: rgb(88,50,95);
+  background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(24,34,29,1) 23%, rgba(21,30,25,1) 55%, rgba(63,67,41,1) 100%);
+
+  -webkit-box-shadow: inset 0px 0px 76px -8px rgb(58 80 63);
+  -moz-box-shadow: inset 0px 0px 76px -8px rgb(58 80 63);
+  box-shadow: inset 0px 0px 76px -8px rgb(58 80 63);
+
+  border: 1px solid #dededebf;
+  color: rgb(248, 248, 248);
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+}
+
+.nextjs-skill-box:hover {
+  background: rgb(88,50,95);
+  background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(27,34,24,1) 23%, rgba(24,30,21,1) 55%, rgba(63,67,41,1) 100%);
+
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(58 80 63), 0px 0px 40px -8px rgb(131, 165, 149);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(58 80 63), 0px 0px 40px -8px rgb(131, 165, 149);
+  box-shadow: inset 0px 0px 120px 5px rgb(58 80 63), 0px 0px 40px -8px rgb(131, 165, 149);
+
+  border: 1px solid #fdfdfdbf;
+}
+
+.nextjs-special-job {
+  color: rgb(185 185 185);
+  transition: color 0.3s ease; 
+}
+
+.nextjs-skill-box:hover .nextjs-special-job {
+  color: rgb(237 237 237) !important;
+}
+
+.nextjs-years {
+  background: rgb(255,0,240);
+  background: linear-gradient(336deg, rgba(255,0,240,1) 0%, rgba(0,255,126,1) 52%, rgba(254,255,0,1) 100%);
+  opacity: 0.7;
+  transition: opacity 1s ease;
+}
+
+.nextjs-skill-box:hover .nextjs-years {
+  opacity: 1
+}
+
+
 
 
 
