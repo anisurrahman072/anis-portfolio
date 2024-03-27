@@ -63,7 +63,7 @@ function AdditionalSkills() {
       </motion.div>
 
       <Container className="skills-container">
-        <Row>
+        <Row className="justify-content-center">
           {/* GRAPHQL SKILL */}
           {/* GRAPHQL SKILL */}
           {/* GRAPHQL SKILL */}
