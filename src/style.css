@@ -725,6 +725,44 @@ button:focus {
   background-color: rgb(183, 148, 241) !important;
 }
 
+/* ADDITIONAL MICROSERVICE SKILL */
+/* ADDITIONAL MICROSERVICE SKILL */
+/* ADDITIONAL MICROSERVICE SKILL */
+.microservice-skill-box {
+  background-color: rgb(21 16 24);
+  -webkit-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  -moz-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #b368ff;
+  color: #ecdef9;
+}
+
+.microservice-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(122, 76, 171);
+
+  border: 1px solid #c78fffbf;
+}
+
+.microservice-special-job {
+  color: #ccadeeed;
+  transition: color 0.3s ease; 
+}
+
+.microservice-skill-box:hover .microservice-special-job {
+  color: #ecdef9 !important;
+}
+
+.microservice-years {
+  transition: background-color 0.3s ease; 
+}
+
+.microservice-skill-box:hover .microservice-years {
+  background-color: rgb(183, 148, 241) !important;
+}
+
 
 
 
