@@ -293,9 +293,9 @@ function AdditionalSkills() {
             </motion.div>
           </Col>
 
-          {/* MicroService SKILL */}
-          {/* MicroService SKILL */}
-          {/* MicroService SKILL */}
+          {/* Blockchain SKILL */}
+          {/* Blockchain SKILL */}
+          {/* Blockchain SKILL */}
           <Col
             sm={6}
             md={3}
@@ -304,7 +304,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="microservice-skill-box cursor-pointer"
+              className="blockchain-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -378,9 +378,9 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="microservice-years"
+                className="blockchain-years"
               >
-                2 yrs
+                1 yrs
               </p>
 
               <p
@@ -390,7 +390,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                MicroService
+                Blockchain
               </p>
 
               <p
@@ -398,10 +398,10 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="microservice-special-job"
+                className="blockchain-special-job"
               >
-                Built <b>7 Microservices</b> to handle rapid actions of{" "}
-                <b>1M live users</b> (BD Govt project).
+                Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
+                Token in <b>Polygon</b>, SPL Token in <b>Solana</b>.
               </p>
             </motion.div>
           </Col>
@@ -634,9 +634,9 @@ function AdditionalSkills() {
             </motion.div>
           </Col>
 
-          {/* Blockchain SKILL */}
-          {/* Blockchain SKILL */}
-          {/* Blockchain SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
           <Col
             sm={6}
             md={3}
@@ -723,7 +723,7 @@ function AdditionalSkills() {
                 }}
                 className="mongo-years"
               >
-                1 yrs
+                2 yrs
               </p>
 
               <p
@@ -733,7 +733,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                Blockchain
+                MicroService
               </p>
 
               <p
@@ -743,8 +743,8 @@ function AdditionalSkills() {
                 }}
                 className="mongo-special-job"
               >
-                Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
-                Token in <b>Polygon</b>, SPL Token in <b>Solana</b>.
+                Built <b>7 Microservices</b> to handle rapid actions of{" "}
+                <b>1M live users</b> (BD Govt project).
               </p>
             </motion.div>
           </Col>

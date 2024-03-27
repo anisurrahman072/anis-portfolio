@@ -602,10 +602,10 @@ button:focus {
   background-color: rgb(191, 191, 191) !important;
 }
 
-/* ADDITIONAL MICROSERVICE SKILL */
-/* ADDITIONAL MICROSERVICE SKILL */
-/* ADDITIONAL MICROSERVICE SKILL */
-.microservice-skill-box {
+/* ADDITIONAL BLOCKCHAIN SKILL */
+/* ADDITIONAL BLOCKCHAIN SKILL */
+/* ADDITIONAL BLOCKCHAIN SKILL */
+.blockchain-skill-box {
   background: rgb(88,50,95);
   background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(24,34,29,1) 23%, rgba(21,30,25,1) 55%, rgba(63,67,41,1) 100%);
 
@@ -618,7 +618,7 @@ button:focus {
   transition: box-shadow 1s ease; /* Add a smooth transition effect */
 }
 
-.microservice-skill-box:hover {
+.blockchain-skill-box:hover {
   background: rgb(88,50,95);
   background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(27,34,24,1) 23%, rgba(24,30,21,1) 55%, rgba(63,67,41,1) 100%);
 
@@ -629,23 +629,23 @@ button:focus {
   border: 1px solid #ffffff;
 }
 
-.microservice-special-job {
+.blockchain-special-job {
   color: #b4bbb0;
   transition: color 0.3s ease; 
 }
 
-.microservice-skill-box:hover .microservice-special-job {
+.blockchain-skill-box:hover .microservice-special-job {
   color: rgb(237 237 237) !important;
 }
 
-.microservice-years {
+.blockchain-years {
   background: rgb(255,0,240);
   background: linear-gradient(336deg, rgba(255,0,240,1) 0%, rgba(0,255,126,1) 52%, rgba(254,255,0,1) 100%);
   opacity: 0.5;
   transition: opacity 1s ease;
 }
 
-.microservice-skill-box:hover .microservice-years {
+.blockchain-skill-box:hover .blockchain-years {
   opacity: 1
 }
 
