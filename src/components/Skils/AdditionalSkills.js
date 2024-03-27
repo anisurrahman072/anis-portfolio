@@ -8,25 +8,35 @@ import { motion } from "framer-motion";
 
 function AdditionalSkills() {
   // Hover STATES
-  const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
-  const [isHoveredReact, setIsHoveredReact] = useState(false);
-  const [isHoveredNode, setIsHoveredNode] = useState(false);
-  const [isHoveredMongo, setIsHoveredMongo] = useState(false);
+  const [isHoveredGraphql, setIsHoveredGraphql] = useState(false);
+  const [isHoveredNextjs, setIsHoveredNextjs] = useState(false);
+  const [isHoveredBlockchain, setIsHoveredBlockchain] = useState(false);
+  const [isHoveredMysql, setIsHoveredMysql] = useState(false);
+  const [isHoveredRabbitmq, setIsHoveredRabbitmq] = useState(false);
+  const [isHoveredMicroservice, setIsHoveredMicroservice] = useState(false);
 
-  const handleHoverReactNative = () => {
-    setIsHoveredReactNative(!isHoveredReactNative);
+  const handleHoverGraphql = () => {
+    setIsHoveredGraphql(!isHoveredGraphql);
   };
 
-  const handleHoverReact = () => {
-    setIsHoveredReact(!isHoveredReact);
+  const handleHoverNextjs = () => {
+    setIsHoveredNextjs(!isHoveredNextjs);
   };
 
-  const handleHoverNode = () => {
-    setIsHoveredNode(!isHoveredNode);
+  const handleHoverBlockchain = () => {
+    setIsHoveredBlockchain(!isHoveredBlockchain);
   };
 
-  const handleHoverMMongo = () => {
-    setIsHoveredMongo(!isHoveredMongo);
+  const handleHoverMysql = () => {
+    setIsHoveredMysql(!isHoveredMysql);
+  };
+
+  const handleHoverRabbitmq = () => {
+    setIsHoveredRabbitmq(!isHoveredRabbitmq);
+  };
+
+  const handleHoverMicroservice = () => {
+    setIsHoveredMicroservice(!isHoveredMicroservice);
   };
 
   return (
@@ -84,8 +94,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverReactNative}
-              onHoverEnd={handleHoverReactNative}
+              onHoverStart={handleHoverGraphql}
+              onHoverEnd={handleHoverGraphql}
               variants={{
                 hidden: {
                   x: -100,
@@ -111,8 +121,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredReactNative ? -20 : 0,
-                  scale: isHoveredReactNative ? 1.3 : 1,
+                  rotate: isHoveredGraphql ? -20 : 0,
+                  scale: isHoveredGraphql ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.4 }}
               >
@@ -127,8 +137,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredReactNative ? 359 : 0,
-                  scale: isHoveredReactNative ? 1.2 : 1,
+                  rotate: isHoveredGraphql ? 359 : 0,
+                  scale: isHoveredGraphql ? 1.2 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -197,8 +207,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverMMongo}
-              onHoverEnd={handleHoverMMongo}
+              onHoverStart={handleHoverNextjs}
+              onHoverEnd={handleHoverNextjs}
               variants={{
                 hidden: {
                   x: -100,
@@ -225,10 +235,10 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? -20 : 0,
-                  scale: isHoveredMongo ? 0.5 : 1,
-                  x: isHoveredMongo ? -60 : 0,
-                  y: isHoveredMongo ? 20 : 0,
+                  rotate: isHoveredNextjs ? -20 : 0,
+                  scale: isHoveredNextjs ? 0.5 : 1,
+                  x: isHoveredNextjs ? -60 : 0,
+                  y: isHoveredNextjs ? 20 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -243,8 +253,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? 20 : 0,
-                  scale: isHoveredMongo ? 1.3 : 1,
+                  rotate: isHoveredNextjs ? 20 : 0,
+                  scale: isHoveredNextjs ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -312,8 +322,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverReact}
-              onHoverEnd={handleHoverReact}
+              onHoverStart={handleHoverBlockchain}
+              onHoverEnd={handleHoverBlockchain}
               variants={{
                 hidden: {
                   x: -100,
@@ -340,9 +350,9 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
                 animate={{
-                  rotate: isHoveredReact ? -40 : 0,
-                  scale: isHoveredReact ? 0.4 : 1,
-                  x: isHoveredReact ? -60 : 0,
+                  rotate: isHoveredBlockchain ? -40 : 0,
+                  scale: isHoveredBlockchain ? 0.4 : 1,
+                  x: isHoveredBlockchain ? -60 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -357,8 +367,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredReact ? -40 : 0,
-                  scale: isHoveredReact ? 1.3 : 1,
+                  rotate: isHoveredBlockchain ? -40 : 0,
+                  scale: isHoveredBlockchain ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -425,8 +435,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverNode}
-              onHoverEnd={handleHoverNode}
+              onHoverStart={handleHoverMysql}
+              onHoverEnd={handleHoverMysql}
               variants={{
                 hidden: {
                   x: -100,
@@ -453,8 +463,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredNode ? -20 : 0,
-                  scale: isHoveredNode ? 0 : 1,
+                  rotate: isHoveredMysql ? -20 : 0,
+                  scale: isHoveredMysql ? 0 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -469,8 +479,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredNode ? 20 : 0,
-                  scale: isHoveredNode ? 1.3 : 1,
+                  rotate: isHoveredMysql ? 20 : 0,
+                  scale: isHoveredMysql ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -538,8 +548,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverMMongo}
-              onHoverEnd={handleHoverMMongo}
+              onHoverStart={handleHoverRabbitmq}
+              onHoverEnd={handleHoverRabbitmq}
               variants={{
                 hidden: {
                   x: -100,
@@ -566,10 +576,10 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? -20 : 0,
-                  scale: isHoveredMongo ? 0.5 : 1,
-                  x: isHoveredMongo ? -60 : 0,
-                  y: isHoveredMongo ? 20 : 0,
+                  rotate: isHoveredRabbitmq ? -20 : 0,
+                  scale: isHoveredRabbitmq ? 0.5 : 1,
+                  x: isHoveredRabbitmq ? -60 : 0,
+                  y: isHoveredRabbitmq ? 20 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -584,8 +594,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? 20 : 0,
-                  scale: isHoveredMongo ? 1.3 : 1,
+                  rotate: isHoveredRabbitmq ? 20 : 0,
+                  scale: isHoveredRabbitmq ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -653,8 +663,8 @@ function AdditionalSkills() {
                 overflow: "hidden",
                 height: "100%",
               }}
-              onHoverStart={handleHoverMMongo}
-              onHoverEnd={handleHoverMMongo}
+              onHoverStart={handleHoverMicroservice}
+              onHoverEnd={handleHoverMicroservice}
               variants={{
                 hidden: {
                   x: -100,
@@ -681,10 +691,10 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? -20 : 0,
-                  scale: isHoveredMongo ? 0.5 : 1,
-                  x: isHoveredMongo ? -60 : 0,
-                  y: isHoveredMongo ? 20 : 0,
+                  rotate: isHoveredMicroservice ? -20 : 0,
+                  scale: isHoveredMicroservice ? 0.5 : 1,
+                  x: isHoveredMicroservice ? -60 : 0,
+                  y: isHoveredMicroservice ? 20 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
@@ -699,8 +709,8 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMongo ? 20 : 0,
-                  scale: isHoveredMongo ? 1.3 : 1,
+                  rotate: isHoveredMicroservice ? 20 : 0,
+                  scale: isHoveredMicroservice ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
