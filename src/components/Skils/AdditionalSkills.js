@@ -58,7 +58,7 @@ function AdditionalSkills() {
             marginBottom: "50px",
           }}
         >
-          MORE - <strong className="main-name">R&D</strong> SKILLS
+          MORE - <strong className="main-name">R&D</strong> SUCCESS
         </h1>
       </motion.div>
 
@@ -287,8 +287,7 @@ function AdditionalSkills() {
                 className="nextjs-special-job"
               >
                 Implemented <b>OG Protocol</b> for crawlers to play{" "}
-                <b>Videos</b> in Twitter, Discord, Facebook using Next.js{" "}
-                <b>SSR</b>.
+                <b>Videos</b> in Twitter, Discord using Next.js <b>SSR</b>.
               </p>
             </motion.div>
           </Col>
@@ -401,7 +400,7 @@ function AdditionalSkills() {
                 className="blockchain-special-job"
               >
                 Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
-                Token in <b>Polygon</b>, SPL Token in <b>Solana</b>.
+                Token in <b>Polygon</b> chain.
               </p>
             </motion.div>
           </Col>
