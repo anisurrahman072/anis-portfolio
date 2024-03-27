@@ -691,30 +691,30 @@ button:focus {
 /* ADDITIONAL RABBITMQ SKILL */
 /* ADDITIONAL RABBITMQ SKILL */
 .rabbitmq-skill-box {
-  background-color: rgb(21 16 24);
-  -webkit-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
-  -moz-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
-  box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  background-color: #151520;
+  -webkit-box-shadow: inset 0px 0px 76px -8px #3b388d;
+  -moz-box-shadow: inset 0px 0px 76px -8px #3b388d;
+  box-shadow: inset 0px 0px 76px -8px #3b388d;
   transition: box-shadow 1s ease; /* Add a smooth transition effect */
-  border: 1px solid #b368ff;
-  color: #ecdef9;
+  border: 1px solid #6b68ff;
+  color: #dfdef9;
 }
 
 .rabbitmq-skill-box:hover {
-  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
-  -moz-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
-  box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(122, 76, 171);
+  -webkit-box-shadow: inset 0px 0px 120px 5px #3b388d, 0px 0px 40px -8px rgb(67, 70, 161);
+  -moz-box-shadow: inset 0px 0px 120px 5px #3b388d, 0px 0px 40px -8px rgb(67, 70, 161);
+  box-shadow: inset 0px 0px 120px 5px #3b388d, 0px 0px 40px -8px rgb(67, 70, 161);
 
-  border: 1px solid #c78fffbf;
+  border: 1px solid #918fffbf;
 }
 
 .rabbitmq-special-job {
-  color: #ccadeeed;
+  color: #adaeeeed;
   transition: color 0.3s ease; 
 }
 
 .rabbitmq-skill-box:hover .rabbitmq-special-job {
-  color: #ecdef9 !important;
+  color: #dfdef9 !important;
 }
 
 .rabbitmq-years {
@@ -722,7 +722,7 @@ button:focus {
 }
 
 .rabbitmq-skill-box:hover .rabbitmq-years {
-  background-color: rgb(183, 148, 241) !important;
+  background-color: rgb(148, 150, 241) !important;
 }
 
 /* ADDITIONAL MICROSERVICE SKILL */

@@ -597,7 +597,7 @@ function AdditionalSkills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "#8a5ed3",
+                  backgroundColor: "rgb(94 94 211)",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
