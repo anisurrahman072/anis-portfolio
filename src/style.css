@@ -535,7 +535,7 @@ button:focus {
   -moz-box-shadow: inset 0px 0px 76px -8px rgb(115 93 44);
   transition: box-shadow 1s ease; /* Add a smooth transition effect */
   box-shadow: inset 0px 0px 76px -8px rgb(115 93 44);
-  border: 1px solid #ffbf53bf;
+  border: 1px solid #ffe4b4bf;
   color: rgb(248 239 222);
 }
 
@@ -544,7 +544,7 @@ button:focus {
   -moz-box-shadow: inset 0px 0px 211px 5px rgb(115 93 44), 0px 0px 40px -8px rgb(131, 111, 51);
   box-shadow: inset 0px 0px 211px 5px rgb(115 93 44), 0px 0px 40px -8px rgb(131, 111, 51);
 
-  border: 1px solid #ffde7abf;
+  border: 1px solid #fff7debf;
 }
 
 .graphql-special-job {
