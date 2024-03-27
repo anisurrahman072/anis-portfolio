@@ -634,8 +634,8 @@ button:focus {
   transition: color 0.3s ease; 
 }
 
-.blockchain-skill-box:hover .microservice-special-job {
-  color: rgb(237 237 237) !important;
+.blockchain-skill-box:hover .blockchain-special-job {
+  color: rgb(248, 248, 248) !important;
 }
 
 .blockchain-years {
