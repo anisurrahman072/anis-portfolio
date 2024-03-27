@@ -210,7 +210,7 @@ function AdditionalSkills() {
                   transition: {
                     type: "spring",
                     duration: 1.25,
-                    delay: 1.5,
+                    delay: 0.5,
                   },
                   visibility: 2,
                 },
@@ -326,7 +326,7 @@ function AdditionalSkills() {
                   transition: {
                     type: "spring",
                     duration: 1.25,
-                    delay: 0.5,
+                    delay: 1,
                   },
                   visibility: 2,
                 },
@@ -439,7 +439,7 @@ function AdditionalSkills() {
                   transition: {
                     type: "spring",
                     duration: 1.25,
-                    delay: 1,
+                    delay: 1.5,
                   },
                   visibility: 2,
                 },
@@ -552,7 +552,7 @@ function AdditionalSkills() {
                   transition: {
                     type: "spring",
                     duration: 1.25,
-                    delay: 1.5,
+                    delay: 2,
                   },
                   visibility: 2,
                 },
@@ -667,7 +667,7 @@ function AdditionalSkills() {
                   transition: {
                     type: "spring",
                     duration: 1.25,
-                    delay: 1.5,
+                    delay: 2.5,
                   },
                   visibility: 2,
                 },
