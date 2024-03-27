@@ -64,9 +64,9 @@ function AdditionalSkills() {
 
       <Container className="skills-container">
         <Row>
-          {/* REACT NATIVE SKILL */}
-          {/* REACT NATIVE SKILL */}
-          {/* REACT NATIVE SKILL */}
+          {/* GRAPHQL SKILL */}
+          {/* GRAPHQL SKILL */}
+          {/* GRAPHQL SKILL */}
           <Col
             sm={6}
             md={3}
@@ -160,7 +160,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                React Native
+                GraphQL
               </p>
 
               <p
@@ -170,15 +170,15 @@ function AdditionalSkills() {
                 }}
                 className="react-native-special-job"
               >
-                Integrated complex SDKs (<b>IAP</b>, <b>Video Stream</b>,
-                <b> Camera</b>, <b>Jest</b>, more) & maintained deployments.
+                Built complex in-app features using Apollo Client-Server.{" "}
+                <b>Wrote 400+</b> Queries & Mutations.
               </p>
             </motion.div>
           </Col>
 
-          {/* REACT SKILL */}
-          {/* REACT SKILL */}
-          {/* REACT SKILL */}
+          {/* NEXTJS SKILL */}
+          {/* NEXTJS SKILL */}
+          {/* NEXTJS SKILL */}
           <Col
             sm={6}
             md={3}
@@ -264,7 +264,7 @@ function AdditionalSkills() {
                 }}
                 className="react-years"
               >
-                5 yrs
+                1 yrs
               </p>
 
               <p
@@ -274,7 +274,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                React
+                Next.js
               </p>
 
               <p
@@ -284,15 +284,16 @@ function AdditionalSkills() {
                 }}
                 className="react-special-job"
               >
-                Handled complex <b>Renderings</b> (Join multiple Live Streams
-                with distinct Socket data, more).
+                Implemented <b>OG Protocol</b> for crawlers to play{" "}
+                <b>Videos</b> in Twitter, Discord, Facebook using Next.js{" "}
+                <b>SSR</b>.
               </p>
             </motion.div>
           </Col>
 
-          {/* NODE SKILL */}
-          {/* NODE SKILL */}
-          {/* NODE SKILL */}
+          {/* MYSQL SKILL */}
+          {/* MYSQL SKILL */}
+          {/* MYSQL SKILL */}
           <Col
             sm={6}
             md={3}
@@ -377,7 +378,7 @@ function AdditionalSkills() {
                 }}
                 className="node-years"
               >
-                5 yrs
+                2 yrs
               </p>
 
               <p
@@ -387,7 +388,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                Node.js
+                MySQL
               </p>
 
               <p
@@ -397,15 +398,15 @@ function AdditionalSkills() {
                 }}
                 className="node-special-job"
               >
-                Integrated tons of complex APIs (<b>STRIPE</b> Subscriptions,
-                <b> Blockchain</b> Transactions, <b>AWS S3</b>, more)
+                Implemented & maintained a database of <b>1M live users</b> (BD
+                Govt project).
               </p>
             </motion.div>
           </Col>
 
-          {/* MONGODB SKILL */}
-          {/* MONGODB SKILL */}
-          {/* MONGODB SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
           <Col
             sm={6}
             md={3}
@@ -492,7 +493,7 @@ function AdditionalSkills() {
                 }}
                 className="mongo-years"
               >
-                3 yrs
+                2 yrs
               </p>
 
               <p
@@ -502,7 +503,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                MongoDB
+                MicroService
               </p>
 
               <p
@@ -512,8 +513,238 @@ function AdditionalSkills() {
                 }}
                 className="mongo-special-job"
               >
-                Led teams in <b>architecting schema</b> structures to handle
-                complex features (Ex: 64K NFTs schema, more)
+                Built <b>7 Microservices</b> to handle rapid actions of{" "}
+                <b>1M live users</b> (BD Govt project).
+              </p>
+            </motion.div>
+          </Col>
+
+          {/* RabbitMQ SKILL */}
+          {/* RabbitMQ SKILL */}
+          {/* RabbitMQ SKILL */}
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <motion.div
+              className="mongo-skill-box cursor-pointer"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+                overflow: "hidden",
+                height: "100%",
+              }}
+              onHoverStart={handleHoverMMongo}
+              onHoverEnd={handleHoverMMongo}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 1.5,
+                  },
+                  visibility: 2,
+                },
+              }}
+            >
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: -10,
+                  right: -9,
+                  opacity: 0.2,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? -20 : 0,
+                  scale: isHoveredMongo ? 0.5 : 1,
+                  x: isHoveredMongo ? -60 : 0,
+                  y: isHoveredMongo ? 20 : 0,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={110} />
+              </motion.div>
+
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 12,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? 20 : 0,
+                  scale: isHoveredMongo ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={70} />
+              </motion.div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "#8a5ed3",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+                className="mongo-years"
+              >
+                1 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                RabbitMQ
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "13px",
+                }}
+                className="mongo-special-job"
+              >
+                <b>Led team</b> to implement RabbitMQ in 7 Microservices with{" "}
+                <b>SAGA</b> (communication) pattern.
+              </p>
+            </motion.div>
+          </Col>
+
+          {/* Blockchain SKILL */}
+          {/* Blockchain SKILL */}
+          {/* Blockchain SKILL */}
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <motion.div
+              className="mongo-skill-box cursor-pointer"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+                overflow: "hidden",
+                height: "100%",
+              }}
+              onHoverStart={handleHoverMMongo}
+              onHoverEnd={handleHoverMMongo}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 1.5,
+                  },
+                  visibility: 2,
+                },
+              }}
+            >
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: -10,
+                  right: -9,
+                  opacity: 0.2,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? -20 : 0,
+                  scale: isHoveredMongo ? 0.5 : 1,
+                  x: isHoveredMongo ? -60 : 0,
+                  y: isHoveredMongo ? 20 : 0,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={110} />
+              </motion.div>
+
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 12,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredMongo ? 20 : 0,
+                  scale: isHoveredMongo ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={mongodbLogo} height={70} />
+              </motion.div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "#8a5ed3",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+                className="mongo-years"
+              >
+                1 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                Blockchain
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "13px",
+                }}
+                className="mongo-special-job"
+              >
+                Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
+                Token in <b>Polygon</b>, SPL Token in <b>Solana</b>.
               </p>
             </motion.div>
           </Col>
