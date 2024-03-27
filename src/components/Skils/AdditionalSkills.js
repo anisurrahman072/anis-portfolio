@@ -177,9 +177,9 @@ function AdditionalSkills() {
             </motion.div>
           </Col>
 
-          {/* MicroService SKILL */}
-          {/* MicroService SKILL */}
-          {/* MicroService SKILL */}
+          {/* NEXTJS SKILL */}
+          {/* NEXTJS SKILL */}
+          {/* NEXTJS SKILL */}
           <Col
             sm={6}
             md={3}
@@ -188,7 +188,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="microservice-skill-box cursor-pointer"
+              className="nextjs-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -264,9 +264,9 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="microservice-years"
+                className="nextjs-years"
               >
-                2 yrs
+                1 yrs
               </p>
 
               <p
@@ -276,7 +276,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                MicroService
+                Next.js
               </p>
 
               <p
@@ -284,17 +284,18 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="microservice-special-job"
+                className="nextjs-special-job"
               >
-                Built <b>7 Microservices</b> to handle rapid actions of{" "}
-                <b>1M live users</b> (BD Govt project).
+                Implemented <b>OG Protocol</b> for crawlers to play{" "}
+                <b>Videos</b> in Twitter, Discord, Facebook using Next.js{" "}
+                <b>SSR</b>.
               </p>
             </motion.div>
           </Col>
 
-          {/* NEXTJS SKILL */}
-          {/* NEXTJS SKILL */}
-          {/* NEXTJS SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
+          {/* MicroService SKILL */}
           <Col
             sm={6}
             md={3}
@@ -303,7 +304,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="nextjs-skill-box cursor-pointer"
+              className="microservice-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -377,9 +378,9 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="nextjs-years"
+                className="microservice-years"
               >
-                1 yrs
+                2 yrs
               </p>
 
               <p
@@ -389,7 +390,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                Next.js
+                MicroService
               </p>
 
               <p
@@ -397,11 +398,10 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="nextjs-special-job"
+                className="microservice-special-job"
               >
-                Implemented <b>OG Protocol</b> for crawlers to play{" "}
-                <b>Videos</b> in Twitter, Discord, Facebook using Next.js{" "}
-                <b>SSR</b>.
+                Built <b>7 Microservices</b> to handle rapid actions of{" "}
+                <b>1M live users</b> (BD Govt project).
               </p>
             </motion.div>
           </Col>

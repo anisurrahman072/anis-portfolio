@@ -564,10 +564,10 @@ button:focus {
   background-color: #eec25c !important;
 }
 
-/* ADDITIONAL MICROSERVICE SKILL */
-/* ADDITIONAL MICROSERVICE SKILL */
-/* ADDITIONAL MICROSERVICE SKILL */
-.microservice-skill-box {
+/* ADDITIONAL NEXTJS SKILL */
+/* ADDITIONAL NEXTJS SKILL */
+/* ADDITIONAL NEXTJS SKILL */
+.nextjs-skill-box {
   background-color: rgb(27 27 27);
   -webkit-box-shadow: inset 0px 0px 74px 3px #6c6b6bba;
   -moz-box-shadow: inset 0px 0px 74px 3px #6c6b6bba;
@@ -577,7 +577,7 @@ button:focus {
   color: #fbfbfb;
 }
 
-.microservice-skill-box:hover {
+.nextjs-skill-box:hover {
   -webkit-box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
   -moz-box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
   box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
@@ -585,27 +585,27 @@ button:focus {
   border: 1px solid #ffffff;
 }
 
-.microservice-special-job {
+.nextjs-special-job {
   color: #aeaeae;
   transition: color 0.3s ease; 
 }
 
-.microservice-skill-box:hover .microservice-special-job {
+.nextjs-skill-box:hover .nextjs-special-job {
   color: #fbfbfb !important;
 }
 
-.microservice-years {
+.nextjs-years {
   transition: background-color 0.3s ease; 
 }
 
-.microservice-skill-box:hover .microservice-years {
+.nextjs-skill-box:hover .nextjs-years {
   background-color: rgb(191, 191, 191) !important;
 }
 
-/* ADDITIONAL NEXTJS SKILL */
-/* ADDITIONAL NEXTJS SKILL */
-/* ADDITIONAL NEXTJS SKILL */
-.nextjs-skill-box {
+/* ADDITIONAL MICROSERVICE SKILL */
+/* ADDITIONAL MICROSERVICE SKILL */
+/* ADDITIONAL MICROSERVICE SKILL */
+.microservice-skill-box {
   background: rgb(88,50,95);
   background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(24,34,29,1) 23%, rgba(21,30,25,1) 55%, rgba(63,67,41,1) 100%);
 
@@ -618,7 +618,7 @@ button:focus {
   transition: box-shadow 1s ease; /* Add a smooth transition effect */
 }
 
-.nextjs-skill-box:hover {
+.microservice-skill-box:hover {
   background: rgb(88,50,95);
   background: linear-gradient(336deg, rgba(88,50,95,1) 0%, rgba(27,34,24,1) 23%, rgba(24,30,21,1) 55%, rgba(63,67,41,1) 100%);
 
@@ -629,23 +629,23 @@ button:focus {
   border: 1px solid #ffffff;
 }
 
-.nextjs-special-job {
-  color: rgb(185 185 185);
+.microservice-special-job {
+  color: #b4bbb0;
   transition: color 0.3s ease; 
 }
 
-.nextjs-skill-box:hover .nextjs-special-job {
+.microservice-skill-box:hover .microservice-special-job {
   color: rgb(237 237 237) !important;
 }
 
-.nextjs-years {
+.microservice-years {
   background: rgb(255,0,240);
   background: linear-gradient(336deg, rgba(255,0,240,1) 0%, rgba(0,255,126,1) 52%, rgba(254,255,0,1) 100%);
   opacity: 0.7;
   transition: opacity 1s ease;
 }
 
-.nextjs-skill-box:hover .nextjs-years {
+.microservice-skill-box:hover .microservice-years {
   opacity: 1
 }
 
