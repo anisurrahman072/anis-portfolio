@@ -417,7 +417,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="node-skill-box cursor-pointer"
+              className="mysql-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -483,7 +483,7 @@ function AdditionalSkills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "#aa9f3b",
+                  backgroundColor: "rgb(68, 118, 192)",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
@@ -491,7 +491,7 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="node-years"
+                className="mysql-years"
               >
                 2 yrs
               </p>
@@ -511,7 +511,7 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="node-special-job"
+                className="mysql-special-job"
               >
                 Implemented & maintained a database of <b>1M live users</b> (BD
                 Govt project).
