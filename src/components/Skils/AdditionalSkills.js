@@ -188,7 +188,7 @@ function AdditionalSkills() {
             }}
           >
             <motion.div
-              className="mongo-skill-box cursor-pointer"
+              className="microservice-skill-box cursor-pointer"
               style={{
                 borderRadius: "15px",
                 padding: "20px",
@@ -256,7 +256,7 @@ function AdditionalSkills() {
                   fontSize: "12px",
                   marginBottom: "12px",
                   color: "black",
-                  backgroundColor: "#8a5ed3",
+                  backgroundColor: "rgb(137 137 137)",
                   display: "inline-block",
                   paddingLeft: "10px",
                   paddingRight: "10px",
@@ -264,7 +264,7 @@ function AdditionalSkills() {
                   paddingBottom: "2px",
                   borderRadius: "15px",
                 }}
-                className="mongo-years"
+                className="microservice-years"
               >
                 2 yrs
               </p>
@@ -284,7 +284,7 @@ function AdditionalSkills() {
                   fontWeight: "normal",
                   fontSize: "13px",
                 }}
-                className="mongo-special-job"
+                className="microservice-special-job"
               >
                 Built <b>7 Microservices</b> to handle rapid actions of{" "}
                 <b>1M live users</b> (BD Govt project).

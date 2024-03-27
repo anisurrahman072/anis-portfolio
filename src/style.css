@@ -611,6 +611,44 @@ button:focus {
   opacity: 1
 }
 
+/* MICROSERVICE SKILL */
+/* MICROSERVICE SKILL */
+/* MICROSERVICE SKILL */
+.microservice-skill-box {
+  background-color: rgb(27 27 27);
+  -webkit-box-shadow: inset 0px 0px 74px 3px #535252;
+  -moz-box-shadow: inset 0px 0px 74px 3px #535252;
+  box-shadow: inset 0px 0px 74px 3px #535252;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #e2e2e2;
+  color: #fbfbfb;
+}
+
+.microservice-skill-box:hover {
+  -webkit-box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
+  -moz-box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
+  box-shadow: inset 0px 0px 110px 7px #6b6b6b, 0px 0px 40px -8px #8b8b8b;
+
+  border: 1px solid #ffffff;
+}
+
+.microservice-special-job {
+  color: #aeaeae;
+  transition: color 0.3s ease; 
+}
+
+.microservice-skill-box:hover .microservice-special-job {
+  color: #fbfbfb !important;
+}
+
+.microservice-years {
+  transition: background-color 0.3s ease; 
+}
+
+.microservice-skill-box:hover .microservice-years {
+  background-color: rgb(191, 191, 191) !important;
+}
+
 /* REACT NATIVE SKILL */
 /* REACT NATIVE SKILL */
 /* REACT NATIVE SKILL */
