@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import graphqlLogo from "../../Assets/graphql.svg";
 import nextjsLogo from "../../Assets/nextjs.svg";
+import ethereumLogo from "../../Assets/ethereum.svg";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
@@ -343,35 +344,35 @@ function AdditionalSkills() {
               <motion.div
                 style={{
                   position: "absolute",
-                  top: -20,
-                  right: -10,
+                  top: -5,
+                  right: 2,
                   opacity: 0.2,
                 }}
                 initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
                 animate={{
-                  rotate: isHoveredBlockchain ? -40 : 0,
+                  rotate: isHoveredBlockchain ? -200 : 0,
                   scale: isHoveredBlockchain ? 0.4 : 1,
                   x: isHoveredBlockchain ? -60 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={reactLogo} height={100} />
+                <img src={ethereumLogo} height={100} />
               </motion.div>
 
               <motion.div
                 style={{
                   position: "absolute",
-                  top: 5,
-                  right: 7,
+                  top: 15,
+                  right: 14,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredBlockchain ? -40 : 0,
-                  scale: isHoveredBlockchain ? 1.3 : 1,
+                  rotate: isHoveredBlockchain ? -10 : 0,
+                  scale: isHoveredBlockchain ? 1.2 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={reactLogo} height={60} />
+                <img src={ethereumLogo} height={60} />
               </motion.div>
               <p
                 style={{
