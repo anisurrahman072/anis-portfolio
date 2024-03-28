@@ -347,7 +347,7 @@ function AdditionalSkills() {
                   position: "absolute",
                   top: -5,
                   right: 2,
-                  opacity: 0.2,
+                  opacity: 0.1,
                 }}
                 initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
                 animate={{
