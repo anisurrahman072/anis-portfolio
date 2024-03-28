@@ -5,7 +5,7 @@ import nextjsLogo from "../../Assets/nextjs.svg";
 import ethereumLogo from "../../Assets/ethereum.svg";
 import mysqlLogo from "../../Assets/mysql.svg";
 import rabbitmqLogo from "../../Assets/rabbitmq.svg";
-import reactLogo from "../../Assets/react.svg";
+import microserviceLogo from "../../Assets/microservice.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
@@ -688,19 +688,19 @@ function AdditionalSkills() {
                 style={{
                   position: "absolute",
                   top: -10,
-                  right: -9,
-                  opacity: 0.2,
+                  right: -6,
+                  opacity: 0.1,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMicroservice ? -20 : 0,
-                  scale: isHoveredMicroservice ? 0.5 : 1,
-                  x: isHoveredMicroservice ? -60 : 0,
-                  y: isHoveredMicroservice ? 20 : 0,
+                  rotate: isHoveredMicroservice ? -70 : 0,
+                  scale: isHoveredMicroservice ? 0.3 : 1,
+                  x: isHoveredMicroservice ? -40 : 0,
+                  y: isHoveredMicroservice ? 30 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={110} />
+                <img src={microserviceLogo} height={100} />
               </motion.div>
 
               <motion.div
@@ -711,12 +711,12 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMicroservice ? 20 : 0,
-                  scale: isHoveredMicroservice ? 1.3 : 1,
+                  rotate: isHoveredMicroservice ? 50 : 0,
+                  scale: isHoveredMicroservice ? 1.2 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={70} />
+                <img src={microserviceLogo} height={60} />
               </motion.div>
               <p
                 style={{
