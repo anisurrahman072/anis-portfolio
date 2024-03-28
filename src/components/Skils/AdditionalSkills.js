@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import graphqlLogo from "../../Assets/graphql.svg";
 import nextjsLogo from "../../Assets/nextjs.svg";
 import ethereumLogo from "../../Assets/ethereum.svg";
+import mysqlLogo from "../../Assets/mysql.svg";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
@@ -463,12 +464,12 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMysql ? -20 : 0,
+                  rotate: isHoveredMysql ? -10 : 0,
                   scale: isHoveredMysql ? 0 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={nodeJsLogo} height={100} />
+                <img src={mysqlLogo} height={100} />
               </motion.div>
 
               <motion.div
@@ -479,12 +480,12 @@ function AdditionalSkills() {
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredMysql ? 20 : 0,
+                  rotate: isHoveredMysql ? -10 : 0,
                   scale: isHoveredMysql ? 1.3 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={nodeJsLogo} height={60} />
+                <img src={mysqlLogo} height={60} />
               </motion.div>
               <p
                 style={{
