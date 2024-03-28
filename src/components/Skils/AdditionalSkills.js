@@ -4,6 +4,7 @@ import graphqlLogo from "../../Assets/graphql.svg";
 import nextjsLogo from "../../Assets/nextjs.svg";
 import ethereumLogo from "../../Assets/ethereum.svg";
 import mysqlLogo from "../../Assets/mysql.svg";
+import rabbitmqLogo from "../../Assets/rabbitmq.svg";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
@@ -572,35 +573,35 @@ function AdditionalSkills() {
                 style={{
                   position: "absolute",
                   top: -10,
-                  right: -9,
+                  right: -15,
                   opacity: 0.2,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
                   rotate: isHoveredRabbitmq ? -20 : 0,
-                  scale: isHoveredRabbitmq ? 0.5 : 1,
-                  x: isHoveredRabbitmq ? -60 : 0,
-                  y: isHoveredRabbitmq ? 20 : 0,
+                  scale: isHoveredRabbitmq ? 0 : 1,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={110} />
+                <img src={rabbitmqLogo} height={80} />
               </motion.div>
 
               <motion.div
                 style={{
                   position: "absolute",
                   top: 10,
-                  right: 12,
+                  right: 8,
                 }}
                 initial={{ rotate: 0, scale: 1 }}
                 animate={{
-                  rotate: isHoveredRabbitmq ? 20 : 0,
-                  scale: isHoveredRabbitmq ? 1.3 : 1,
+                  rotateX: isHoveredRabbitmq ? 180 : 0,
+                  scale: isHoveredRabbitmq ? 1.2 : 1,
+                  x: isHoveredRabbitmq ? -14 : 0,
+                  y: isHoveredRabbitmq ? 13 : 0,
                 }}
                 transition={{ duration: 0.45 }}
               >
-                <img src={mongodbLogo} height={70} />
+                <img src={rabbitmqLogo} height={40} />
               </motion.div>
               <p
                 style={{
