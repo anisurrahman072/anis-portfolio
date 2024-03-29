@@ -59,7 +59,7 @@ function Skills() {
             marginBottom: "50px",
           }}
         >
-          MY <strong className="main-name">5 YRS</strong> FULL-STACK SKILLS
+          FULL-STACK <strong className="main-name">5 YRS</strong> SKILLS
         </h1>
       </motion.div>
 
