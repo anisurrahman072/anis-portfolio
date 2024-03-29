@@ -763,14 +763,36 @@ button:focus {
   background-color: rgb(88, 193, 205) !important;
 }
 
+/* Additional SKILL BOTTOM SVG */
+.custom-shape-divider-bottom-1711715159 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711715159 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-bottom-1711715159 .shape-fill {
+  fill: #1A1428;
+}
+
+/* JOB EXPERIENCE SECTION */
+/* JOB EXPERIENCE SECTION */
+/* JOB EXPERIENCE SECTION */
 .experience-background {
   background-image: url(./Assets/expBackground.svg);
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
   background-size: cover;
 }
-
-
 
 
 

@@ -48,7 +48,7 @@ function AdditionalSkills() {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true }}
-      style={{ position: "relative" }}
+      style={{ position: "relative", paddingBottom: "110px" }}
     >
       <motion.div
         variants={{
@@ -761,6 +761,21 @@ function AdditionalSkills() {
           </Col>
         </Row>
       </Container>
+
+      {/* BOTTOM SVG */}
+      <div class="custom-shape-divider-bottom-1711715159">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </motion.section>
   );
 }

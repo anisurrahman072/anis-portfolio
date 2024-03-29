@@ -42,11 +42,10 @@ function Experience() {
         <h1
           style={{
             color: "white",
-            marginTop: "150px",
-            marginBottom: "50px",
+            marginBottom: "80px",
           }}
         >
-          WORK <strong className="main-name">EXPERIENCES</strong>
+          PROFESSIONAL <strong className="main-name">EXPERIENCES</strong>
         </h1>
       </motion.div>
 
