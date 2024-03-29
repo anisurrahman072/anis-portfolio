@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Experience from "../Experience/Experience";
 import Skills from "../Skils/Skills";
 import AdditionalSkills from "../Skils/AdditionalSkills";
+import LeadershipSkills from "../Skils/LeadershipSkills";
 
 function Home() {
   // STATE for mobile device
@@ -227,6 +228,8 @@ function Home() {
       <AdditionalSkills />
       {/* Experience Component */}
       <Experience />
+      {/* Leadership SKILL & AWARDS */}
+      <LeadershipSkills />
       <Home2 />
     </section>
   );
