@@ -21,6 +21,7 @@ function Experience() {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true }}
+      className="experience-background"
     >
       <motion.div
         variants={{

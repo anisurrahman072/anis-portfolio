@@ -763,7 +763,12 @@ button:focus {
   background-color: rgb(88, 193, 205) !important;
 }
 
-
+.experience-background {
+  background-image: url(./Assets/expBackground.svg);
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  background-size: cover;
+}
 
 
 
