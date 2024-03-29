@@ -790,7 +790,7 @@ button:focus {
 /* JOB EXPERIENCE SECTION */
 .experience-background {
   background-image: url(./Assets/expBackground.svg);
-  padding-bottom: 30px !important;
+  padding-bottom: 100px !important;
   background-size: cover;
 }
 
