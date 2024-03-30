@@ -96,51 +96,115 @@ function LeadershipSkills() {
                     },
                   },
                 }}
+                className="leadership-skills-text"
               >
-                <h5
+                {/* 1st leadership success */}
+                <div
                   style={{
-                    paddingLeft: 50,
                     paddingRight: 50,
                     textAlign: "left",
                     lineHeight: "30px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
-                  🎖️ Promoted from Jr. Engineer to{" "}
-                  <b style={{ color: "gold" }}>Team Lead</b>, I managed a team
-                  of 4 engineers, resulting in{" "}
-                  <b style={{ color: "gold" }}>$35M</b> in E-commerce orders.
-                </h5>
+                  <motion.div
+                    animate={{
+                      // It will blink for 2 times
+                      textShadow: [
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                        "0 0 20px rgba(246, 255, 0, 1)",
+                      ],
+                    }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                  >
+                    <h1>🎖️</h1>
+                  </motion.div>{" "}
+                  <h5 style={{ marginLeft: "10px" }}>
+                    Promoted from Jr. to{" "}
+                    <b style={{ color: "gold" }}>Team Lead</b> of 4 engineers,
+                    resulting in <b style={{ color: "gold" }}>$35M</b> in
+                    E-commerce orders.
+                  </h5>
+                </div>
 
-                <h5
+                {/* 1st leadership success */}
+                <div
                   style={{
                     paddingTop: 30,
-                    paddingLeft: 50,
                     paddingRight: 50,
                     textAlign: "left",
                     lineHeight: "30px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
-                  🎖️ <b style={{ color: "gold" }}>Led</b> BD Govt Project{" "}
-                  <b style={{ color: "gold" }}>Backend Team</b>, scaled to{" "}
-                  <b style={{ color: "gold" }}>1M users</b>, and won Best
-                  Software Engineer Award in 2022.
-                </h5>
+                  <motion.div
+                    animate={{
+                      // It will blink for 2 times
+                      textShadow: [
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                        "0 0 20px rgba(246, 255, 0, 1)",
+                      ],
+                    }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                  >
+                    <h1>🎖️</h1>
+                  </motion.div>{" "}
+                  <h5 style={{ marginLeft: "10px" }}>
+                    <b style={{ color: "gold" }}>Led</b> BD Govt Project{" "}
+                    <b style={{ color: "gold" }}>Backend Team</b>, scaled to{" "}
+                    <b style={{ color: "gold" }}>1M users</b>, and won Best
+                    Software Engineer Award in 2022.
+                  </h5>
+                </div>
 
-                <h5
+                {/* 1st leadership success */}
+                <div
                   style={{
                     paddingTop: 30,
-                    paddingLeft: 50,
                     paddingRight: 50,
                     paddingBottom: 20,
                     textAlign: "left",
                     lineHeight: "30px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
-                  🎖️ <b style={{ color: "gold" }}>Led team</b> to deploy 64K
-                  NFTs on Polygon Blockchain, attracting{" "}
-                  <b style={{ color: "gold" }}>20K users</b>. CEO sponsored
-                  Indonesia Tour.
-                </h5>
+                  <motion.div
+                    animate={{
+                      // It will blink for 2 times
+                      textShadow: [
+                        "0 0 10px rgba(255, 255, 255, 0)",
+                        "0 0 20px rgba(246, 255, 0, 1)",
+                      ],
+                    }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                  >
+                    <h1>🎖️</h1>
+                  </motion.div>{" "}
+                  <h5 style={{ marginLeft: "10px" }}>
+                    <b style={{ color: "gold" }}>Led team</b> to deploy 64K NFTs
+                    on Polygon Blockchain, attracting{" "}
+                    <b style={{ color: "gold" }}>20K users</b>. CEO sponsored
+                    Indonesia Tour.
+                  </h5>
+                </div>
               </motion.div>
             </Col>
 

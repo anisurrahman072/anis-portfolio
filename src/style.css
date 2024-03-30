@@ -811,6 +811,12 @@ button:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .leadership-skills-text {
+    padding-left: 20px !important; 
+  }
+}
+
 
 
 
