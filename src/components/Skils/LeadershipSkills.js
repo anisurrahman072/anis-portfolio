@@ -56,14 +56,29 @@ function LeadershipSkills() {
             },
           }}
         >
-          <h1
-            style={{
-              color: "white",
-              marginTop: "80px",
+          <motion.div
+            animate={{
+              // It will blink for 2 times
+              textShadow: [
+                "0 0 10px rgba(255, 255, 255, 0)",
+                "0 0 60px rgba(246, 255, 0, 0.4)",
+              ],
+            }}
+            transition={{
+              duration: 1,
+              repeat: Infinity,
+              repeatType: "reverse",
             }}
           >
-            PROVEN <strong className="main-name">LEADERSHIP</strong> SUCCESS
-          </h1>
+            <h1
+              style={{
+                color: "white",
+                marginTop: "80px",
+              }}
+            >
+              PROVEN <strong className="main-name">LEADERSHIP</strong> SUCCESS
+            </h1>
+          </motion.div>
         </motion.div>
       </motion.section>
 
