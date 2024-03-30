@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/book.gif";
+import awardGiff from "../../Assets/award.gif";
 import Particle from "../Particle";
 import { motion } from "framer-motion";
 
@@ -100,7 +100,7 @@ function LeadershipSkills() {
                 className="custom-link cursor-pointer"
               >
                 <img
-                  src={homeLogo}
+                  src={awardGiff}
                   alt="home pic"
                   className="img-fluid book-pic"
                   style={{
