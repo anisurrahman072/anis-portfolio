@@ -795,6 +795,22 @@ button:focus {
 }
 
 
+/* LEADERSHIP SUCCESS */
+
+.leadershipContainer {
+  padding-top: 6rem  !important;
+  padding-bottom: 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+}
+
+
+@media (max-width: 767px) {
+  .leadershipContainer {
+    padding-top: 2rem !important;
+  }
+}
+
 
 
 

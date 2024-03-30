@@ -65,7 +65,7 @@ function LeadershipSkills() {
         </h1>
       </motion.div>
 
-      <Container className="home-content">
+      <Container className="leadershipContainer">
         <Row
           style={{
             display: "flex",
