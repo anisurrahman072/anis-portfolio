@@ -59,7 +59,7 @@ function LeadershipSkills() {
           <h1
             style={{
               color: "white",
-              marginTop: "100px",
+              marginTop: "80px",
             }}
           >
             PROVEN <strong className="main-name">LEADERSHIP</strong> SUCCESS
@@ -171,23 +171,34 @@ function LeadershipSkills() {
                   onHoverStart={handleHoverBook}
                   onHoverEnd={handleHoverBook}
                 >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/posts/soft-bd-ltd_bestperformers-employeeofthequarter-activity-6909435535258263552-Ax2m?utm_source=share&utm_medium=member_desktop"
-                    className="custom-link cursor-pointer"
+                  <motion.div
+                    animate={{
+                      scale: isMobile ? [1] : [1, 1.04],
+                    }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
                   >
-                    <img
-                      src={awardGiff}
-                      alt="home pic"
-                      className="img-fluid book-pic"
-                      style={{
-                        maxHeight: "600px",
-                        borderRadius: "15px",
-                        position: "relative",
-                      }}
-                    />
-                  </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.linkedin.com/posts/soft-bd-ltd_bestperformers-employeeofthequarter-activity-6909435535258263552-Ax2m?utm_source=share&utm_medium=member_desktop"
+                      className="custom-link cursor-pointer"
+                    >
+                      <img
+                        src={awardGiff}
+                        alt="home pic"
+                        className="img-fluid book-pic"
+                        style={{
+                          maxHeight: "600px",
+                          borderRadius: "15px",
+                          position: "relative",
+                        }}
+                      />
+                    </a>
+                  </motion.div>
                 </motion.div>
               </div>
             </Col>
