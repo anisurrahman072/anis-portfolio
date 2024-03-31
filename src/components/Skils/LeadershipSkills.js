@@ -34,7 +34,7 @@ function LeadershipSkills() {
   }, []);
 
   return (
-    <>
+    <Container className="leadershipContainer">
       <motion.section
         initial="hidden"
         whileInView={"show"}
@@ -87,7 +87,7 @@ function LeadershipSkills() {
         whileInView={"show"}
         viewport={{ once: true }}
       >
-        <Container className="leadershipContainer">
+        <Container className="leadershipContents">
           <Row
             style={{
               display: "flex",
@@ -95,7 +95,7 @@ function LeadershipSkills() {
               alignItems: "center",
             }}
           >
-            <Col md={7}>
+            <Col md={7} className="leadership-texts">
               <motion.div
                 variants={{
                   hidden: {
@@ -111,12 +111,10 @@ function LeadershipSkills() {
                     },
                   },
                 }}
-                className="leadership-skills-text"
               >
                 {/* 1st leadership success */}
                 <div
                   style={{
-                    paddingRight: 50,
                     textAlign: "left",
                     lineHeight: "30px",
                     display: "flex",
@@ -152,7 +150,6 @@ function LeadershipSkills() {
                 <div
                   style={{
                     paddingTop: 30,
-                    paddingRight: 50,
                     textAlign: "left",
                     lineHeight: "30px",
                     display: "flex",
@@ -179,8 +176,8 @@ function LeadershipSkills() {
                   <h5 style={{ marginLeft: "10px" }}>
                     <b style={{ color: "gold" }}>Led</b> BD Govt Project{" "}
                     <b style={{ color: "gold" }}>Backend Team</b>, scaled to{" "}
-                    <b style={{ color: "gold" }}>1M users</b>, and won Best
-                    Software Engineer Award in 2022.
+                    <b style={{ color: "gold" }}>1M users</b>, won Best Software
+                    Engineer Award in 2022.
                   </h5>
                 </div>
 
@@ -188,7 +185,6 @@ function LeadershipSkills() {
                 <div
                   style={{
                     paddingTop: 30,
-                    paddingRight: 50,
                     paddingBottom: 20,
                     textAlign: "left",
                     lineHeight: "30px",
@@ -215,7 +211,7 @@ function LeadershipSkills() {
                   </motion.div>{" "}
                   <h5 style={{ marginLeft: "10px" }}>
                     <b style={{ color: "gold" }}>Led team</b> to deploy 64K NFTs
-                    on Polygon Blockchain, attracting{" "}
+                    on Polygon Chain, attracting{" "}
                     <b style={{ color: "gold" }}>20K users</b>. CEO sponsored
                     Indonesia Tour.
                   </h5>
@@ -284,7 +280,7 @@ function LeadershipSkills() {
           </Row>
         </Container>
       </motion.section>
-    </>
+    </Container>
   );
 }
 
