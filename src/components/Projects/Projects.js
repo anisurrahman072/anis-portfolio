@@ -97,7 +97,7 @@ function Projects() {
             <h1
               style={{
                 color: "white",
-                marginTop: "80px",
+                marginTop: "100px",
               }}
             >
               MY <strong className="main-name">PROJECTS</strong>
@@ -111,7 +111,7 @@ function Projects() {
         whileInView={"show"}
         viewport={{ once: true }}
       >
-        <Container className="leadershipContents">
+        <Container className="projectsContents">
           <Row>
             {/* PROJECT BASEMENT SPORTS */}
             {/* PROJECT BASEMENT SPORTS */}
@@ -155,7 +155,7 @@ function Projects() {
                   style={{
                     fontWeight: "bold",
                     fontSize: "20px",
-                    marginBottom: "6px",
+                    marginTop: "6px",
                   }}
                 >
                   Sports Scoring App
@@ -169,7 +169,7 @@ function Projects() {
                     }}
                     transition={{ duration: 0.45 }} // Animation duration (in seconds)
                     style={{
-                      marginTop: "20px",
+                      marginTop: "15px",
                       marginBottom: "15px",
                     }}
                     className="project-bsport-image"
