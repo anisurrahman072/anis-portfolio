@@ -336,7 +336,26 @@ function Projects() {
                     }}
                     className="project-bsport-years"
                   >
-                    Streaming (Agora)
+                    AWS S3
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-bsport-years"
+                  >
+                    Stream
                   </p>
                 </div>
               </motion.div>
@@ -680,6 +699,25 @@ function Projects() {
                     }}
                     className="project-nft-years"
                   >
+                    React Native
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
                     React
                   </p>
                   <p
@@ -718,7 +756,7 @@ function Projects() {
                     }}
                     className="project-nft-years"
                   >
-                    Sails.js
+                    Polygon
                   </p>
                   <p
                     style={{
@@ -737,7 +775,7 @@ function Projects() {
                     }}
                     className="project-nft-years"
                   >
-                    MySQL
+                    Alchemy
                   </p>
                   <p
                     style={{
@@ -756,45 +794,7 @@ function Projects() {
                     }}
                     className="project-nft-years"
                   >
-                    REST
-                  </p>
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "12px",
-                      color: "black",
-                      backgroundColor: "#aa9f3b",
-                      display: "inline-block",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "2px",
-                      paddingBottom: "2px",
-                      borderRadius: "15px",
-                      marginRight: "10px",
-                      marginBottom: "10px",
-                    }}
-                    className="project-nft-years"
-                  >
-                    Redis
-                  </p>
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "12px",
-                      color: "black",
-                      backgroundColor: "#aa9f3b",
-                      display: "inline-block",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "2px",
-                      paddingBottom: "2px",
-                      borderRadius: "15px",
-                      marginRight: "10px",
-                      marginBottom: "10px",
-                    }}
-                    className="project-nft-years"
-                  >
-                    Payment Gateway
+                    Opensea
                   </p>
                 </div>
               </motion.div>
