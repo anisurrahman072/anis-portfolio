@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
-import nodeJsLogo from "../../Assets/nodejs.svg";
+import projectNft from "../../Assets/projectNft.gif";
 import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
 
@@ -13,7 +13,7 @@ function Projects() {
   // Hover STATES
   const [isHoveredBsport, setIsHoveredBsport] = useState(false);
   const [isHoveredEcommerce, setIsHoveredEcommerce] = useState(false);
-  const [isHoveredNode, setIsHoveredNode] = useState(false);
+  const [isHoveredNft, setIsHoveredNft] = useState(false);
   const [isHoveredMongo, setIsHoveredMongo] = useState(false);
 
   // STATE for checking Hover
@@ -49,8 +49,8 @@ function Projects() {
     setIsHoveredEcommerce(!isHoveredEcommerce);
   };
 
-  const handleHoverNode = () => {
-    setIsHoveredNode(!isHoveredNode);
+  const handleHoverNft = () => {
+    setIsHoveredNft(!isHoveredNft);
   };
 
   const handleHoverMMongo = () => {
@@ -571,9 +571,9 @@ function Projects() {
               </motion.div>
             </Col>
 
-            {/* NODE SKILL */}
-            {/* NODE SKILL */}
-            {/* NODE SKILL */}
+            {/* PROJECT NFT SPORTS */}
+            {/* PROJECT NFT SPORTS */}
+            {/* PROJECT NFT SPORTS */}
             <Col
               sm={6}
               md={4}
@@ -582,7 +582,7 @@ function Projects() {
               }}
             >
               <motion.div
-                className="node-skill-box cursor-pointer"
+                className="project-nft-box cursor-pointer"
                 style={{
                   borderRadius: "15px",
                   padding: "20px",
@@ -591,8 +591,8 @@ function Projects() {
                   overflow: "hidden",
                   height: "100%",
                 }}
-                onHoverStart={handleHoverNode}
-                onHoverEnd={handleHoverNode}
+                onHoverStart={handleHoverNft}
+                onHoverEnd={handleHoverNft}
                 variants={{
                   hidden: {
                     x: -100,
@@ -604,83 +604,199 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 1,
+                      delay: 0,
                     },
-                    visibility: 2,
                   },
                 }}
               >
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: -10,
-                    right: -5,
-                    opacity: 0.2,
-                  }}
-                  initial={{ rotate: 0, scale: 1 }}
-                  animate={{
-                    rotate: isHoveredNode ? -20 : 0,
-                    scale: isHoveredNode ? 0 : 1,
-                  }}
-                  transition={{ duration: 0.45 }}
-                >
-                  <img src={nodeJsLogo} height={100} />
-                </motion.div>
-
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: 10,
-                    right: 12,
-                  }}
-                  initial={{ rotate: 0, scale: 1 }}
-                  animate={{
-                    rotate: isHoveredNode ? 20 : 0,
-                    scale: isHoveredNode ? 1.3 : 1,
-                  }}
-                  transition={{ duration: 0.45 }}
-                >
-                  <img src={nodeJsLogo} height={60} />
-                </motion.div>
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "12px",
-                    marginBottom: "12px",
-                    color: "black",
-                    backgroundColor: "#aa9f3b",
-                    display: "inline-block",
-                    paddingLeft: "10px",
-                    paddingRight: "10px",
-                    paddingTop: "2px",
-                    paddingBottom: "2px",
-                    borderRadius: "15px",
-                  }}
-                  className="node-years"
-                >
-                  5 yrs
-                </p>
-
                 <p
                   style={{
                     fontWeight: "bold",
                     fontSize: "20px",
-                    marginBottom: "6px",
+                    marginTop: "6px",
                   }}
                 >
-                  Node.js
+                  Blockchain (64K NFT)
                 </p>
+
+                <div style={{ overflow: "hidden" }}>
+                  <motion.div
+                    initial={{ scale: 1 }} // Initial state: very small and invisible
+                    animate={{
+                      scale: isHoveredNft ? 1.06 : 1, // Zoom in
+                    }}
+                    transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                    style={{
+                      marginTop: "15px",
+                      marginBottom: "15px",
+                    }}
+                    className="project-nft-image"
+                  >
+                    <img
+                      src={projectNft}
+                      alt="home pic"
+                      className="img-fluid"
+                      style={{
+                        maxHeight: "600px",
+                        borderRadius: "15px",
+                        position: "relative",
+                      }}
+                    />
+                  </motion.div>
+                </div>
 
                 <p
                   style={{
                     fontWeight: "normal",
-                    fontSize: "13px",
+                    fontSize: "15px",
                   }}
-                  className="node-special-job"
+                  className="project-nft-special-job"
                 >
-                  Integrated tons of complex APIs (<b>STRIPE</b> Subscriptions,
-                  <b> Blockchain</b> Transactions, <b>AWS S3</b>, more)
+                  Guided team through unknown topic - <b>Deploy 64K NFTs</b> on{" "}
+                  <b>Polygon</b> Chain & increased <b>more 20K users</b> in App.
                 </p>
+
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    marginTop: "15px",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    React
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    Node.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    Sails.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    MySQL
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    REST
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    Redis
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#aa9f3b",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-nft-years"
+                  >
+                    Payment Gateway
+                  </p>
+                </div>
               </motion.div>
             </Col>
 

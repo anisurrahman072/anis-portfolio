@@ -945,6 +945,54 @@ button:focus {
   opacity: 0.6
 }
 
+/* PROJECT NFT */
+/* PROJECT NFT */
+/* PROJECT NFT */
+.project-nft-box {
+  background-color: rgb(39, 39, 22);
+  -webkit-box-shadow: inset 0px 0px 41px 0px rgb(92 89 9);
+  -moz-box-shadow: inset 0px 0px 41px 0px rgb(92 89 9);
+  box-shadow: inset 0px 0px 41px 0px rgb(92 89 9);
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #fff153bf;
+  color: rgb(255, 253, 188);
+}
+
+.project-nft-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(115, 113, 44), 0px 0px 40px -8px rgb(132, 127, 49);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(115, 113, 44), 0px 0px 40px -8px rgb(132, 127, 49);
+  box-shadow: inset 0px 0px 120px 5px rgb(115, 113, 44), 0px 0px 40px -8px rgb(132, 127, 49);
+
+  border: 1px solid #fffb8fbf;
+}
+
+.project-nft-special-job {
+  color: rgb(253, 251, 180);
+  transition: color 0.3s ease; 
+}
+
+.project-nft-box:hover .project-nft-special-job {
+  color: rgb(255, 253, 188) !important;
+}
+
+.project-nft-years {
+  transition: background-color 0.3s ease; 
+}
+
+.project-nft-box:hover .project-nft-years {
+  background-color: rgb(208, 202, 82) !important;
+}
+
+.project-nft-image {
+  opacity: 0.5;
+  transition: opacity 0.3s ease; 
+}
+
+.project-nft-box:hover .project-nft-image {
+  opacity: 0.7
+}
+
+
 
 
 
