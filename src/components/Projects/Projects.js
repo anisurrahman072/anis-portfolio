@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import reactNativeLogo from "../../Assets/react-native.svg";
+import projectBsport from "../../Assets/projectBsport.gif";
 import reactLogo from "../../Assets/react.svg";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
@@ -113,12 +113,12 @@ function Projects() {
       >
         <Container className="leadershipContents">
           <Row>
-            {/* REACT NATIVE SKILL */}
-            {/* REACT NATIVE SKILL */}
-            {/* REACT NATIVE SKILL */}
+            {/* PROJECT BASEMENT SPORTS */}
+            {/* PROJECT BASEMENT SPORTS */}
+            {/* PROJECT BASEMENT SPORTS */}
             <Col
               sm={6}
-              md={3}
+              md={4}
               style={{
                 padding: "10px",
               }}
@@ -151,57 +151,6 @@ function Projects() {
                   },
                 }}
               >
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: -20,
-                    right: -10,
-                    opacity: 0.2,
-                  }}
-                  initial={{ rotate: 0, scale: 1 }}
-                  animate={{
-                    rotate: isHoveredReactNative ? 40 : 0,
-                    scale: isHoveredReactNative ? 1.3 : 1,
-                  }}
-                  transition={{ duration: 0.4 }}
-                >
-                  <img src={reactNativeLogo} height={100} />
-                </motion.div>
-
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: 5,
-                    right: 7,
-                  }}
-                  initial={{ rotate: 0, scale: 1 }}
-                  animate={{
-                    rotate: isHoveredReactNative ? 30 : 0,
-                    scale: isHoveredReactNative ? 1.3 : 1,
-                  }}
-                  transition={{ duration: 0.45 }}
-                >
-                  <img src={reactNativeLogo} height={60} />
-                </motion.div>
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "12px",
-                    marginBottom: "12px",
-                    color: "black",
-                    backgroundColor: "rgb(68, 118, 192)",
-                    display: "inline-block",
-                    paddingLeft: "10px",
-                    paddingRight: "10px",
-                    paddingTop: "2px",
-                    paddingBottom: "2px",
-                    borderRadius: "15px",
-                  }}
-                  className="react-native-years"
-                >
-                  3 yrs
-                </p>
-
                 <p
                   style={{
                     fontWeight: "bold",
@@ -209,19 +158,154 @@ function Projects() {
                     marginBottom: "6px",
                   }}
                 >
-                  React Native
+                  Sports Scoring App
                 </p>
+
+                <div style={{ marginTop: "20px", marginBottom: "15px" }}>
+                  <img
+                    src={projectBsport}
+                    alt="home pic"
+                    className="img-fluid"
+                    style={{
+                      maxHeight: "600px",
+                      borderRadius: "15px",
+                      position: "relative",
+                    }}
+                  />
+                </div>
 
                 <p
                   style={{
                     fontWeight: "normal",
-                    fontSize: "13px",
+                    fontSize: "15px",
                   }}
                   className="react-native-special-job"
                 >
-                  Integrated complex SDKs (<b>IAP</b>, <b>Video Stream</b>,
-                  <b> Camera</b>, <b>Jest</b>, more) & maintained deployments.
+                  I led full-stack mobile (Android & iOS) & web development,
+                  enabling 5-10 investors by Sports Streaming feature.
                 </p>
+
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    marginTop: "15px",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    React Native
+                  </div>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    React
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    Node.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    Next.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    GraphQL
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="react-native-years"
+                  >
+                    MongoDB
+                  </p>
+                </div>
               </motion.div>
             </Col>
 
@@ -230,7 +314,7 @@ function Projects() {
             {/* REACT SKILL */}
             <Col
               sm={6}
-              md={3}
+              md={4}
               style={{
                 padding: "10px",
               }}
@@ -344,7 +428,7 @@ function Projects() {
             {/* NODE SKILL */}
             <Col
               sm={6}
-              md={3}
+              md={4}
               style={{
                 padding: "10px",
               }}
@@ -457,7 +541,7 @@ function Projects() {
             {/* MONGODB SKILL */}
             <Col
               sm={6}
-              md={3}
+              md={4}
               style={{
                 padding: "10px",
               }}
