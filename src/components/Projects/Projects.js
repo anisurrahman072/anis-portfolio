@@ -423,7 +423,7 @@ function Projects() {
                   }}
                   className="project-ecommerce-special-job"
                 >
-                  Orchestrated <b>requirement analysis</b> and{" "}
+                  Orchestrated <b>requirement analysis</b> and led{" "}
                   <b>full-stack development</b>, boosting orders to <b>$35M</b>.
                 </p>
 
@@ -547,6 +547,25 @@ function Projects() {
                     className="project-ecommerce-years"
                   >
                     Redis
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    Payment Gateway
                   </p>
                 </div>
               </motion.div>
