@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import projectBsport from "../../Assets/projectBsport.gif";
-import reactLogo from "../../Assets/react.svg";
+import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import nodeJsLogo from "../../Assets/nodejs.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
@@ -11,8 +11,8 @@ function Projects() {
   const [isMobile, setIsMobile] = useState(false);
 
   // Hover STATES
-  const [isHoveredReactNative, setIsHoveredReactNative] = useState(false);
-  const [isHoveredReact, setIsHoveredReact] = useState(false);
+  const [isHoveredBsport, setIsHoveredBsport] = useState(false);
+  const [isHoveredEcommerce, setIsHoveredEcommerce] = useState(false);
   const [isHoveredNode, setIsHoveredNode] = useState(false);
   const [isHoveredMongo, setIsHoveredMongo] = useState(false);
 
@@ -41,12 +41,12 @@ function Projects() {
     };
   }, []);
 
-  const handleHoverReactNative = () => {
-    setIsHoveredReactNative(!isHoveredReactNative);
+  const handleHoverBsport = () => {
+    setIsHoveredBsport(!isHoveredBsport);
   };
 
-  const handleHoverReact = () => {
-    setIsHoveredReact(!isHoveredReact);
+  const handleHoverEcommerce = () => {
+    setIsHoveredEcommerce(!isHoveredEcommerce);
   };
 
   const handleHoverNode = () => {
@@ -133,8 +133,8 @@ function Projects() {
                   overflow: "hidden",
                   height: "100%",
                 }}
-                onHoverStart={handleHoverReactNative}
-                onHoverEnd={handleHoverReactNative}
+                onHoverStart={handleHoverBsport}
+                onHoverEnd={handleHoverBsport}
                 variants={{
                   hidden: {
                     x: -100,
@@ -165,7 +165,7 @@ function Projects() {
                   <motion.div
                     initial={{ scale: 1 }} // Initial state: very small and invisible
                     animate={{
-                      scale: isHoveredReactNative ? 1.06 : 1, // Zoom in
+                      scale: isHoveredBsport ? 1.06 : 1, // Zoom in
                     }}
                     transition={{ duration: 0.45 }} // Animation duration (in seconds)
                     style={{
@@ -319,13 +319,32 @@ function Projects() {
                   >
                     MongoDB
                   </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(68, 118, 192)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-bsport-years"
+                  >
+                    Streaming (Agora)
+                  </p>
                 </div>
               </motion.div>
             </Col>
 
-            {/* REACT SKILL */}
-            {/* REACT SKILL */}
-            {/* REACT SKILL */}
+            {/* PROJECT BASEMENT SPORTS */}
+            {/* PROJECT BASEMENT SPORTS */}
+            {/* PROJECT BASEMENT SPORTS */}
             <Col
               sm={6}
               md={4}
@@ -334,7 +353,7 @@ function Projects() {
               }}
             >
               <motion.div
-                className="react-skill-box cursor-pointer"
+                className="project-ecommerce-box cursor-pointer"
                 style={{
                   borderRadius: "15px",
                   padding: "20px",
@@ -343,8 +362,8 @@ function Projects() {
                   overflow: "hidden",
                   height: "100%",
                 }}
-                onHoverStart={handleHoverReact}
-                onHoverEnd={handleHoverReact}
+                onHoverStart={handleHoverEcommerce}
+                onHoverEnd={handleHoverEcommerce}
                 variants={{
                   hidden: {
                     x: -100,
@@ -356,84 +375,180 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 0.5,
+                      delay: 0,
                     },
-                    visibility: 2,
                   },
                 }}
               >
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: -20,
-                    right: -10,
-                    opacity: 0.2,
-                  }}
-                  initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
-                  animate={{
-                    rotate: isHoveredReact ? -40 : 0,
-                    scale: isHoveredReact ? 0.4 : 1,
-                    x: isHoveredReact ? -60 : 0,
-                  }}
-                  transition={{ duration: 0.45 }}
-                >
-                  <img src={reactLogo} height={100} />
-                </motion.div>
-
-                <motion.div
-                  style={{
-                    position: "absolute",
-                    top: 5,
-                    right: 7,
-                  }}
-                  initial={{ rotate: 0, scale: 1 }}
-                  animate={{
-                    rotate: isHoveredReact ? -40 : 0,
-                    scale: isHoveredReact ? 1.3 : 1,
-                  }}
-                  transition={{ duration: 0.45 }}
-                >
-                  <img src={reactLogo} height={60} />
-                </motion.div>
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "12px",
-                    marginBottom: "12px",
-                    color: "black",
-                    backgroundColor: "#3b91aa",
-                    display: "inline-block",
-                    paddingLeft: "10px",
-                    paddingRight: "10px",
-                    paddingTop: "2px",
-                    paddingBottom: "2px",
-                    borderRadius: "15px",
-                  }}
-                  className="react-years"
-                >
-                  5 yrs
-                </p>
-
                 <p
                   style={{
                     fontWeight: "bold",
                     fontSize: "20px",
-                    marginBottom: "6px",
+                    marginTop: "6px",
                   }}
                 >
-                  React
+                  E-commerce
                 </p>
+
+                <div style={{ overflow: "hidden" }}>
+                  <motion.div
+                    initial={{ scale: 1 }} // Initial state: very small and invisible
+                    animate={{
+                      scale: isHoveredEcommerce ? 1.06 : 1, // Zoom in
+                    }}
+                    transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                    style={{
+                      marginTop: "15px",
+                      marginBottom: "15px",
+                    }}
+                    className="project-ecommerce-image"
+                  >
+                    <img
+                      src={projectEcommerce}
+                      alt="home pic"
+                      className="img-fluid"
+                      style={{
+                        maxHeight: "600px",
+                        borderRadius: "15px",
+                        position: "relative",
+                      }}
+                    />
+                  </motion.div>
+                </div>
 
                 <p
                   style={{
                     fontWeight: "normal",
-                    fontSize: "13px",
+                    fontSize: "15px",
                   }}
-                  className="react-special-job"
+                  className="project-ecommerce-special-job"
                 >
-                  Handled complex <b>Renderings</b> (Join multiple Live Streams
-                  with distinct Socket data, more).
+                  Orchestrated <b>requirement analysis</b> and{" "}
+                  <b>full-stack development</b>, boosting orders to <b>$35M</b>.
                 </p>
+
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    marginTop: "15px",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    React
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    Node.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    Sails.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    MySQL
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    REST
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "#3b91aa",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-ecommerce-years"
+                  >
+                    Redis
+                  </p>
+                </div>
               </motion.div>
             </Col>
 
