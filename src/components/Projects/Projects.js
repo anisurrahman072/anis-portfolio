@@ -124,7 +124,7 @@ function Projects() {
               }}
             >
               <motion.div
-                className="react-native-skill-box cursor-pointer"
+                className="project-bsport-box cursor-pointer"
                 style={{
                   borderRadius: "15px",
                   padding: "20px",
@@ -161,17 +161,30 @@ function Projects() {
                   Sports Scoring App
                 </p>
 
-                <div style={{ marginTop: "20px", marginBottom: "15px" }}>
-                  <img
-                    src={projectBsport}
-                    alt="home pic"
-                    className="img-fluid"
-                    style={{
-                      maxHeight: "600px",
-                      borderRadius: "15px",
-                      position: "relative",
+                <div style={{ overflow: "hidden" }}>
+                  <motion.div
+                    initial={{ scale: 1 }} // Initial state: very small and invisible
+                    animate={{
+                      scale: isHoveredReactNative ? 1.06 : 1, // Zoom in
                     }}
-                  />
+                    transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                    style={{
+                      marginTop: "20px",
+                      marginBottom: "15px",
+                    }}
+                    className="project-bsport-image"
+                  >
+                    <img
+                      src={projectBsport}
+                      alt="home pic"
+                      className="img-fluid"
+                      style={{
+                        maxHeight: "600px",
+                        borderRadius: "15px",
+                        position: "relative",
+                      }}
+                    />
+                  </motion.div>
                 </div>
 
                 <p
@@ -179,10 +192,11 @@ function Projects() {
                     fontWeight: "normal",
                     fontSize: "15px",
                   }}
-                  className="react-native-special-job"
+                  className="project-bsport-special-job"
                 >
-                  I led full-stack mobile (Android & iOS) & web development,
-                  enabling 5-10 investors by Sports Streaming feature.
+                  I led full-stack <b>mobile</b> (Android & iOS) & <b>web</b>{" "}
+                  development, enabling <b>5-10 investors</b> by Sports
+                  Streaming feature.
                 </p>
 
                 <div
@@ -206,7 +220,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     React Native
                   </div>
@@ -225,7 +239,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     React
                   </p>
@@ -244,7 +258,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     Node.js
                   </p>
@@ -263,7 +277,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     Next.js
                   </p>
@@ -282,7 +296,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     GraphQL
                   </p>
@@ -301,7 +315,7 @@ function Projects() {
                       marginRight: "10px",
                       marginBottom: "10px",
                     }}
-                    className="react-native-years"
+                    className="project-bsport-years"
                   >
                     MongoDB
                   </p>
