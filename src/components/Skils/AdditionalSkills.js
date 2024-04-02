@@ -6,7 +6,7 @@ import ethereumLogo from "../../Assets/ethereum.svg";
 import mysqlLogo from "../../Assets/mysql.svg";
 import rabbitmqLogo from "../../Assets/rabbitmq.svg";
 import microserviceLogo from "../../Assets/microservice.svg";
-import nodeJsLogo from "../../Assets/nodejs.svg";
+import awsLogo from "../../Assets/aws.svg";
 import mongodbLogo from "../../Assets/mongodb.svg";
 import { motion } from "framer-motion";
 
@@ -15,6 +15,7 @@ function AdditionalSkills() {
   const [isHoveredGraphql, setIsHoveredGraphql] = useState(false);
   const [isHoveredNextjs, setIsHoveredNextjs] = useState(false);
   const [isHoveredBlockchain, setIsHoveredBlockchain] = useState(false);
+  const [isHoveredAws, setIsHoveredAws] = useState(false);
   const [isHoveredMysql, setIsHoveredMysql] = useState(false);
   const [isHoveredRabbitmq, setIsHoveredRabbitmq] = useState(false);
   const [isHoveredMicroservice, setIsHoveredMicroservice] = useState(false);
@@ -29,6 +30,10 @@ function AdditionalSkills() {
 
   const handleHoverBlockchain = () => {
     setIsHoveredBlockchain(!isHoveredBlockchain);
+  };
+
+  const handleHoverAws = () => {
+    setIsHoveredAws(!isHoveredAws);
   };
 
   const handleHoverMysql = () => {
@@ -413,6 +418,119 @@ function AdditionalSkills() {
               >
                 Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
                 Token in <b>Polygon</b> chain.
+              </p>
+            </motion.div>
+          </Col>
+
+          {/* AWS S3 SKILL */}
+          {/* AWS S3 SKILL */}
+          {/* AWS S3 SKILL */}
+          <Col
+            sm={6}
+            md={3}
+            style={{
+              padding: "10px",
+            }}
+          >
+            <motion.div
+              className="aws-skill-box cursor-pointer"
+              style={{
+                borderRadius: "15px",
+                padding: "20px",
+                textAlign: "left",
+                position: "relative",
+                overflow: "hidden",
+                height: "100%",
+              }}
+              onHoverStart={handleHoverAws}
+              onHoverEnd={handleHoverAws}
+              variants={{
+                hidden: {
+                  x: -100,
+                  opacity: 0,
+                },
+                show: {
+                  x: 0,
+                  opacity: 1,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    delay: 1.5,
+                  },
+                  visibility: 2,
+                },
+              }}
+            >
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: -10,
+                  right: -5,
+                  opacity: 0.2,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredAws ? -10 : 0,
+                  scale: isHoveredAws ? 0 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={awsLogo} height={100} />
+              </motion.div>
+
+              <motion.div
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 12,
+                }}
+                initial={{ rotate: 0, scale: 1 }}
+                animate={{
+                  rotate: isHoveredAws ? -10 : 0,
+                  scale: isHoveredAws ? 1.3 : 1,
+                }}
+                transition={{ duration: 0.45 }}
+              >
+                <img src={awsLogo} height={60} />
+              </motion.div>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "12px",
+                  marginBottom: "12px",
+                  color: "black",
+                  backgroundColor: "rgb(68, 118, 192)",
+                  display: "inline-block",
+                  paddingLeft: "10px",
+                  paddingRight: "10px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  borderRadius: "15px",
+                }}
+                className="aws-years"
+              >
+                1 yrs
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginBottom: "6px",
+                }}
+              >
+                AWS S3
+              </p>
+
+              <p
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "13px",
+                }}
+                className="aws-special-job"
+              >
+                Integrated AWS S3 module with <b>RN</b> & <b>Node.js</b> for{" "}
+                <b>Agora Streaming</b> Cloud Recording.
               </p>
             </motion.div>
           </Col>
