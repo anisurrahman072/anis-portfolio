@@ -361,9 +361,9 @@ function Projects() {
               </motion.div>
             </Col>
 
-            {/* PROJECT BASEMENT SPORTS */}
-            {/* PROJECT BASEMENT SPORTS */}
-            {/* PROJECT BASEMENT SPORTS */}
+            {/* PROJECT ECOMMERCE */}
+            {/* PROJECT ECOMMERCE */}
+            {/* PROJECT ECOMMERCE */}
             <Col
               sm={6}
               md={4}
