@@ -77,7 +77,7 @@ function AdditionalSkills() {
             marginBottom: "50px",
           }}
         >
-          MORE - <strong className="main-name">R&D</strong> SUCCESS
+          MORE - <strong className="main-name">R&D</strong> SKILLS
         </h1>
       </motion.div>
 
