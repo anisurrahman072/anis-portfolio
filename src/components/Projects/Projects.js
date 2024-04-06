@@ -400,7 +400,7 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 0,
+                      delay: 0.5,
                     },
                   },
                 }}
@@ -629,7 +629,7 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 0,
+                      delay: 1,
                     },
                   },
                 }}
@@ -839,7 +839,7 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 0,
+                      delay: 1.5,
                     },
                   },
                 }}
@@ -1031,7 +1031,7 @@ function Projects() {
                     transition: {
                       type: "spring",
                       duration: 1.25,
-                      delay: 0,
+                      delay: 2,
                     },
                   },
                 }}
