@@ -4,6 +4,7 @@ import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
 import projectYouth from "../../Assets/projectYouth.gif";
+import projectTruck from "../../Assets/projectTruck.gif";
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -15,6 +16,7 @@ function Projects() {
   const [isHoveredEcommerce, setIsHoveredEcommerce] = useState(false);
   const [isHoveredNft, setIsHoveredNft] = useState(false);
   const [isHoveredYouth, setIsHoveredYouth] = useState(false);
+  const [isHoveredTruck, setIsHoveredTruck] = useState(false);
 
   // STATE for checking Hover
   const [isHoveredBook, setIsHoveredBook] = useState(false);
@@ -55,6 +57,10 @@ function Projects() {
 
   const handleHoverYouth = () => {
     setIsHoveredYouth(!isHoveredYouth);
+  };
+
+  const handleHoverTruck = () => {
+    setIsHoveredTruck(!isHoveredTruck);
   };
 
   return (
@@ -112,7 +118,7 @@ function Projects() {
         viewport={{ once: true }}
       >
         <Container className="projectsContents">
-          <Row>
+          <Row className="justify-content-center">
             {/* PROJECT BASEMENT SPORTS */}
             {/* PROJECT BASEMENT SPORTS */}
             {/* PROJECT BASEMENT SPORTS */}
@@ -987,6 +993,178 @@ function Projects() {
                     className="project-youth-years"
                   >
                     MySQL
+                  </p>
+                </div>
+              </motion.div>
+            </Col>
+
+            {/* PROJECT TRUCK MANAGEMENT */}
+            {/* PROJECT TRUCK MANAGEMENT */}
+            {/* PROJECT TRUCK MANAGEMENT */}
+            <Col
+              sm={6}
+              md={4}
+              style={{
+                padding: "18px",
+              }}
+            >
+              <motion.div
+                className="project-truck-box cursor-pointer"
+                style={{
+                  borderRadius: "15px",
+                  padding: "20px",
+                  textAlign: "left",
+                  position: "relative",
+                  overflow: "hidden",
+                  height: "100%",
+                }}
+                onHoverStart={handleHoverTruck}
+                onHoverEnd={handleHoverTruck}
+                variants={{
+                  hidden: {
+                    x: -100,
+                    opacity: 0,
+                  },
+                  show: {
+                    x: 0,
+                    opacity: 1,
+                    transition: {
+                      type: "spring",
+                      duration: 1.25,
+                      delay: 0,
+                    },
+                  },
+                }}
+              >
+                <p
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: "23px",
+                    marginTop: "6px",
+                  }}
+                >
+                  Truck Management
+                </p>
+
+                <div style={{ overflow: "hidden" }}>
+                  <motion.div
+                    initial={{ scale: 1 }} // Initial state: very small and invisible
+                    animate={{
+                      scale: isHoveredTruck ? 1.06 : 1, // Zoom in
+                    }}
+                    transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                    style={{
+                      marginTop: "15px",
+                      marginBottom: "15px",
+                    }}
+                    className="project-truck-image"
+                  >
+                    <img
+                      src={projectTruck}
+                      alt="home pic"
+                      className="img-fluid"
+                      style={{
+                        maxHeight: "600px",
+                        borderRadius: "15px",
+                        position: "relative",
+                      }}
+                    />
+                  </motion.div>
+                </div>
+
+                <p
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "15px",
+                  }}
+                  className="project-truck-special-job"
+                >
+                  Integrated 3 BD <b>payment gateways</b>, delivered{" "}
+                  <b>full-stack</b> solutions, and enrolled <b>50K+ users</b>.
+                </p>
+
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    marginTop: "15px",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(94 94 211)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-truck-years"
+                  >
+                    React
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(94 94 211)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-truck-years"
+                  >
+                    Node.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(94 94 211)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-truck-years"
+                  >
+                    Express.js
+                  </p>
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "12px",
+                      color: "black",
+                      backgroundColor: "rgb(94 94 211)",
+                      display: "inline-block",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      borderRadius: "15px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                    className="project-truck-years"
+                  >
+                    MongoDB
                   </p>
                 </div>
               </motion.div>

@@ -299,7 +299,6 @@ function Home() {
       <LeadershipSkills />
       {/* MY PROJECTS */}
       <Projects />
-      <Home2 />
     </section>
   );
 }
