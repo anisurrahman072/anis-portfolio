@@ -154,7 +154,7 @@ function Projects() {
                 <p
                   style={{
                     fontWeight: "bold",
-                    fontSize: "20px",
+                    fontSize: "23px",
                     marginTop: "6px",
                   }}
                 >
@@ -402,11 +402,11 @@ function Projects() {
                 <p
                   style={{
                     fontWeight: "bold",
-                    fontSize: "20px",
+                    fontSize: "23px",
                     marginTop: "6px",
                   }}
                 >
-                  E-commerce
+                  E-Commerce
                 </p>
 
                 <div style={{ overflow: "hidden" }}>
@@ -631,7 +631,7 @@ function Projects() {
                 <p
                   style={{
                     fontWeight: "bold",
-                    fontSize: "20px",
+                    fontSize: "23px",
                     marginTop: "6px",
                   }}
                 >
@@ -841,7 +841,7 @@ function Projects() {
                 <p
                   style={{
                     fontWeight: "bold",
-                    fontSize: "20px",
+                    fontSize: "23px",
                     marginTop: "6px",
                   }}
                 >
