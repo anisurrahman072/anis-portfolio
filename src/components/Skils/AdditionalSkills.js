@@ -370,7 +370,7 @@ function AdditionalSkills() {
                 }}
                 className="blockchain-years"
               >
-                1 yrs
+                2 yrs
               </p>
 
               <p
