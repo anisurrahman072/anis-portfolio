@@ -258,15 +258,26 @@ button:focus {
 .home-section {
   position: relative;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  height: 100vh !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .home-section {
+    height: 100% !important;
+  }
 }
 
 @media (max-width: 767px) {
   .home-section {
-    background-size: cover;
+    height: 100% !important;
   }
 }
 
