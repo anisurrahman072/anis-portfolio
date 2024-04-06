@@ -73,7 +73,7 @@ function LeadershipSkills() {
             <h1
               style={{
                 color: "white",
-                marginTop: "80px",
+                marginTop: "90px",
               }}
             >
               PROVEN <strong className="main-name">LEADERSHIP</strong> SUCCESS
