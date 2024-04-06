@@ -174,7 +174,7 @@ function Home() {
                     className="custom-link cursor-pointer"
                   >
                     I'm <b style={{ color: "gold" }}>official</b> community
-                    contributor of RN Testing Lib 🔗
+                    contributor of RN Testing SDK 🔗
                   </a>
                 </h5>
               </motion.div>
