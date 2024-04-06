@@ -120,7 +120,7 @@ function Projects() {
               sm={6}
               md={4}
               style={{
-                padding: "10px",
+                padding: "18px",
               }}
             >
               <motion.div
@@ -368,7 +368,7 @@ function Projects() {
               sm={6}
               md={4}
               style={{
-                padding: "10px",
+                padding: "18px",
               }}
             >
               <motion.div
@@ -597,7 +597,7 @@ function Projects() {
               sm={6}
               md={4}
               style={{
-                padding: "10px",
+                padding: "18px",
               }}
             >
               <motion.div
@@ -807,7 +807,7 @@ function Projects() {
               sm={6}
               md={4}
               style={{
-                padding: "10px",
+                padding: "18px",
               }}
             >
               <motion.div
