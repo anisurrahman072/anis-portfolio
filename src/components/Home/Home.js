@@ -9,6 +9,7 @@ import Skills from "../Skils/Skills";
 import AdditionalSkills from "../Skils/AdditionalSkills";
 import LeadershipSkills from "../Skils/LeadershipSkills";
 import Projects from "../Projects/Projects";
+import GoDownLogo from "../../Assets/godown.svg";
 
 function Home() {
   // STATE for mobile device
@@ -16,6 +17,9 @@ function Home() {
 
   // STATE for checking Hover
   const [isHoveredBook, setIsHoveredBook] = useState(false);
+
+  // Show down indicator button when scrolled
+  const [showGoDown, setShowGoDown] = useState(true);
 
   const handleHoverBook = () => {
     setIsHoveredBook(!isHoveredBook);
@@ -39,6 +43,24 @@ function Home() {
     };
   }, []);
 
+  // Show down indicator button when scrolled
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 130) {
+        setShowGoDown(false);
+      } else {
+        setShowGoDown(true);
+      }
+    };
+
+    // Add event listener for scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -221,6 +243,50 @@ function Home() {
               </div>
             </Col>
           </Row>
+          <div id="skills-section-id"></div>
+          {showGoDown && (
+            <div
+              style={{
+                position: "fixed",
+                bottom: 30,
+                right: 20,
+                textDecoration: "null",
+              }}
+            >
+              <a
+                href="#skills-section-id"
+                className="custom-link cursor-pointer"
+              >
+                <div
+                  style={{
+                    borderRadius: "25px",
+                    height: "80px",
+                  }}
+                  className="show-godown-box"
+                >
+                  <div>
+                    <motion.div
+                      animate={{
+                        y: [0, 24, 0],
+                      }}
+                      transition={{
+                        duration: 1.5,
+                        repeat: Infinity,
+                        repeatType: "loop",
+                      }}
+                      style={{
+                        fontSize: "30px",
+                        textDecoration: null,
+                        padding: "5px",
+                      }}
+                    >
+                      <img src={GoDownLogo} height={20} widtj={20} />
+                    </motion.div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          )}
         </Container>
       </Container>
       {/* Skills Component */}

@@ -385,6 +385,25 @@ button:focus {
   padding-right: 50px !important;
 }
 
+/* Show Go Down Indicator */
+.show-godown-box {
+  background-color: rgb(21 16 24);
+  -webkit-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  -moz-box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  box-shadow: inset 0px 0px 76px -8px #4e2b6b;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #6d33a7;
+  color: #ecdef9;
+}
+
+.show-godown-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  -moz-box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(113, 67, 161);
+  box-shadow: inset 0px 0px 120px 5px rgb(78, 28, 120), 0px 0px 40px -8px rgb(122, 76, 171);
+
+  border: 1px solid #8645c7;
+}
+
 /* REACT NATIVE SKILL */
 /* REACT NATIVE SKILL */
 /* REACT NATIVE SKILL */
