@@ -55,32 +55,6 @@ function AdditionalSkills() {
       viewport={{ once: true }}
       style={{ position: "relative", paddingBottom: "110px" }}
     >
-      <motion.div
-        variants={{
-          hidden: {
-            y: -100,
-            opacity: 0,
-          },
-          show: {
-            y: 0,
-            opacity: 1,
-            transition: {
-              type: "spring",
-              duration: 1.25,
-            },
-          },
-        }}
-      >
-        <h1
-          style={{
-            color: "white",
-            marginBottom: "50px",
-          }}
-        >
-          MORE - <strong className="main-name">R&D</strong> SKILLS
-        </h1>
-      </motion.div>
-
       <Container className="skills-container">
         <Row className="justify-content-center">
           {/* GRAPHQL SKILL */}
@@ -293,7 +267,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                Next.js
+                Next.js (R&D)
               </p>
 
               <p
@@ -406,7 +380,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                Blockchain
+                Blockchain (R&D)
               </p>
 
               <p
@@ -416,8 +390,8 @@ function AdditionalSkills() {
                 }}
                 className="blockchain-special-job"
               >
-                Done deep R&D and led team to deploy <b>64K NFT</b> & ERC20
-                Token in <b>Polygon</b> chain.
+                Done deep R&D and led team to deploy <b>64K NFT</b>, ERC20{" "}
+                <b>Token</b> in Polygon & <b>Trading bot</b> in Solana.
               </p>
             </motion.div>
           </Col>
@@ -747,7 +721,7 @@ function AdditionalSkills() {
                   marginBottom: "6px",
                 }}
               >
-                RabbitMQ
+                RabbitMQ (R&D)
               </p>
 
               <p

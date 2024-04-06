@@ -59,11 +59,11 @@ function Skills() {
             marginBottom: "50px",
           }}
         >
-          FULL-STACK <strong className="main-name">MAJOR</strong> SKILLS
+          FULL-STACK <strong className="main-name">5 YEARS</strong> SKILLS
         </h1>
       </motion.div>
 
-      <Container className="skills-container" style={{ marginBottom: "60px" }}>
+      <Container className="skills-container">
         <Row>
           {/* REACT NATIVE SKILL */}
           {/* REACT NATIVE SKILL */}
