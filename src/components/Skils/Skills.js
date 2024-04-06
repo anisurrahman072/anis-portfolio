@@ -157,7 +157,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -271,7 +271,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -384,7 +384,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -499,7 +499,7 @@ function Skills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >

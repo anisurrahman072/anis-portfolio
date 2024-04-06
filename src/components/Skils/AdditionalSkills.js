@@ -149,7 +149,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                   position: "relative",
                 }}
@@ -263,7 +263,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -376,7 +376,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -489,7 +489,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -602,7 +602,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -717,7 +717,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
@@ -832,7 +832,7 @@ function AdditionalSkills() {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "20px",
+                  fontSize: "23px",
                   marginBottom: "6px",
                 }}
               >
