@@ -236,7 +236,6 @@ function LeadershipSkills() {
                     show: {
                       scale: isHoveredBook ? 1.03 : 1, // Zoom in
                       opacity: 1, // Fade in
-                      rotate: 360, // Rotate 360 degrees (circulating)
                       transition: {
                         type: "spring",
                         duration: isHoveredBook ? 0.5 : 2.5,
