@@ -12,11 +12,12 @@ function Blogs() {
   const [isMobile, setIsMobile] = useState(false);
 
   // Hover STATES
-  const [isHoveredBsport, setIsHoveredBsport] = useState(false);
-  const [isHoveredEcommerce, setIsHoveredEcommerce] = useState(false);
-  const [isHoveredNft, setIsHoveredNft] = useState(false);
-  const [isHoveredYouth, setIsHoveredYouth] = useState(false);
-  const [isHoveredTruck, setIsHoveredTruck] = useState(false);
+  const [isHoveredTesting, setIsHoveredTesting] = useState(false);
+  const [isHoveredDebug, setIsHoveredDebug] = useState(false);
+  const [isHoveredNewArch, setIsHoveredNewArch] = useState(false);
+  const [isHoveredPerformance, setIsHoveredPerformance] = useState(false);
+  const [isHoveredNestedVirtual, setIsHoveredNestedVirtual] = useState(false);
+  const [isHoveredIap, setIsHoveredIap] = useState(false);
 
   // STATE for checking Hover
   const [isHoveredBook, setIsHoveredBook] = useState(false);
@@ -43,24 +44,28 @@ function Blogs() {
     };
   }, []);
 
-  const handleHoverBsport = () => {
-    setIsHoveredBsport(!isHoveredBsport);
+  const handleHoverTesting = () => {
+    setIsHoveredTesting(!isHoveredTesting);
   };
 
-  const handleHoverEcommerce = () => {
-    setIsHoveredEcommerce(!isHoveredEcommerce);
+  const handleHoverDebug = () => {
+    setIsHoveredDebug(!isHoveredDebug);
   };
 
-  const handleHoverNft = () => {
-    setIsHoveredNft(!isHoveredNft);
+  const handleHoverNewArch = () => {
+    setIsHoveredNewArch(!isHoveredNewArch);
   };
 
-  const handleHoverYouth = () => {
-    setIsHoveredYouth(!isHoveredYouth);
+  const handleHoverPerformance = () => {
+    setIsHoveredPerformance(!isHoveredPerformance);
   };
 
-  const handleHoverTruck = () => {
-    setIsHoveredTruck(!isHoveredTruck);
+  const handleHoverNestedVirtual = () => {
+    setIsHoveredNestedVirtual(!isHoveredNestedVirtual);
+  };
+
+  const handleHoverIap = () => {
+    setIsHoveredIap(!isHoveredIap);
   };
 
   return (
@@ -91,7 +96,7 @@ function Blogs() {
             <h1
               style={{
                 color: "white",
-                paddingTop: "150px",
+                paddingTop: "140px",
               }}
             >
               MY <strong className="main-name">BLOGS</strong> - CODE INSIGHTS
@@ -132,8 +137,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverTesting}
+                    onHoverEnd={handleHoverTesting}
                     variants={{
                       hidden: {
                         x: -100,
@@ -154,7 +159,7 @@ function Blogs() {
                       <motion.div
                         initial={{ scale: 1 }} // Initial state: very small and invisible
                         animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                          scale: isHoveredTesting ? 1.04 : 1, // Zoom in
                         }}
                         transition={{ duration: 0.45 }} // Animation duration (in seconds)
                         className="blog-image"
@@ -198,8 +203,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverDebug}
+                    onHoverEnd={handleHoverDebug}
                     variants={{
                       hidden: {
                         x: -100,
@@ -220,7 +225,7 @@ function Blogs() {
                       <motion.div
                         initial={{ scale: 1 }} // Initial state: very small and invisible
                         animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                          scale: isHoveredDebug ? 1.04 : 1, // Zoom in
                         }}
                         transition={{ duration: 0.45 }} // Animation duration (in seconds)
                         className="blog-image"
@@ -264,8 +269,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverNewArch}
+                    onHoverEnd={handleHoverNewArch}
                     variants={{
                       hidden: {
                         x: -100,
@@ -286,7 +291,7 @@ function Blogs() {
                       <motion.div
                         initial={{ scale: 1 }} // Initial state: very small and invisible
                         animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                          scale: isHoveredNewArch ? 1.04 : 1, // Zoom in
                         }}
                         transition={{ duration: 0.45 }} // Animation duration (in seconds)
                         className="blog-image"
@@ -330,8 +335,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverPerformance}
+                    onHoverEnd={handleHoverPerformance}
                     variants={{
                       hidden: {
                         x: -100,
@@ -351,7 +356,7 @@ function Blogs() {
                     <motion.div
                       initial={{ scale: 1 }} // Initial state: very small and invisible
                       animate={{
-                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                        scale: isHoveredPerformance ? 1.04 : 1, // Zoom in
                       }}
                       transition={{ duration: 0.45 }} // Animation duration (in seconds)
                       className="blog-image"
@@ -398,8 +403,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverNestedVirtual}
+                    onHoverEnd={handleHoverNestedVirtual}
                     variants={{
                       hidden: {
                         x: -100,
@@ -420,7 +425,7 @@ function Blogs() {
                       <motion.div
                         initial={{ scale: 1 }} // Initial state: very small and invisible
                         animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                          scale: isHoveredNestedVirtual ? 1.04 : 1, // Zoom in
                         }}
                         transition={{ duration: 0.45 }} // Animation duration (in seconds)
                         className="blog-image"
@@ -464,8 +469,8 @@ function Blogs() {
                       height: "100%",
                       overflow: "hidden",
                     }}
-                    onHoverStart={handleHoverBsport}
-                    onHoverEnd={handleHoverBsport}
+                    onHoverStart={handleHoverIap}
+                    onHoverEnd={handleHoverIap}
                     variants={{
                       hidden: {
                         x: -100,
@@ -486,7 +491,7 @@ function Blogs() {
                       <motion.div
                         initial={{ scale: 1 }} // Initial state: very small and invisible
                         animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                          scale: isHoveredIap ? 1.04 : 1, // Zoom in
                         }}
                         transition={{ duration: 0.45 }} // Animation duration (in seconds)
                         className="blog-image"
