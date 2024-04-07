@@ -12,6 +12,7 @@ import Projects from "../Projects/Projects";
 import GoDownLogo from "../../Assets/godown.svg";
 import Testimonials from "../Testimonials/Testimonials";
 import Blogs from "../Blog/Blogs";
+import Contact from "../Contact/Contact";
 
 function Home() {
   // STATE for mobile device
@@ -305,6 +306,8 @@ function Home() {
       <Blogs />
       {/* Testimonials */}
       <Testimonials />
+      {/* CONTACT */}
+      <Contact />
     </section>
   );
 }
