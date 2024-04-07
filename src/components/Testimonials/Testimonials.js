@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Maciej from "../../Assets/maciej.jpg";
+import Vadim from "../../Assets/vadim.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -138,9 +139,9 @@ function Testimonials() {
         <div className="inner">
           <div className="wrapper1">
             <section style={{ "--speed": `${40000}ms` }} className="my-section">
-              {/* PROJECT BASEMENT SPORTS */}
-              {/* PROJECT BASEMENT SPORTS */}
-              {/* PROJECT BASEMENT SPORTS */}
+              {/* MACIEJ */}
+              {/* MACIEJ */}
+              {/* MACIEJ */}
               <div
                 style={{
                   minWidth: "350px",
@@ -148,7 +149,7 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="testimonial-box cursor-pointer"
+                  className="testimonial-box"
                   style={{
                     borderRadius: "15px",
                     padding: "30px",
@@ -196,9 +197,9 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* PROJECT ECOMMERCE */}
-              {/* PROJECT ECOMMERCE */}
-              {/* PROJECT ECOMMERCE */}
+              {/* VADIM */}
+              {/* VADIM */}
+              {/* VADIM */}
               <div
                 style={{
                   minWidth: "350px",
@@ -206,204 +207,42 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="project-ecommerce-box cursor-pointer"
+                  className="testimonial-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
+                    padding: "30px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    E-Commerce
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredEcommerce ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Vadim}
+                      alt="home pic"
                       style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
                       }}
-                      className="project-ecommerce-image"
-                    >
-                      <img
-                        src={projectEcommerce}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Vadim Savin</div>
+                      <div>CEO of @NotJustDev</div>
+                    </div>
                   </div>
 
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-ecommerce-special-job"
-                  >
-                    Orchestrated <b>requirement analysis</b> and led{" "}
-                    <b>full-stack development</b>, boosting orders to{" "}
-                    <b>$35M</b>.
-                  </p>
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Sails.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      MySQL
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      REST
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Redis
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Payment Gateway
-                    </p>
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Hey Anis, I just found your React Native Advanced Guide.
+                    Read one part of it, and I must say - it's golden 🏅
                   </div>
                 </div>
               </div>
