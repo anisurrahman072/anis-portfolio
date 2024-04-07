@@ -1162,7 +1162,6 @@ button:focus {
 /* AUTO HORIZONTAL SCROLLER CSS */
 .inner {
   overflow: hidden;
-  background-color: red;
 }
 
 .wrapper1 {
