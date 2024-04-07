@@ -1293,7 +1293,40 @@ button:focus {
   opacity: 1
 }
 
+/* CONTACT */
+/* CONTACT */
+/* CONTACT */
+.contact-main-background {
+  background-image: url(./Assets/contactBackground.svg);
+  background-size: cover;
+}
 
+.contact-background{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+@media (max-width: 767px) {
+  .contact-background {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+.contactContents {
+  margin-top: 2rem  !important;
+  padding-bottom: 2rem !important;
+  color: whitesmoke;
+}
+
+
+@media (max-width: 767px) {
+  .contactContents {
+    margin-top: 2rem !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
 
 
 

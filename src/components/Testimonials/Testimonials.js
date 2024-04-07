@@ -88,7 +88,7 @@ function Testimonials() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
-        style={{ marginTop: "3.5rem", marginBottom: "3rem" }}
+        style={{ marginTop: "3.5rem" }}
       >
         {/* AUTO HORIZONTAL SCROLLER */}
         {/* AUTO HORIZONTAL SCROLLER */}
