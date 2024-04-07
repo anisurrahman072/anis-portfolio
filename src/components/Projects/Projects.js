@@ -117,7 +117,7 @@ function Projects() {
                 }}
               >
                 <motion.div
-                  className="project-bsport-box cursor-pointer"
+                  className="project-bsport-box"
                   style={{
                     borderRadius: "15px",
                     padding: "20px",
@@ -365,7 +365,7 @@ function Projects() {
                 }}
               >
                 <motion.div
-                  className="project-ecommerce-box cursor-pointer"
+                  className="project-ecommerce-box"
                   style={{
                     borderRadius: "15px",
                     padding: "20px",
@@ -595,7 +595,7 @@ function Projects() {
                 }}
               >
                 <motion.div
-                  className="project-nft-box cursor-pointer"
+                  className="project-nft-box"
                   style={{
                     borderRadius: "15px",
                     padding: "20px",
@@ -806,7 +806,7 @@ function Projects() {
                 }}
               >
                 <motion.div
-                  className="project-youth-box cursor-pointer"
+                  className="project-youth-box"
                   style={{
                     borderRadius: "15px",
                     padding: "20px",
@@ -999,7 +999,7 @@ function Projects() {
                 }}
               >
                 <motion.div
-                  className="project-truck-box cursor-pointer"
+                  className="project-truck-box"
                   style={{
                     borderRadius: "15px",
                     padding: "20px",
