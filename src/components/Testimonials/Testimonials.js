@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Maciej from "../../Assets/maciej.jpg";
 import Vadim from "../../Assets/vadim.jpg";
+import Nehat from "../../Assets/nehat.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -247,9 +248,9 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* PROJECT NFT */}
-              {/* PROJECT NFT */}
-              {/* PROJECT NFT */}
+              {/* NAHAT */}
+              {/* NAHAT */}
+              {/* NAHAT */}
               <div
                 style={{
                   minWidth: "350px",
@@ -257,186 +258,47 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="project-nft-box cursor-pointer"
+                  className="testimonial-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
+                    padding: "30px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Blockchain (64K NFT)
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredNft ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Nehat}
+                      alt="home pic"
                       style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
                       }}
-                      className="project-nft-image"
-                    >
-                      <img
-                        src={projectNft}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Nehat</div>
+                      <div>Software Engineer</div>
+                    </div>
                   </div>
 
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-nft-special-job"
-                  >
-                    Guided team through unknown topic - <b>Deploy 64K NFTs</b>{" "}
-                    on <b>Polygon</b> Chain & increased <b>more 20K users</b> in
-                    App.
-                  </p>
-
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      React Native
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Polygon
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Alchemy
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Opensea
-                    </p>
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
                   </div>
+
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Anis bro, You are really doing awesome job. Trust me I learn
+                    a lot from your guide. Docs are shit. The way you explain is
+                    dope bro.
+                  </div>
+
+                  {/* Text */}
+                  <div>I'm feeling lucky and blessed that I found you 😘</div>
                 </div>
               </div>
 
