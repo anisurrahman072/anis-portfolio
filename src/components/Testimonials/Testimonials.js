@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Maciej from "../../Assets/maciej.jpg";
 import Vadim from "../../Assets/vadim.jpg";
 import Nehat from "../../Assets/nehat.jpg";
+import Jamon from "../../Assets/jamon.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -302,9 +303,9 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* PROJECT YOUTH */}
-              {/* PROJECT YOUTH */}
-              {/* PROJECT YOUTH */}
+              {/* JAMON */}
+              {/* JAMON */}
+              {/* JAMON */}
               <div
                 style={{
                   minWidth: "350px",
@@ -312,167 +313,52 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="project-youth-box cursor-pointer"
+                  className="testimonial-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
+                    padding: "30px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Youth Management
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredYouth ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Jamon}
+                      alt="home pic"
                       style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
                       }}
-                      className="project-youth-image"
-                    >
-                      <img
-                        src={projectYouth}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Jamon</div>
+                      <div>
+                        CEO @infinite_red, Co-creator @ChainReactConf, Host
+                        @ReactNativeRdio
+                      </div>
+                    </div>
                   </div>
 
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-youth-special-job"
-                  >
-                    Led the backend <b>R&D team</b>, deftly managing{" "}
-                    <b>1M active users</b> across 7 microservices using
-                    RabbitMQ.
-                  </p>
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      Lumen
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      Microservice
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      RabbitMQ
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      SAGA Pattern
-                    </p>
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Anis has published this incredible React Native Advanced
+                    Guide. I'm kind of blown away by how much he is covering.
+                  </div>
 
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      MySQL
-                    </p>
+                  {/* Text */}
+                  <div>
+                    If you are a React Native Engineer, especially one who is
+                    still learning or even one who thought they were done
+                    learning, this covers everything.
                   </div>
                 </div>
               </div>
