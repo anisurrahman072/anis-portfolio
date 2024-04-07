@@ -281,7 +281,7 @@ function Testimonials() {
                     {/* Name & Designation */}
                     <div style={{ marginLeft: "20px" }}>
                       <div style={{ fontWeight: "bold" }}>Nehat</div>
-                      <div>Software Engineer</div>
+                      <div>Software Engineer @India</div>
                     </div>
                   </div>
 
