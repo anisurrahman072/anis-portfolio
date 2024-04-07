@@ -5,6 +5,7 @@ import Vadim from "../../Assets/vadim.jpg";
 import Nehat from "../../Assets/nehat.jpg";
 import Jamon from "../../Assets/jamon.jpg";
 import Biskit from "../../Assets/biscit.jpg";
+import Sayed from "../../Assets/sayed.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -418,6 +419,56 @@ function Testimonials() {
                     Thank you so much for your amazing contribution. You are a
                     gift that just keeps on giving.
                   </div>
+                </div>
+              </div>
+
+              {/* Sayed */}
+              {/* Sayed */}
+              {/* Sayed */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <div
+                  className="testimonial-box"
+                  style={{
+                    borderRadius: "15px",
+                    padding: "30px",
+                    textAlign: "left",
+                    position: "relative",
+                    overflow: "hidden",
+                    height: "100%",
+                  }}
+                >
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Sayed}
+                      alt="home pic"
+                      style={{
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Syed Noman</div>
+                      <div>Software Engineer</div>
+                    </div>
+                  </div>
+
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
+
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>Hey Anis,</div>
+
+                  {/* Text */}
+                  <div>Great work on React Native Advance Guide 🔥</div>
                 </div>
               </div>
             </section>
