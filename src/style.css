@@ -1155,6 +1155,62 @@ button:focus {
 }
 
 
+/* AUTO HORIZONTAL SCROLLER CSS */
+/* AUTO HORIZONTAL SCROLLER CSS */
+/* AUTO HORIZONTAL SCROLLER CSS */
+/* AUTO HORIZONTAL SCROLLER CSS */
+/* AUTO HORIZONTAL SCROLLER CSS */
+.my-img {
+  max-width: 150px;
+  height: 5rem;
+  padding: 0 15px;
+  object-fit: cover;
+}
+
+.my-img:last-of-type {
+  padding-left: 0;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 5rem;
+}
+
+.wrapper1 {
+  position: absolute;
+  display: flex;
+}
+
+.my-section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
