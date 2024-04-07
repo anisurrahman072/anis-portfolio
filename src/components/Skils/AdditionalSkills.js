@@ -53,7 +53,7 @@ function AdditionalSkills() {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true }}
-      style={{ position: "relative", paddingBottom: "110px" }}
+      style={{ position: "relative", paddingBottom: "170px" }}
     >
       <Container className="skills-container">
         <Row className="justify-content-center">

@@ -103,7 +103,7 @@ function Projects() {
             <h1
               style={{
                 color: "white",
-                marginTop: "100px",
+                marginTop: "150px",
               }}
             >
               MY <strong className="main-name">PROJECTS</strong>

@@ -55,7 +55,7 @@ function Skills() {
         <h1
           style={{
             color: "white",
-            marginTop: "100px",
+            marginTop: "150px",
             marginBottom: "50px",
           }}
         >

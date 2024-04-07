@@ -47,7 +47,7 @@ function Home() {
   // Show down indicator button when scrolled
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 130) {
+      if (window.scrollY > 200) {
         setShowGoDown(false);
       } else {
         setShowGoDown(true);
@@ -245,7 +245,7 @@ function Home() {
             </Col>
           </Row>
           <div id="skills-section-id"></div>
-          {showGoDown && (
+          {showGoDown && !isMobile && (
             <div
               style={{
                 position: "fixed",
