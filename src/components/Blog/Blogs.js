@@ -116,53 +116,60 @@ function Blogs() {
                   padding: "18px",
                 }}
               >
-                <motion.div
-                  className="blog-box"
-                  style={{
-                    borderRadius: "15px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                    overflow: "hidden",
-                  }}
-                  onHoverStart={handleHoverBsport}
-                  onHoverEnd={handleHoverBsport}
-                  variants={{
-                    hidden: {
-                      x: -100,
-                      opacity: 0,
-                    },
-                    show: {
-                      x: 0,
-                      opacity: 1,
-                      transition: {
-                        type: "spring",
-                        duration: 1.25,
-                        delay: 0,
-                      },
-                    },
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="custom-link cursor-pointer"
+                  href="https://medium.com/@anisurrahmanbup/react-native-testing-ultimate-guide-219a5e7ea5dc"
                 >
-                  <div>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      className="blog-image"
-                    >
-                      <img
-                        src={
-                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*v-mekN6hCmlHTruW1UruLA.png"
-                        }
-                        alt="home pic"
-                        className="img-fluid"
-                      />
-                    </motion.div>
-                  </div>
-                </motion.div>
+                  <motion.div
+                    className="blog-box"
+                    style={{
+                      borderRadius: "15px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                      overflow: "hidden",
+                    }}
+                    onHoverStart={handleHoverBsport}
+                    onHoverEnd={handleHoverBsport}
+                    variants={{
+                      hidden: {
+                        x: -100,
+                        opacity: 0,
+                      },
+                      show: {
+                        x: 0,
+                        opacity: 1,
+                        transition: {
+                          type: "spring",
+                          duration: 1.25,
+                          delay: 0,
+                        },
+                      },
+                    }}
+                  >
+                    <div>
+                      <motion.div
+                        initial={{ scale: 1 }} // Initial state: very small and invisible
+                        animate={{
+                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                        }}
+                        transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                        className="blog-image"
+                      >
+                        <img
+                          src={
+                            "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*v-mekN6hCmlHTruW1UruLA.png"
+                          }
+                          alt="home pic"
+                          className="img-fluid"
+                        />
+                      </motion.div>
+                    </div>
+                  </motion.div>
+                </a>
               </Col>
 
               {/* BLOG RN DEBUGGING */}
@@ -175,53 +182,60 @@ function Blogs() {
                   padding: "18px",
                 }}
               >
-                <motion.div
-                  className="blog-box"
-                  style={{
-                    borderRadius: "15px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                    overflow: "hidden",
-                  }}
-                  onHoverStart={handleHoverBsport}
-                  onHoverEnd={handleHoverBsport}
-                  variants={{
-                    hidden: {
-                      x: -100,
-                      opacity: 0,
-                    },
-                    show: {
-                      x: 0,
-                      opacity: 1,
-                      transition: {
-                        type: "spring",
-                        duration: 1.25,
-                        delay: 0,
-                      },
-                    },
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="custom-link cursor-pointer"
+                  href="https://medium.com/@anisurrahmanbup/react-native-ultimate-guide-on-debugging-profiling-performance-optimization-ios-android-7e44b8690cbe"
                 >
-                  <div>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      className="blog-image"
-                    >
-                      <img
-                        src={
-                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*EUZnJP1gClIZtUEiDamVrw.png"
-                        }
-                        alt="home pic"
-                        className="img-fluid"
-                      />
-                    </motion.div>
-                  </div>
-                </motion.div>
+                  <motion.div
+                    className="blog-box"
+                    style={{
+                      borderRadius: "15px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                      overflow: "hidden",
+                    }}
+                    onHoverStart={handleHoverBsport}
+                    onHoverEnd={handleHoverBsport}
+                    variants={{
+                      hidden: {
+                        x: -100,
+                        opacity: 0,
+                      },
+                      show: {
+                        x: 0,
+                        opacity: 1,
+                        transition: {
+                          type: "spring",
+                          duration: 1.25,
+                          delay: 0,
+                        },
+                      },
+                    }}
+                  >
+                    <div>
+                      <motion.div
+                        initial={{ scale: 1 }} // Initial state: very small and invisible
+                        animate={{
+                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                        }}
+                        transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                        className="blog-image"
+                      >
+                        <img
+                          src={
+                            "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*EUZnJP1gClIZtUEiDamVrw.png"
+                          }
+                          alt="home pic"
+                          className="img-fluid"
+                        />
+                      </motion.div>
+                    </div>
+                  </motion.div>
+                </a>
               </Col>
             </Row>
           </Container>
