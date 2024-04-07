@@ -10,6 +10,7 @@ import AdditionalSkills from "../Skils/AdditionalSkills";
 import LeadershipSkills from "../Skils/LeadershipSkills";
 import Projects from "../Projects/Projects";
 import GoDownLogo from "../../Assets/godown.svg";
+import Testimonials from "../Testimonials/Testimonials";
 
 function Home() {
   // STATE for mobile device
@@ -299,6 +300,8 @@ function Home() {
       <LeadershipSkills />
       {/* MY PROJECTS */}
       <Projects />
+      {/* Testimonials */}
+      <Testimonials />
     </section>
   );
 }
