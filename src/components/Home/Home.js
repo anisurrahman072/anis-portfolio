@@ -11,6 +11,7 @@ import LeadershipSkills from "../Skils/LeadershipSkills";
 import Projects from "../Projects/Projects";
 import GoDownLogo from "../../Assets/godown.svg";
 import Testimonials from "../Testimonials/Testimonials";
+import Blogs from "../Blog/Blogs";
 
 function Home() {
   // STATE for mobile device
@@ -300,6 +301,8 @@ function Home() {
       <LeadershipSkills />
       {/* MY PROJECTS */}
       <Projects />
+      {/* BLOGS */}
+      <Blogs />
       {/* Testimonials */}
       <Testimonials />
     </section>
