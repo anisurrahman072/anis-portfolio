@@ -144,7 +144,7 @@ function Testimonials() {
         {/* AUTO HORIZONTAL SCROLLER */}
         <div className="inner">
           <div className="wrapper1">
-            <section style={{ "--speed": `${40000}ms` }} className="my-section">
+            <section style={{ "--speed": `${50000}ms` }} className="my-section">
               {/* MACIEJ */}
               {/* MACIEJ */}
               {/* MACIEJ */}
@@ -531,7 +531,7 @@ function Testimonials() {
             </section>
 
             {/* ADD THE SAME SECTION AGAIN SO THAT NO GAP THERE */}
-            <section style={{ "--speed": `${40000}ms` }} className="my-section">
+            <section style={{ "--speed": `${50000}ms` }} className="my-section">
               {/* MACIEJ */}
               {/* MACIEJ */}
               {/* MACIEJ */}
