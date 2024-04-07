@@ -75,11 +75,10 @@ function Testimonials() {
             <h1
               style={{
                 color: "white",
-                marginTop: "100px",
+                marginTop: "70px",
               }}
             >
-              <strong className="main-name">TESTIMONIALS</strong> FROM 1000+
-              DEVS
+              <strong className="main-name">TESTIMONIALS</strong> FROM COMMUNITY
             </h1>
           </motion.div>
         </motion.div>
@@ -89,7 +88,7 @@ function Testimonials() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
-        style={{ marginTop: "3.5rem", marginBottom: "2rem" }}
+        style={{ marginTop: "3.5rem", marginBottom: "3rem" }}
       >
         {/* AUTO HORIZONTAL SCROLLER */}
         {/* AUTO HORIZONTAL SCROLLER */}
