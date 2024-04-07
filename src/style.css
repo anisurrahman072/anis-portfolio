@@ -1170,7 +1170,7 @@ button:focus {
 
 .my-section {
   display: flex;
-  /* animation: swipe var(--speed) linear infinite ; */
+  animation: swipe var(--speed) linear infinite ;
 }
 
 @keyframes swipe {
