@@ -64,7 +64,7 @@ function Blogs() {
   };
 
   return (
-    <div className="projects-main-container">
+    <div>
       <Container className="projects-background">
         <motion.section
           initial="hidden"
@@ -106,9 +106,9 @@ function Blogs() {
         >
           <Container className="projectsContents">
             <Row className="justify-content-center">
-              {/* PROJECT BASEMENT SPORTS */}
-              {/* PROJECT BASEMENT SPORTS */}
-              {/* PROJECT BASEMENT SPORTS */}
+              {/* BLOG RN TESTING */}
+              {/* BLOG RN TESTING */}
+              {/* BLOG RN TESTING */}
               <Col
                 sm={6}
                 md={4}
@@ -117,14 +117,14 @@ function Blogs() {
                 }}
               >
                 <motion.div
-                  className="project-bsport-box"
+                  className="blog-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
+                    overflow: "hidden",
                   }}
                   onHoverStart={handleHoverBsport}
                   onHoverEnd={handleHoverBsport}
@@ -144,37 +144,30 @@ function Blogs() {
                     },
                   }}
                 >
-                  <div style={{ overflow: "hidden" }}>
+                  <div>
                     <motion.div
                       initial={{ scale: 1 }} // Initial state: very small and invisible
                       animate={{
-                        scale: isHoveredBsport ? 1.06 : 1, // Zoom in
+                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
                       }}
                       transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
-                      }}
-                      className="project-bsport-image"
+                      className="blog-image"
                     >
                       <img
-                        src={projectBsport}
+                        src={
+                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*v-mekN6hCmlHTruW1UruLA.png"
+                        }
                         alt="home pic"
                         className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
                       />
                     </motion.div>
                   </div>
                 </motion.div>
               </Col>
 
-              {/* PROJECT ECOMMERCE */}
-              {/* PROJECT ECOMMERCE */}
-              {/* PROJECT ECOMMERCE */}
+              {/* BLOG RN DEBUGGING */}
+              {/* BLOG RN DEBUGGING */}
+              {/* BLOG RN DEBUGGING */}
               <Col
                 sm={6}
                 md={4}
@@ -183,17 +176,17 @@ function Blogs() {
                 }}
               >
                 <motion.div
-                  className="project-ecommerce-box"
+                  className="blog-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
+                    overflow: "hidden",
                   }}
-                  onHoverStart={handleHoverEcommerce}
-                  onHoverEnd={handleHoverEcommerce}
+                  onHoverStart={handleHoverBsport}
+                  onHoverEnd={handleHoverBsport}
                   variants={{
                     hidden: {
                       x: -100,
@@ -205,775 +198,28 @@ function Blogs() {
                       transition: {
                         type: "spring",
                         duration: 1.25,
-                        delay: 0.5,
+                        delay: 0,
                       },
                     },
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    E-Commerce
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
+                  <div>
                     <motion.div
                       initial={{ scale: 1 }} // Initial state: very small and invisible
                       animate={{
-                        scale: isHoveredEcommerce ? 1.06 : 1, // Zoom in
+                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
                       }}
                       transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
-                      }}
-                      className="project-ecommerce-image"
+                      className="blog-image"
                     >
                       <img
-                        src={projectEcommerce}
+                        src={
+                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*EUZnJP1gClIZtUEiDamVrw.png"
+                        }
                         alt="home pic"
                         className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
                       />
                     </motion.div>
-                  </div>
-
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-ecommerce-special-job"
-                  >
-                    Orchestrated <b>requirement analysis</b> and led{" "}
-                    <b>full-stack development</b>, boosting orders to{" "}
-                    <b>$35M</b>.
-                  </p>
-
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Sails.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      MySQL
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      REST
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Redis
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#3b91aa",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-ecommerce-years"
-                    >
-                      Payment Gateway
-                    </p>
-                  </div>
-                </motion.div>
-              </Col>
-
-              {/* PROJECT NFT */}
-              {/* PROJECT NFT */}
-              {/* PROJECT NFT */}
-              <Col
-                sm={6}
-                md={4}
-                style={{
-                  padding: "18px",
-                }}
-              >
-                <motion.div
-                  className="project-nft-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "20px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                  onHoverStart={handleHoverNft}
-                  onHoverEnd={handleHoverNft}
-                  variants={{
-                    hidden: {
-                      x: -100,
-                      opacity: 0,
-                    },
-                    show: {
-                      x: 0,
-                      opacity: 1,
-                      transition: {
-                        type: "spring",
-                        duration: 1.25,
-                        delay: 1,
-                      },
-                    },
-                  }}
-                >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Blockchain (64K NFT)
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredNft ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
-                      }}
-                      className="project-nft-image"
-                    >
-                      <img
-                        src={projectNft}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
-                  </div>
-
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-nft-special-job"
-                  >
-                    Guided team through unknown topic - <b>Deploy 64K NFTs</b>{" "}
-                    on <b>Polygon</b> Chain & increased <b>more 20K users</b> in
-                    App.
-                  </p>
-
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      React Native
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Polygon
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Alchemy
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#aa9f3b",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-nft-years"
-                    >
-                      Opensea
-                    </p>
-                  </div>
-                </motion.div>
-              </Col>
-
-              {/* PROJECT YOUTH */}
-              {/* PROJECT YOUTH */}
-              {/* PROJECT YOUTH */}
-              <Col
-                sm={6}
-                md={4}
-                style={{
-                  padding: "18px",
-                }}
-              >
-                <motion.div
-                  className="project-youth-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "20px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                  onHoverStart={handleHoverYouth}
-                  onHoverEnd={handleHoverYouth}
-                  variants={{
-                    hidden: {
-                      x: -100,
-                      opacity: 0,
-                    },
-                    show: {
-                      x: 0,
-                      opacity: 1,
-                      transition: {
-                        type: "spring",
-                        duration: 1.25,
-                        delay: 1.5,
-                      },
-                    },
-                  }}
-                >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Youth Management
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredYouth ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
-                      }}
-                      className="project-youth-image"
-                    >
-                      <img
-                        src={projectYouth}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
-                  </div>
-
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-youth-special-job"
-                  >
-                    Led the backend <b>R&D team</b>, deftly managing{" "}
-                    <b>1M active users</b> across 7 microservices using
-                    RabbitMQ.
-                  </p>
-
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      Lumen
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      Microservice
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      RabbitMQ
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      SAGA Pattern
-                    </p>
-
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "#8a5ed3",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-youth-years"
-                    >
-                      MySQL
-                    </p>
-                  </div>
-                </motion.div>
-              </Col>
-
-              {/* PROJECT TRUCK MANAGEMENT */}
-              {/* PROJECT TRUCK MANAGEMENT */}
-              {/* PROJECT TRUCK MANAGEMENT */}
-              <Col
-                sm={6}
-                md={4}
-                style={{
-                  padding: "18px",
-                }}
-              >
-                <motion.div
-                  className="project-truck-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "20px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                  onHoverStart={handleHoverTruck}
-                  onHoverEnd={handleHoverTruck}
-                  variants={{
-                    hidden: {
-                      x: -100,
-                      opacity: 0,
-                    },
-                    show: {
-                      x: 0,
-                      opacity: 1,
-                      transition: {
-                        type: "spring",
-                        duration: 1.25,
-                        delay: 2,
-                      },
-                    },
-                  }}
-                >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Truck Management
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredTruck ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                      style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
-                      }}
-                      className="project-truck-image"
-                    >
-                      <img
-                        src={projectTruck}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
-                  </div>
-
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-truck-special-job"
-                  >
-                    Integrated 3 BD <b>payment gateways</b>, delivered{" "}
-                    <b>full-stack</b> solutions, and enrolled <b>50K+ users</b>.
-                  </p>
-
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      Express.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      MongoDB
-                    </p>
                   </div>
                 </motion.div>
               </Col>

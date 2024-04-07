@@ -1265,6 +1265,34 @@ button:focus {
   opacity: 1
 }
 
+/* BLOG */
+/* BLOG */
+/* BLOG */
+.blog-box {
+  background-color: rgb(22, 39, 35);
+  -webkit-box-shadow: inset 0px 0px 76px -8px #30244f;
+  -moz-box-shadow: inset 0px 0px 76px -8px #30244f;
+  box-shadow: inset 0px 0px 76px -8px #30244f;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #47327c;
+}
+
+.blog-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px #30244f, 0px 0px 40px -8px #30244f;
+  -moz-box-shadow: inset 0px 0px 120px 5px #30244f, 0px 0px 40px -8px #30244f;
+  box-shadow: inset 0px 0px 120px 5px #30244f, 0px 0px 40px -8px #30244f;
+  border: 1px solid #47327c;
+}
+
+.blog-image {
+  opacity: 0.8;
+  transition: opacity 0.3s ease; 
+}
+
+.blog-box:hover .blog-image {
+  opacity: 1
+}
+
 
 
 
