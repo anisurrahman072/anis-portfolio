@@ -150,7 +150,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 0.5,
                         },
                       },
                     }}
@@ -216,7 +216,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 1,
                         },
                       },
                     }}
@@ -282,7 +282,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 1.5,
                         },
                       },
                     }}
@@ -348,7 +348,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 2,
                         },
                       },
                     }}
@@ -416,7 +416,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 2.5,
                         },
                       },
                     }}
@@ -482,7 +482,7 @@ function Blogs() {
                         transition: {
                           type: "spring",
                           duration: 1.25,
-                          delay: 0,
+                          delay: 3,
                         },
                       },
                     }}
