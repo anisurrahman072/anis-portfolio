@@ -348,24 +348,26 @@ function Blogs() {
                       },
                     }}
                   >
-                    <div>
-                      <motion.div
-                        initial={{ scale: 1 }} // Initial state: very small and invisible
-                        animate={{
-                          scale: isHoveredBsport ? 1.04 : 1, // Zoom in
-                        }}
-                        transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                        className="blog-image"
-                      >
-                        <img
-                          src={
-                            "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*uWXsg7dBqEGXP6YtRAAN8w.png"
-                          }
-                          alt="home pic"
-                          className="img-fluid"
-                        />
-                      </motion.div>
-                    </div>
+                    <motion.div
+                      initial={{ scale: 1 }} // Initial state: very small and invisible
+                      animate={{
+                        scale: isHoveredBsport ? 1.04 : 1, // Zoom in
+                      }}
+                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                      className="blog-image"
+                      style={{
+                        height: "100%",
+                      }}
+                    >
+                      <img
+                        src={
+                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*uWXsg7dBqEGXP6YtRAAN8w.png"
+                        }
+                        alt="home pic"
+                        className="img-fluid"
+                        style={{ height: "100%" }}
+                      />
+                    </motion.div>
                   </motion.div>
                 </a>
               </Col>
