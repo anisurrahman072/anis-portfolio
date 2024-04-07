@@ -756,6 +756,25 @@ function Testimonials() {
               </div>
             </section>
           </div>
+          <div
+            style={{
+              height: "100%",
+
+              position: "absolute",
+              top: 0,
+              left: 0,
+            }}
+            className="left-bar-scroller"
+          ></div>
+          <div
+            style={{
+              height: "100%",
+              position: "absolute",
+              top: 0,
+              right: 0,
+            }}
+            className="right-bar-scroller"
+          ></div>
         </div>
       </motion.section>
     </Container>

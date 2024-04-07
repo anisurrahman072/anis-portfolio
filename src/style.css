@@ -1162,6 +1162,7 @@ button:focus {
 /* AUTO HORIZONTAL SCROLLER CSS */
 .inner {
   overflow: hidden;
+  position: relative;
 }
 
 .wrapper1 {
@@ -1179,6 +1180,30 @@ button:focus {
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+.left-bar-scroller {
+  background: rgb(20,16,34);
+  background: linear-gradient(90deg, rgba(20,16,34,1) 0%, rgba(23,17,34,0) 100%);
+  width: 300px;
+}
+
+.right-bar-scroller {
+  background: rgb(23,17,34);
+  background: linear-gradient(90deg, rgba(23,17,34,0) 0%, rgba(25,20,39,1) 100%);
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .left-bar-scroller {
+    width: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .right-bar-scroller {
+    width: 30px;
   }
 }
 
