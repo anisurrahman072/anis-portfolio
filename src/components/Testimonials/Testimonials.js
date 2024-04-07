@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Maciej from "../../Assets/maciej.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -119,7 +120,8 @@ function Testimonials() {
                 marginTop: "100px",
               }}
             >
-              MY <strong className="main-name">TESTIMONIALS</strong>
+              <strong className="main-name">TESTIMONIALS</strong> FROM 1000+
+              DEVS
             </h1>
           </motion.div>
         </motion.div>
@@ -146,222 +148,50 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="project-bsport-box cursor-pointer"
+                  className="testimonial-box cursor-pointer"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
+                    padding: "30px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Sports Scoring App
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredBsport ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Maciej}
+                      alt="home pic"
                       style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
                       }}
-                      className="project-bsport-image"
-                    >
-                      <img
-                        src={projectBsport}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>
+                        Maciej Jastrzębski
+                      </div>
+                      <div>Innovation Lead @callstackio</div>
+                    </div>
                   </div>
 
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-bsport-special-job"
-                  >
-                    I led full-stack <b>mobile</b> (Android & iOS) & <b>web</b>{" "}
-                    development, enabling <b>5-10 investors</b> by Sports
-                    Streaming feature.
-                  </p>
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      React Native
-                    </div>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      Next.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      GraphQL
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      MongoDB
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      AWS S3
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-bsport-years"
-                    >
-                      Stream
-                    </p>
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    I've updated React Native Testing Library community
+                    resources page with comprehensive guide to RNTL from Anis 🔥
+                  </div>
+
+                  {/* Text */}
+                  <div>
+                    His guide contains a lot of useful knowledge in an easy to
+                    understand format.
                   </div>
                 </div>
               </div>
