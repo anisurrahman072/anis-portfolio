@@ -141,7 +141,7 @@ function Testimonials() {
               {/* PROJECT BASEMENT SPORTS */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -371,7 +371,7 @@ function Testimonials() {
               {/* PROJECT ECOMMERCE */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -583,7 +583,7 @@ function Testimonials() {
               {/* PROJECT NFT */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -776,7 +776,7 @@ function Testimonials() {
               {/* PROJECT YOUTH */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -951,7 +951,7 @@ function Testimonials() {
               {/* PROJECT TRUCK MANAGEMENT */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -1108,7 +1108,7 @@ function Testimonials() {
               {/* PROJECT BASEMENT SPORTS */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -1338,7 +1338,7 @@ function Testimonials() {
               {/* PROJECT ECOMMERCE */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -1550,7 +1550,7 @@ function Testimonials() {
               {/* PROJECT NFT */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -1743,7 +1743,7 @@ function Testimonials() {
               {/* PROJECT YOUTH */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
@@ -1918,7 +1918,7 @@ function Testimonials() {
               {/* PROJECT TRUCK MANAGEMENT */}
               <div
                 style={{
-                  minWidth: "400px",
+                  minWidth: "350px",
                   padding: "18px",
                 }}
               >
