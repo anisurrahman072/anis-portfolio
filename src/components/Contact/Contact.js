@@ -141,6 +141,7 @@ function Contact() {
                 fgColor="#ffffff" // White color
                 style={{ height: 40, width: 40, margin: "15px" }}
                 target="_blank"
+                className="social-icon"
               />
               <SocialIcon
                 url="https://github.com/anisurrahman072" // Replace with your GitHub profile URL
@@ -148,6 +149,7 @@ function Contact() {
                 fgColor="#ffffff" // White color
                 style={{ height: 40, width: 40, margin: "15px" }}
                 target="_blank"
+                className="social-icon"
               />
               <SocialIcon
                 url="https://www.linkedin.com/in/anisur-rahman-970a83152/" // Replace with your LinkedIn profile URL
@@ -155,6 +157,7 @@ function Contact() {
                 fgColor="#ffffff" // White color
                 style={{ height: 40, width: 40, margin: "15px" }}
                 target="_blank" // Open link in a new tab
+                className="social-icon"
               />
               <SocialIcon
                 url="https://medium.com/@anisurrahmanbup" // Replace with your Medium profile URL
@@ -162,6 +165,7 @@ function Contact() {
                 fgColor="#ffffff" // White color
                 style={{ height: 40, width: 40, margin: "15px" }}
                 target="_blank" // Open link in a new tab
+                className="social-icon"
               />
             </Container>
           </motion.div>
