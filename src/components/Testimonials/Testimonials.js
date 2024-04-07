@@ -4,6 +4,7 @@ import Maciej from "../../Assets/maciej.jpg";
 import Vadim from "../../Assets/vadim.jpg";
 import Nehat from "../../Assets/nehat.jpg";
 import Jamon from "../../Assets/jamon.jpg";
+import Biskit from "../../Assets/biscit.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
 import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
@@ -134,6 +135,7 @@ function Testimonials() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true }}
+        style={{ marginTop: "3.5rem", marginBottom: "2rem" }}
       >
         {/* AUTO HORIZONTAL SCROLLER */}
         {/* AUTO HORIZONTAL SCROLLER */}
@@ -363,9 +365,9 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* PROJECT TRUCK MANAGEMENT */}
-              {/* PROJECT TRUCK MANAGEMENT */}
-              {/* PROJECT TRUCK MANAGEMENT */}
+              {/* Biskit */}
+              {/* Biskit */}
+              {/* Biskit */}
               <div
                 style={{
                   minWidth: "350px",
@@ -373,146 +375,48 @@ function Testimonials() {
                 }}
               >
                 <div
-                  className="project-truck-box cursor-pointer"
+                  className="testimonial-box"
                   style={{
                     borderRadius: "15px",
-                    padding: "20px",
+                    padding: "30px",
                     textAlign: "left",
                     position: "relative",
                     overflow: "hidden",
                     height: "100%",
                   }}
                 >
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "23px",
-                      marginTop: "6px",
-                    }}
-                  >
-                    Truck Management
-                  </p>
-
-                  <div style={{ overflow: "hidden" }}>
-                    <motion.div
-                      initial={{ scale: 1 }} // Initial state: very small and invisible
-                      animate={{
-                        scale: isHoveredTruck ? 1.06 : 1, // Zoom in
-                      }}
-                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Biskit}
+                      alt="home pic"
                       style={{
-                        marginTop: "15px",
-                        marginBottom: "15px",
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
                       }}
-                      className="project-truck-image"
-                    >
-                      <img
-                        src={projectTruck}
-                        alt="home pic"
-                        className="img-fluid"
-                        style={{
-                          maxHeight: "600px",
-                          borderRadius: "15px",
-                          position: "relative",
-                        }}
-                      />
-                    </motion.div>
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Mr Biskit</div>
+                      <div>Sr. Software Engineer</div>
+                    </div>
                   </div>
 
-                  <p
-                    style={{
-                      fontWeight: "normal",
-                      fontSize: "15px",
-                    }}
-                    className="project-truck-special-job"
-                  >
-                    Integrated 3 BD <b>payment gateways</b>, delivered{" "}
-                    <b>full-stack</b> solutions, and enrolled <b>50K+ users</b>.
-                  </p>
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexWrap: "wrap",
-                      marginTop: "15px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      React
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      Node.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      Express.js
-                    </p>
-                    <p
-                      style={{
-                        fontWeight: "bold",
-                        fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(94 94 211)",
-                        display: "inline-block",
-                        paddingLeft: "10px",
-                        paddingRight: "10px",
-                        paddingTop: "2px",
-                        paddingBottom: "2px",
-                        borderRadius: "15px",
-                        marginRight: "10px",
-                        marginBottom: "10px",
-                      }}
-                      className="project-truck-years"
-                    >
-                      MongoDB
-                    </p>
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Hey Anis, Just wanted to give a big shout out to the amazing
+                    work you have done on the React Native Advanced Guide Book.
+                  </div>
+
+                  {/* Text */}
+                  <div>
+                    Thank you so much for your amazing contribution. You are a
+                    gift that just keeps on giving.
                   </div>
                 </div>
               </div>
