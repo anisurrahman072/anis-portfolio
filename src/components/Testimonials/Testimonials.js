@@ -4,7 +4,6 @@ import Maciej from "../../Assets/maciej.jpg";
 import Vadim from "../../Assets/vadim.jpg";
 import Nehat from "../../Assets/nehat.jpg";
 import Jamon from "../../Assets/jamon.jpg";
-import Biskit from "../../Assets/biscit.jpg";
 import Sayed from "../../Assets/sayed.jpg";
 import Michihiro from "../../Assets/Michihiro.jpg";
 import projectBsport from "../../Assets/projectBsport.gif";
@@ -145,6 +144,60 @@ function Testimonials() {
         <div className="inner">
           <div className="wrapper1">
             <section style={{ "--speed": `${50000}ms` }} className="my-section">
+              {/* NAHAT */}
+              {/* NAHAT */}
+              {/* NAHAT */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <div
+                  className="testimonial-box"
+                  style={{
+                    borderRadius: "15px",
+                    padding: "30px",
+                    textAlign: "left",
+                    position: "relative",
+                    overflow: "hidden",
+                    height: "100%",
+                  }}
+                >
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Nehat}
+                      alt="home pic"
+                      style={{
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Nehat</div>
+                      <div>Software Engineer @India</div>
+                    </div>
+                  </div>
+
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
+
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Anis bro, You are really doing awesome job. Trust me I learn
+                    a lot from your guide. Docs are shit. The way you explain is
+                    dope bro.
+                  </div>
+
+                  {/* Text */}
+                  <div>I'm feeling lucky and blessed that I found you 😘</div>
+                </div>
+              </div>
+
               {/* MACIEJ */}
               {/* MACIEJ */}
               {/* MACIEJ */}
@@ -253,60 +306,6 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* NAHAT */}
-              {/* NAHAT */}
-              {/* NAHAT */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Nehat}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Nehat</div>
-                      <div>Software Engineer @India</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis bro, You are really doing awesome job. Trust me I learn
-                    a lot from your guide. Docs are shit. The way you explain is
-                    dope bro.
-                  </div>
-
-                  {/* Text */}
-                  <div>I'm feeling lucky and blessed that I found you 😘</div>
-                </div>
-              </div>
-
               {/* JAMON */}
               {/* JAMON */}
               {/* JAMON */}
@@ -363,62 +362,6 @@ function Testimonials() {
                     If you are a React Native Engineer, especially one who is
                     still learning or even one who thought they were done
                     learning, this covers everything.
-                  </div>
-                </div>
-              </div>
-
-              {/* Biskit */}
-              {/* Biskit */}
-              {/* Biskit */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Biskit}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Mr Biskit</div>
-                      <div>Sr. Software Engineer</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Hey Anis, Just wanted to give a big shout out to the amazing
-                    work you have done on the React Native Advanced Guide Book.
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    Thank you so much for your amazing contribution. You are a
-                    gift that just keeps on giving.
                   </div>
                 </div>
               </div>
@@ -532,6 +475,60 @@ function Testimonials() {
 
             {/* ADD THE SAME SECTION AGAIN SO THAT NO GAP THERE */}
             <section style={{ "--speed": `${50000}ms` }} className="my-section">
+              {/* NAHAT */}
+              {/* NAHAT */}
+              {/* NAHAT */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <div
+                  className="testimonial-box"
+                  style={{
+                    borderRadius: "15px",
+                    padding: "30px",
+                    textAlign: "left",
+                    position: "relative",
+                    overflow: "hidden",
+                    height: "100%",
+                  }}
+                >
+                  <div style={{ display: "flex", fontSize: "13px" }}>
+                    <img
+                      src={Nehat}
+                      alt="home pic"
+                      style={{
+                        width: "65px",
+                        height: "65px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    {/* Name & Designation */}
+                    <div style={{ marginLeft: "20px" }}>
+                      <div style={{ fontWeight: "bold" }}>Nehat</div>
+                      <div>Software Engineer @India</div>
+                    </div>
+                  </div>
+
+                  {/* Star Rating */}
+                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                    ⭐️⭐️⭐️⭐️⭐️
+                  </div>
+
+                  {/* Text */}
+                  <div style={{ margin: "20px 0" }}>
+                    Anis bro, You are really doing awesome job. Trust me I learn
+                    a lot from your guide. Docs are shit. The way you explain is
+                    dope bro.
+                  </div>
+
+                  {/* Text */}
+                  <div>I'm feeling lucky and blessed that I found you 😘</div>
+                </div>
+              </div>
+
               {/* MACIEJ */}
               {/* MACIEJ */}
               {/* MACIEJ */}
@@ -640,60 +637,6 @@ function Testimonials() {
                 </div>
               </div>
 
-              {/* NAHAT */}
-              {/* NAHAT */}
-              {/* NAHAT */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Nehat}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Nehat</div>
-                      <div>Software Engineer @India</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis bro, You are really doing awesome job. Trust me I learn
-                    a lot from your guide. Docs are shit. The way you explain is
-                    dope bro.
-                  </div>
-
-                  {/* Text */}
-                  <div>I'm feeling lucky and blessed that I found you 😘</div>
-                </div>
-              </div>
-
               {/* JAMON */}
               {/* JAMON */}
               {/* JAMON */}
@@ -750,62 +693,6 @@ function Testimonials() {
                     If you are a React Native Engineer, especially one who is
                     still learning or even one who thought they were done
                     learning, this covers everything.
-                  </div>
-                </div>
-              </div>
-
-              {/* Biskit */}
-              {/* Biskit */}
-              {/* Biskit */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Biskit}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Mr Biskit</div>
-                      <div>Sr. Software Engineer</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Hey Anis, Just wanted to give a big shout out to the amazing
-                    work you have done on the React Native Advanced Guide Book.
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    Thank you so much for your amazing contribution. You are a
-                    gift that just keeps on giving.
                   </div>
                 </div>
               </div>
