@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -6,11 +6,15 @@ import { Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import github from "../Assets/github.svg";
 import { motion } from "framer-motion";
+import axios from "axios";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+
+  // Repo Star Count
+  const [starCount, setStarCount] = useState(null);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -25,6 +29,22 @@ function NavBar() {
   const handleHover = () => {
     setIsHovered(!isHovered);
   };
+
+  // Fetch Github STAR Count
+  useEffect(() => {
+    const fetchStarCount = async () => {
+      try {
+        const response = await axios.get(
+          `https://api.github.com/repos/anisurrahman072/React-Native-Advanced-Guide`
+        );
+        setStarCount(response.data.stargazers_count);
+      } catch (error) {
+        console.error("Error fetching star count:", error);
+      }
+    };
+
+    fetchStarCount();
+  }, []);
 
   return (
     <Navbar
@@ -79,7 +99,7 @@ function NavBar() {
               }}
               className="github-star-count"
             >
-              1256
+              {starCount !== null ? starCount : 1200}
             </h6>
             <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
               <motion.div
