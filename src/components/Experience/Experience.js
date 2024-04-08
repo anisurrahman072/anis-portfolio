@@ -82,7 +82,7 @@ function Experience() {
                 </div>
               }
             >
-              <div>
+              <div style={{ marginBottom: "40px" }}>
                 <h3
                   style={{
                     fontSize: "24px",
@@ -103,28 +103,29 @@ function Experience() {
                 </p>
               </div>
 
-              <ul
+              <div
                 style={{
                   marginLeft: "5px",
                   marginTop: "5px",
                   listStyleType: "disc",
                   marginBottom: "0.5rem", // Add some spacing between list items
+                  textAlign: "left",
                 }}
               >
                 {experience.points.map((point, index) => (
-                  <li
+                  <div
                     key={`experience-point-${index}`}
                     style={{
                       color: "white",
                       paddingLeft: "1px",
                       fontSize: "14px",
-                      letterSpacing: "wider",
+                      marginBottom: "10px",
                     }}
                   >
-                    {point}
-                  </li>
+                    ⭐️ {point}
+                  </div>
                 ))}
-              </ul>
+              </div>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
