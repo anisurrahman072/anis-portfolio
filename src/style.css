@@ -252,7 +252,13 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 50px !important;
+  padding-top: 30px !important;
+}
+
+@media (max-width: 1024px) {
+  .home-header {
+    padding-top: 100px !important;
+  }
 }
 
 .home-section {

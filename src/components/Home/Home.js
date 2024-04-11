@@ -144,7 +144,6 @@ function Home() {
                   style={{
                     paddingTop: 30,
                     paddingLeft: 50,
-                    paddingRight: 50,
                     paddingBottom: 20,
                     textAlign: "left",
                     position: "relative",
@@ -157,7 +156,7 @@ function Home() {
                     href="https://x.com/mdj_dev/status/1750908771713315326?s=20"
                     className="custom-link cursor-pointer"
                   >
-                    Top <b style={{ color: "gold" }}>RN Company</b> ( Callstack
+                    Top RN Company ( <b style={{ color: "gold" }}>Callstack</b>{" "}
                     ) endorsed me 🔗
                   </a>
                 </h5>
@@ -165,7 +164,6 @@ function Home() {
                 <h5
                   style={{
                     paddingLeft: 50,
-                    paddingRight: 50,
                     paddingBottom: 20,
                     textAlign: "left",
                     position: "relative",
@@ -178,9 +176,28 @@ function Home() {
                     href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
                     className="custom-link cursor-pointer"
                   >
-                    I was featured on the top{" "}
-                    <b style={{ color: "gold" }}>RN Podcast</b> - ( by Infinite
-                    Red ) 🔗
+                    I was featured on the top RN Podcast - ( by{" "}
+                    <b style={{ color: "gold" }}>Infinite Red</b> ) 🔗
+                  </a>
+                </h5>
+
+                <h5
+                  style={{
+                    paddingLeft: 50,
+                    paddingBottom: 20,
+                    textAlign: "left",
+                    position: "relative",
+                  }}
+                >
+                  🎖️{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Shopify/react-native-skia/pull/2350"
+                    className="custom-link cursor-pointer"
+                  >
+                    I was added ( by <b style={{ color: "gold" }}>Shopify</b> )
+                    as Contributor in RN SKIA 🔗
                   </a>
                 </h5>
 
@@ -198,8 +215,8 @@ function Home() {
                     href="https://github.com/anisurrahman072/React-Native-Advanced-Guide/blob/master/Testing/RNTL-Component-Testing-ultimate-guide.md"
                     className="custom-link cursor-pointer"
                   >
-                    I'm <b style={{ color: "gold" }}>official</b> community
-                    contributor of RN Testing SDK 🔗
+                    My BOOK was added ( by{" "}
+                    <b style={{ color: "gold" }}>Callstack</b> ) in RNTL doc 🔗
                   </a>
                 </h5>
               </motion.div>
