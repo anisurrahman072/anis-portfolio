@@ -105,49 +105,56 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/nehatkhan82"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Nehat}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Nehat</div>
-                      <div>Software Engineer @India</div>
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Nehat}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Nehat</div>
+                        <div>Software Engineer @India</div>
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis bro, You are really doing awesome job. Trust me I learn
-                    a lot from your guide. Docs are shit. The way you explain is
-                    dope bro.
-                  </div>
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Anis bro, You are really doing awesome job. Trust me I
+                      learn a lot from your guide. Docs are shit. The way you
+                      explain is dope bro.
+                    </div>
 
-                  {/* Text */}
-                  <div>I'm feeling lucky and blessed that I found you 😘</div>
-                </div>
+                    {/* Text */}
+                    <div>I'm feeling lucky and blessed that I found you 😘</div>
+                  </div>
+                </a>
               </div>
 
               {/* MACIEJ */}
@@ -159,53 +166,61 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/mdj_dev"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Maciej}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>
-                        Maciej Jastrzębski
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Maciej}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>
+                          Maciej Jastrzębski
+                        </div>
+                        <div>Innovation Lead @callstackio</div>
                       </div>
-                      <div>Innovation Lead @callstackio</div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      I've updated React Native Testing Library community
+                      resources page with comprehensive guide to RNTL from Anis
+                      🔥
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      His guide contains a lot of useful knowledge in an easy to
+                      understand format.
                     </div>
                   </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    I've updated React Native Testing Library community
-                    resources page with comprehensive guide to RNTL from Anis 🔥
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    His guide contains a lot of useful knowledge in an easy to
-                    understand format.
-                  </div>
-                </div>
+                </a>
               </div>
 
               {/* VADIM */}
@@ -217,211 +232,241 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/VadimNotJustDev"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Vadim}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Vadim Savin</div>
-                      <div>CEO of @NotJustDev</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Hey Anis, I just found your React Native Advanced Guide.
-                    Read one part of it, and I must say - it's golden 🏅
-                  </div>
-                </div>
-              </div>
-
-              {/* JAMON */}
-              {/* JAMON */}
-              {/* JAMON */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Jamon}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Jamon</div>
-                      <div>
-                        CEO @infinite_red, Co-creator @ChainReactConf, Host
-                        @ReactNativeRdio
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Vadim}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Vadim Savin</div>
+                        <div>CEO of @NotJustDev</div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis has published this incredible React Native Advanced
-                    Guide. I'm kind of blown away by how much he is covering.
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    If you are a React Native Engineer, especially one who is
-                    still learning or even one who thought they were done
-                    learning, this covers everything.
-                  </div>
-                </div>
-              </div>
-
-              {/* Sayed */}
-              {/* Sayed */}
-              {/* Sayed */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Sayed}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Syed Noman</div>
-                      <div>Software Engineer</div>
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Hey Anis, I just found your React Native Advanced Guide.
+                      Read one part of it, and I must say - it's golden 🏅
                     </div>
                   </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>Hey Anis,</div>
-
-                  {/* Text */}
-                  <div>Great work on React Native Advance Guide 🔥</div>
-                </div>
+                </a>
               </div>
 
-              {/* Michihiro */}
-              {/* Michihiro */}
-              {/* Michihiro */}
+              {/* JAMON */}
+              {/* JAMON */}
+              {/* JAMON */}
               <div
                 style={{
                   minWidth: "350px",
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/jamonholmgren"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Michihiro}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>
-                        Michihiro Iwasaki
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Jamon}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Jamon</div>
+                        <div>
+                          CEO @infinite_red, Co-creator @ChainReactConf, Host
+                          @ReactNativeRdio
+                        </div>
                       </div>
-                      <div>Kotlin & Android Expert</div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Anis has published this incredible React Native Advanced
+                      Guide. I'm kind of blown away by how much he is covering.
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      If you are a React Native Engineer, especially one who is
+                      still learning or even one who thought they were done
+                      learning, this covers everything.
                     </div>
                   </div>
+                </a>
+              </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
+              {/* Sayed */}
+              {/* Sayed */}
+              {/* Sayed */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/codewithnomi_"
+                  className="custom-link cursor-pointer"
+                >
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Sayed}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Syed Noman</div>
+                        <div>Software Engineer</div>
+                      </div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>Hey Anis,</div>
+
+                    {/* Text */}
+                    <div>Great work on React Native Advance Guide 🔥</div>
                   </div>
+                </a>
+              </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>Such an amazing guide!</div>
+              {/* Michihiro */}
+              {/* Michihiro */}
+              {/* Michihiro */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/rowaido"
+                  className="custom-link cursor-pointer"
+                >
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Michihiro}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>
+                          Michihiro Iwasaki
+                        </div>
+                        <div>Kotlin & Android Expert</div>
+                      </div>
+                    </div>
 
-                  {/* Text */}
-                  <div>
-                    I've never seen articles that delve this deeply. 📝 This
-                    will be a permanent repository for developers using React
-                    Native!
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Such an amazing guide!
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      I've never seen articles that delve this deeply. 📝 This
+                      will be a permanent repository for developers using React
+                      Native!
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </section>
 
@@ -436,49 +481,56 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/nehatkhan82"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Nehat}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Nehat</div>
-                      <div>Software Engineer @India</div>
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Nehat}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Nehat</div>
+                        <div>Software Engineer @India</div>
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis bro, You are really doing awesome job. Trust me I learn
-                    a lot from your guide. Docs are shit. The way you explain is
-                    dope bro.
-                  </div>
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Anis bro, You are really doing awesome job. Trust me I
+                      learn a lot from your guide. Docs are shit. The way you
+                      explain is dope bro.
+                    </div>
 
-                  {/* Text */}
-                  <div>I'm feeling lucky and blessed that I found you 😘</div>
-                </div>
+                    {/* Text */}
+                    <div>I'm feeling lucky and blessed that I found you 😘</div>
+                  </div>
+                </a>
               </div>
 
               {/* MACIEJ */}
@@ -490,53 +542,61 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/mdj_dev"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Maciej}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>
-                        Maciej Jastrzębski
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Maciej}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>
+                          Maciej Jastrzębski
+                        </div>
+                        <div>Innovation Lead @callstackio</div>
                       </div>
-                      <div>Innovation Lead @callstackio</div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      I've updated React Native Testing Library community
+                      resources page with comprehensive guide to RNTL from Anis
+                      🔥
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      His guide contains a lot of useful knowledge in an easy to
+                      understand format.
                     </div>
                   </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    I've updated React Native Testing Library community
-                    resources page with comprehensive guide to RNTL from Anis 🔥
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    His guide contains a lot of useful knowledge in an easy to
-                    understand format.
-                  </div>
-                </div>
+                </a>
               </div>
 
               {/* VADIM */}
@@ -548,211 +608,241 @@ function Testimonials() {
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/VadimNotJustDev"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Vadim}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Vadim Savin</div>
-                      <div>CEO of @NotJustDev</div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Hey Anis, I just found your React Native Advanced Guide.
-                    Read one part of it, and I must say - it's golden 🏅
-                  </div>
-                </div>
-              </div>
-
-              {/* JAMON */}
-              {/* JAMON */}
-              {/* JAMON */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Jamon}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Jamon</div>
-                      <div>
-                        CEO @infinite_red, Co-creator @ChainReactConf, Host
-                        @ReactNativeRdio
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Vadim}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Vadim Savin</div>
+                        <div>CEO of @NotJustDev</div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>
-                    Anis has published this incredible React Native Advanced
-                    Guide. I'm kind of blown away by how much he is covering.
-                  </div>
-
-                  {/* Text */}
-                  <div>
-                    If you are a React Native Engineer, especially one who is
-                    still learning or even one who thought they were done
-                    learning, this covers everything.
-                  </div>
-                </div>
-              </div>
-
-              {/* Sayed */}
-              {/* Sayed */}
-              {/* Sayed */}
-              <div
-                style={{
-                  minWidth: "350px",
-                  padding: "18px",
-                }}
-              >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
-                >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Sayed}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>Syed Noman</div>
-                      <div>Software Engineer</div>
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Hey Anis, I just found your React Native Advanced Guide.
+                      Read one part of it, and I must say - it's golden 🏅
                     </div>
                   </div>
-
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
-                  </div>
-
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>Hey Anis,</div>
-
-                  {/* Text */}
-                  <div>Great work on React Native Advance Guide 🔥</div>
-                </div>
+                </a>
               </div>
 
-              {/* Michihiro */}
-              {/* Michihiro */}
-              {/* Michihiro */}
+              {/* JAMON */}
+              {/* JAMON */}
+              {/* JAMON */}
               <div
                 style={{
                   minWidth: "350px",
                   padding: "18px",
                 }}
               >
-                <div
-                  className="testimonial-box"
-                  style={{
-                    borderRadius: "15px",
-                    padding: "30px",
-                    textAlign: "left",
-                    position: "relative",
-                    overflow: "hidden",
-                    height: "100%",
-                  }}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/jamonholmgren"
+                  className="custom-link cursor-pointer"
                 >
-                  <div style={{ display: "flex", fontSize: "13px" }}>
-                    <img
-                      src={Michihiro}
-                      alt="home pic"
-                      style={{
-                        width: "65px",
-                        height: "65px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    {/* Name & Designation */}
-                    <div style={{ marginLeft: "20px" }}>
-                      <div style={{ fontWeight: "bold" }}>
-                        Michihiro Iwasaki
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Jamon}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Jamon</div>
+                        <div>
+                          CEO @infinite_red, Co-creator @ChainReactConf, Host
+                          @ReactNativeRdio
+                        </div>
                       </div>
-                      <div>Kotlin & Android Expert</div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Anis has published this incredible React Native Advanced
+                      Guide. I'm kind of blown away by how much he is covering.
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      If you are a React Native Engineer, especially one who is
+                      still learning or even one who thought they were done
+                      learning, this covers everything.
                     </div>
                   </div>
+                </a>
+              </div>
 
-                  {/* Star Rating */}
-                  <div style={{ color: "#FFD700", marginTop: "15px" }}>
-                    ⭐️⭐️⭐️⭐️⭐️
+              {/* Sayed */}
+              {/* Sayed */}
+              {/* Sayed */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/codewithnomi_"
+                  className="custom-link cursor-pointer"
+                >
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Sayed}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>Syed Noman</div>
+                        <div>Software Engineer</div>
+                      </div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>Hey Anis,</div>
+
+                    {/* Text */}
+                    <div>Great work on React Native Advance Guide 🔥</div>
                   </div>
+                </a>
+              </div>
 
-                  {/* Text */}
-                  <div style={{ margin: "20px 0" }}>Such an amazing guide!</div>
+              {/* Michihiro */}
+              {/* Michihiro */}
+              {/* Michihiro */}
+              <div
+                style={{
+                  minWidth: "350px",
+                  padding: "18px",
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/rowaido"
+                  className="custom-link cursor-pointer"
+                >
+                  <div
+                    className="testimonial-box"
+                    style={{
+                      borderRadius: "15px",
+                      padding: "30px",
+                      textAlign: "left",
+                      position: "relative",
+                      overflow: "hidden",
+                      height: "100%",
+                    }}
+                  >
+                    <div style={{ display: "flex", fontSize: "13px" }}>
+                      <img
+                        src={Michihiro}
+                        alt="home pic"
+                        style={{
+                          width: "65px",
+                          height: "65px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                      {/* Name & Designation */}
+                      <div style={{ marginLeft: "20px" }}>
+                        <div style={{ fontWeight: "bold" }}>
+                          Michihiro Iwasaki
+                        </div>
+                        <div>Kotlin & Android Expert</div>
+                      </div>
+                    </div>
 
-                  {/* Text */}
-                  <div>
-                    I've never seen articles that delve this deeply. 📝 This
-                    will be a permanent repository for developers using React
-                    Native!
+                    {/* Star Rating */}
+                    <div style={{ color: "#FFD700", marginTop: "15px" }}>
+                      ⭐️⭐️⭐️⭐️⭐️
+                    </div>
+
+                    {/* Text */}
+                    <div style={{ margin: "20px 0" }}>
+                      Such an amazing guide!
+                    </div>
+
+                    {/* Text */}
+                    <div>
+                      I've never seen articles that delve this deeply. 📝 This
+                      will be a permanent repository for developers using React
+                      Native!
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </section>
           </div>
