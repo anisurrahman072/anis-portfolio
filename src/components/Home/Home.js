@@ -69,7 +69,14 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
+          <Row
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignContent: "center",
+              alignItems: "center",
+            }}
+          >
             <Col md={7} className="home-header">
               <motion.div
                 initial={{ x: "-200%", y: "-300%" }} // Initial position (off-screen to the left)
