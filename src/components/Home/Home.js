@@ -183,7 +183,7 @@ function Home() {
                     href="https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news?t=23m1s"
                     className="custom-link cursor-pointer"
                   >
-                    I was featured on the top RN Podcast - ( by{" "}
+                    Top RN Podcast featured me - ({" "}
                     <b style={{ color: "gold" }}>Infinite Red</b> ) 🔗
                   </a>
                 </h5>
