@@ -171,8 +171,9 @@ function Skills() {
                 }}
                 className="react-native-special-job"
               >
-                Integrated complex SDKs (<b>IAP</b>, <b>Video Stream</b>,
-                <b> Camera</b>, <b>Jest</b>, more) & maintained deployments.
+                Built <b>3 Production</b> grade Apps with complex SDKs (
+                <b>IAP</b>, <b>Video Stream</b>,<b> Camera</b>, <b>Jest</b>,
+                more).
               </p>
             </motion.div>
           </Col>

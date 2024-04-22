@@ -111,7 +111,7 @@ function NavBar() {
               </motion.div>
             </h6>
             <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
-              Give a STAR
+              GitHub STAR
             </h6>
             <h6 style={{ marginLeft: "5px", marginRight: "5px" }}>
               <motion.div
