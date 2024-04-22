@@ -9,11 +9,13 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-vertical-timeline-component/style.min.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -37,6 +39,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
+        <ToastContainer />
       </div>
     </Router>
   );

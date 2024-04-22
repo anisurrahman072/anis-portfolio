@@ -1,31 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import projectBsport from "../../Assets/projectBsport.gif";
-import projectEcommerce from "../../Assets/projectEcommerce.gif";
-import projectNft from "../../Assets/projectNft.gif";
-import projectYouth from "../../Assets/projectYouth.gif";
-import projectTruck from "../../Assets/projectTruck.gif";
 import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
+import copy from "copy-to-clipboard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
+import { toast } from "react-toastify";
 
 function Contact() {
   // STATE for mobile device
   const [isMobile, setIsMobile] = useState(false);
-
-  // Hover STATES
-  const [isHoveredTesting, setIsHoveredTesting] = useState(false);
-  const [isHoveredDebug, setIsHoveredDebug] = useState(false);
-  const [isHoveredNewArch, setIsHoveredNewArch] = useState(false);
-  const [isHoveredPerformance, setIsHoveredPerformance] = useState(false);
-  const [isHoveredNestedVirtual, setIsHoveredNestedVirtual] = useState(false);
-  const [isHoveredIap, setIsHoveredIap] = useState(false);
-
-  // STATE for checking Hover
-  const [isHoveredBook, setIsHoveredBook] = useState(false);
-
-  const handleHoverBook = () => {
-    setIsHoveredBook(!isHoveredBook);
-  };
 
   // Check if the device is a mobile or not (Assuming less than 767 is a MOBILE)
   useEffect(() => {
@@ -45,29 +29,10 @@ function Contact() {
     };
   }, []);
 
-  const handleHoverTesting = () => {
-    setIsHoveredTesting(!isHoveredTesting);
-  };
-
-  const handleHoverDebug = () => {
-    setIsHoveredDebug(!isHoveredDebug);
-  };
-
-  const handleHoverNewArch = () => {
-    setIsHoveredNewArch(!isHoveredNewArch);
-  };
-
-  const handleHoverPerformance = () => {
-    setIsHoveredPerformance(!isHoveredPerformance);
-  };
-
-  const handleHoverNestedVirtual = () => {
-    setIsHoveredNestedVirtual(!isHoveredNestedVirtual);
-  };
-
-  const handleHoverIap = () => {
-    setIsHoveredIap(!isHoveredIap);
-  };
+  function copyToClipboard() {
+    copy("anisurrahmanbup@gmail.com");
+    toast.success("Thank you for copying the email!");
+  }
 
   return (
     <div className="contact-main-background" style={{ position: "relative" }}>
@@ -109,6 +74,51 @@ function Contact() {
                 anisurrahmanbup@gmail.com
               </a>{" "}
             </h5>
+            <div
+              style={{
+                display: "inline-block",
+                margin: "auto",
+                marginTop: "30px",
+              }}
+            >
+              <div
+                className="cursor-pointer"
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  alignContent: "center",
+                  paddingLeft: "30px",
+                  paddingRight: "30px",
+                  paddingTop: "10px",
+                  paddingBottom: "10px",
+                  backgroundColor: "#cd5ff8",
+                  margin: "auto",
+                  borderRadius: "10px",
+                }}
+                onClick={() => copyToClipboard()}
+              >
+                <div
+                  style={{
+                    fontSize: "14px",
+                    color: "white",
+                    fontWeight: "bold",
+                  }}
+                >
+                  OR Copy Email
+                </div>
+                <FontAwesomeIcon
+                  icon={faCopy}
+                  style={{
+                    color: "white",
+                    marginLeft: "10px",
+                    fontWeight: "bold",
+                  }}
+                  fade={true}
+                />
+              </div>
+            </div>
           </motion.div>
         </motion.section>
 
