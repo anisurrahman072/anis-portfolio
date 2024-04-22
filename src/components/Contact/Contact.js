@@ -136,6 +136,14 @@ function Contact() {
           >
             <Container className="contactContents">
               <SocialIcon
+                url="mailto:anisurrahmanbup@gmail.com" // Replace with your Email
+                bgColor="#8A2BE2" // Violet color
+                fgColor="#ffffff" // White color
+                style={{ height: 40, width: 40, margin: "15px" }}
+                // target="_blank"
+                className="social-icon"
+              />
+              <SocialIcon
                 url="https://twitter.com/anis_RNCore" // Replace with your Twitter profile URL
                 bgColor="#8A2BE2" // Violet color
                 fgColor="#ffffff" // White color
