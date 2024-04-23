@@ -190,7 +190,7 @@ function Home() {
                   </a>
                 </h5>
 
-                <h5
+                {/* <h5
                   style={{
                     paddingLeft: 50,
                     paddingBottom: 20,
@@ -208,7 +208,7 @@ function Home() {
                     I was added ( by <b style={{ color: "gold" }}>Shopify</b> )
                     as Contributor in RN SKIA 🔗
                   </a>
-                </h5>
+                </h5> */}
 
                 <h5
                   style={{
