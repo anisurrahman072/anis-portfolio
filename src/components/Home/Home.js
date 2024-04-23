@@ -108,8 +108,10 @@ function Home() {
                     textAlign: "left",
                   }}
                 >
-                  🟢 React, React Native & Node.js (
-                  <b style={{ color: "gold" }}>MERN</b>) expert.
+                  🟢 <b style={{ color: "gold" }}>Web</b>,{" "}
+                  <b style={{ color: "gold" }}>Mobile</b> &{" "}
+                  <b style={{ color: "gold" }}>Blockchain</b> expert with{" "}
+                  <b style={{ color: "gold" }}>R&D</b> skill.
                 </h5>
               </motion.div>
 
