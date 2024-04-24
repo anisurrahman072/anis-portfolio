@@ -366,11 +366,11 @@ function Blogs() {
                     >
                       <img
                         src={
-                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*uWXsg7dBqEGXP6YtRAAN8w.png"
+                          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*dE39UV1l0AE2k-fTD5l7Xg.png"
                         }
                         alt="home pic"
                         className="img-fluid"
-                        style={{ height: "100%" }}
+                        // style={{ height: "100%" }} // It made an issue IOS phone
                       />
                     </motion.div>
                   </motion.div>
