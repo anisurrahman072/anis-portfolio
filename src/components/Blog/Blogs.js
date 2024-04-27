@@ -535,7 +535,7 @@ function Blogs() {
                     target="_blank"
                     rel="noreferrer"
                     className="custom-link cursor-pointer"
-                    href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
+                    href="https://github.com/anisurrahman072/React-Native-SDK-Research"
                   >
                     <motion.div
                       className="research-box"
@@ -629,7 +629,7 @@ function Blogs() {
                     target="_blank"
                     rel="noreferrer"
                     className="custom-link cursor-pointer"
-                    href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
+                    href="https://github.com/anisurrahman072/React-Native-SDK-Research"
                   >
                     <motion.div
                       className="research-box"
