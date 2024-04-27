@@ -7,6 +7,8 @@ import projectYouth from "../../Assets/projectYouth.gif";
 import projectTruck from "../../Assets/projectTruck.gif";
 import sdkresearch from "../../Assets/sdkresearch.png";
 import sdkresearchMobile from "../../Assets/sdkresearchMobile.png";
+import reactLogo from "../../Assets/react.svg";
+
 import { motion } from "framer-motion";
 
 function Blogs() {
@@ -558,7 +560,7 @@ function Blogs() {
                           transition: {
                             type: "spring",
                             duration: 1.25,
-                            delay: 2.5,
+                            delay: 3,
                           },
                         },
                       }}
@@ -579,6 +581,40 @@ function Blogs() {
                           />
                         </motion.div>
                       </div>
+
+                      <motion.div
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          right: 0,
+                          opacity: 0.2,
+                        }}
+                        initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                        animate={{
+                          rotate: isHoveredResearch ? -40 : 0,
+                          scale: isHoveredResearch ? 0.4 : 1,
+                          x: isHoveredResearch ? -60 : 0,
+                        }}
+                        transition={{ duration: 0.45 }}
+                      >
+                        <img src={reactLogo} height={100} />
+                      </motion.div>
+
+                      <motion.div
+                        style={{
+                          position: "absolute",
+                          top: 5,
+                          right: 7,
+                        }}
+                        initial={{ rotate: 0, scale: 1 }}
+                        animate={{
+                          rotate: isHoveredResearch ? -40 : 0,
+                          scale: isHoveredResearch ? 1.3 : 1,
+                        }}
+                        transition={{ duration: 0.45 }}
+                      >
+                        <img src={reactLogo} height={60} />
+                      </motion.div>
                     </motion.div>
                   </a>
                 </Col>
@@ -619,7 +655,7 @@ function Blogs() {
                           transition: {
                             type: "spring",
                             duration: 1.25,
-                            delay: 2.5,
+                            delay: 3,
                           },
                         },
                       }}
@@ -640,6 +676,40 @@ function Blogs() {
                           />
                         </motion.div>
                       </div>
+
+                      <motion.div
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          right: 0,
+                          opacity: 0.2,
+                        }}
+                        initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                        animate={{
+                          rotate: isHoveredResearch ? -40 : 0,
+                          scale: isHoveredResearch ? 0.4 : 1,
+                          x: isHoveredResearch ? -60 : 0,
+                        }}
+                        transition={{ duration: 0.45 }}
+                      >
+                        <img src={reactLogo} height={100} />
+                      </motion.div>
+
+                      <motion.div
+                        style={{
+                          position: "absolute",
+                          top: 5,
+                          right: 7,
+                        }}
+                        initial={{ rotate: 0, scale: 1 }}
+                        animate={{
+                          rotate: isHoveredResearch ? -40 : 0,
+                          scale: isHoveredResearch ? 1.3 : 1,
+                        }}
+                        transition={{ duration: 0.45 }}
+                      >
+                        <img src={reactLogo} height={60} />
+                      </motion.div>
                     </motion.div>
                   </a>
                 </Col>
