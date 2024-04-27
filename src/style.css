@@ -1293,6 +1293,34 @@ button:focus {
   opacity: 1
 }
 
+/* RESEARCH */
+/* RESEARCH */
+/* RESEARCH */
+.research-box {
+  background-color: rgb(16 23 24);
+  -webkit-box-shadow: inset 0px 0px 76px -8px #2b636b;
+  -moz-box-shadow: inset 0px 0px 76px -8px #2b636b;
+  box-shadow: inset 0px 0px 76px -8px #2b636b;
+  transition: box-shadow 1s ease; /* Add a smooth transition effect */
+  border: 1px solid #68efff;
+}
+
+.research-box:hover {
+  -webkit-box-shadow: inset 0px 0px 120px 5px #2b636b, 0px 0px 40px -8px rgb(67, 148, 161);
+  -moz-box-shadow: inset 0px 0px 120px 5px #2b636b, 0px 0px 40px -8px rgb(67, 148, 161);
+  box-shadow: inset 0px 0px 120px 5px #2b636b, 0px 0px 40px -8px rgb(67, 148, 161);
+  border: 1px solid #94f4ff;
+}
+
+.research-image {
+  opacity: 0.8;
+  transition: opacity 0.3s ease; 
+}
+
+.research-box:hover .research-image {
+  opacity: 1
+}
+
 /* CONTACT */
 /* CONTACT */
 /* CONTACT */

@@ -20,6 +20,7 @@ function Blogs() {
   const [isHoveredPerformance, setIsHoveredPerformance] = useState(false);
   const [isHoveredNestedVirtual, setIsHoveredNestedVirtual] = useState(false);
   const [isHoveredIap, setIsHoveredIap] = useState(false);
+  const [isHoveredResearch, setIsHoveredResearch] = useState(false);
 
   // STATE for checking Hover
   const [isHoveredBook, setIsHoveredBook] = useState(false);
@@ -31,7 +32,7 @@ function Blogs() {
   // Check if the device is a mobile or not (Assuming less than 767 is a MOBILE)
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 577);
+      setIsMobile(window.innerWidth < 767);
     };
 
     // Initial check
@@ -68,6 +69,10 @@ function Blogs() {
 
   const handleHoverIap = () => {
     setIsHoveredIap(!isHoveredIap);
+  };
+
+  const handleHoverResearch = () => {
+    setIsHoveredResearch(!isHoveredResearch);
   };
 
   return (
@@ -531,7 +536,7 @@ function Blogs() {
                     href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
                   >
                     <motion.div
-                      className="blog-box"
+                      className="research-box"
                       style={{
                         borderRadius: "15px",
                         textAlign: "left",
@@ -540,8 +545,8 @@ function Blogs() {
                         height: "100%",
                         overflow: "hidden",
                       }}
-                      onHoverStart={handleHoverIap}
-                      onHoverEnd={handleHoverIap}
+                      onHoverStart={handleHoverResearch}
+                      onHoverEnd={handleHoverResearch}
                       variants={{
                         hidden: {
                           x: -100,
@@ -562,10 +567,10 @@ function Blogs() {
                         <motion.div
                           initial={{ scale: 1 }} // Initial state: very small and invisible
                           animate={{
-                            scale: isHoveredIap ? 1.04 : 1, // Zoom in
+                            scale: isHoveredResearch ? 1.04 : 1, // Zoom in
                           }}
                           transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                          className="blog-image"
+                          className="research-image"
                         >
                           <img
                             src={sdkresearchMobile}
@@ -592,7 +597,7 @@ function Blogs() {
                     href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
                   >
                     <motion.div
-                      className="blog-box"
+                      className="research-box"
                       style={{
                         borderRadius: "15px",
                         textAlign: "left",
@@ -601,8 +606,8 @@ function Blogs() {
                         height: "100%",
                         overflow: "hidden",
                       }}
-                      onHoverStart={handleHoverIap}
-                      onHoverEnd={handleHoverIap}
+                      onHoverStart={handleHoverResearch}
+                      onHoverEnd={handleHoverResearch}
                       variants={{
                         hidden: {
                           x: -100,
@@ -623,10 +628,10 @@ function Blogs() {
                         <motion.div
                           initial={{ scale: 1 }} // Initial state: very small and invisible
                           animate={{
-                            scale: isHoveredIap ? 1.04 : 1, // Zoom in
+                            scale: isHoveredResearch ? 1.04 : 1, // Zoom in
                           }}
                           transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                          className="blog-image"
+                          className="research-image"
                         >
                           <img
                             src={sdkresearch}
