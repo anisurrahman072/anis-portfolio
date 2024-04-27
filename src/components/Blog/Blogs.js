@@ -585,17 +585,16 @@ function Blogs() {
                       <motion.div
                         style={{
                           position: "absolute",
-                          top: 0,
-                          right: 0,
+                          top: -15,
+                          right: -13,
                           opacity: 0.2,
                         }}
-                        initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                        initial={{ rotate: 0, scale: 1 }}
                         animate={{
-                          rotate: isHoveredResearch ? -40 : 0,
-                          scale: isHoveredResearch ? 0.4 : 1,
-                          x: isHoveredResearch ? -60 : 0,
+                          rotate: isHoveredResearch ? -20 : 0,
+                          scale: isHoveredResearch ? 1.1 : 0.8,
                         }}
-                        transition={{ duration: 0.45 }}
+                        transition={{ duration: 0.4 }}
                       >
                         <img src={reactLogo} height={100} />
                       </motion.div>
@@ -603,13 +602,13 @@ function Blogs() {
                       <motion.div
                         style={{
                           position: "absolute",
-                          top: 5,
-                          right: 7,
+                          top: 0,
+                          right: 3,
                         }}
                         initial={{ rotate: 0, scale: 1 }}
                         animate={{
-                          rotate: isHoveredResearch ? -40 : 0,
-                          scale: isHoveredResearch ? 1.3 : 1,
+                          rotate: isHoveredResearch ? 150 : 0,
+                          scale: isHoveredResearch ? 1 : 0.8,
                         }}
                         transition={{ duration: 0.45 }}
                       >
@@ -681,16 +680,15 @@ function Blogs() {
                         style={{
                           position: "absolute",
                           top: 0,
-                          right: 0,
+                          right: 5,
                           opacity: 0.2,
                         }}
-                        initial={{ rotate: 0, scale: 1, x: 0, y: 0 }}
+                        initial={{ rotate: 0, scale: 1 }}
                         animate={{
-                          rotate: isHoveredResearch ? -40 : 0,
-                          scale: isHoveredResearch ? 0.4 : 1,
-                          x: isHoveredResearch ? -60 : 0,
+                          rotate: isHoveredResearch ? -20 : 0,
+                          scale: isHoveredResearch ? 1.7 : 1,
                         }}
-                        transition={{ duration: 0.45 }}
+                        transition={{ duration: 0.4 }}
                       >
                         <img src={reactLogo} height={100} />
                       </motion.div>
@@ -698,13 +696,13 @@ function Blogs() {
                       <motion.div
                         style={{
                           position: "absolute",
-                          top: 5,
-                          right: 7,
+                          top: 20,
+                          right: 23,
                         }}
                         initial={{ rotate: 0, scale: 1 }}
                         animate={{
-                          rotate: isHoveredResearch ? -40 : 0,
-                          scale: isHoveredResearch ? 1.3 : 1,
+                          rotate: isHoveredResearch ? 150 : 0,
+                          scale: isHoveredResearch ? 1.6 : 1,
                         }}
                         transition={{ duration: 0.45 }}
                       >
