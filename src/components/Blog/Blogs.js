@@ -5,6 +5,8 @@ import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
 import projectYouth from "../../Assets/projectYouth.gif";
 import projectTruck from "../../Assets/projectTruck.gif";
+import sdkresearch from "../../Assets/sdkresearch.png";
+import sdkresearchMobile from "../../Assets/sdkresearchMobile.png";
 import { motion } from "framer-motion";
 
 function Blogs() {
@@ -29,7 +31,7 @@ function Blogs() {
   // Check if the device is a mobile or not (Assuming less than 767 is a MOBILE)
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 767);
+      setIsMobile(window.innerWidth < 577);
     };
 
     // Initial check
@@ -508,6 +510,135 @@ function Blogs() {
                   </motion.div>
                 </a>
               </Col>
+            </Row>
+
+            {/* React Native #NotJustDev Research */}
+            {/* React Native #NotJustDev Research */}
+            {/* React Native #NotJustDev Research */}
+            <Row className="justify-content-center">
+              {isMobile ? (
+                <Col
+                  sm={6}
+                  md={4}
+                  style={{
+                    padding: "18px",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    className="custom-link cursor-pointer"
+                    href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
+                  >
+                    <motion.div
+                      className="blog-box"
+                      style={{
+                        borderRadius: "15px",
+                        textAlign: "left",
+                        position: "relative",
+                        overflow: "hidden",
+                        height: "100%",
+                        overflow: "hidden",
+                      }}
+                      onHoverStart={handleHoverIap}
+                      onHoverEnd={handleHoverIap}
+                      variants={{
+                        hidden: {
+                          x: -100,
+                          opacity: 0,
+                        },
+                        show: {
+                          x: 0,
+                          opacity: 1,
+                          transition: {
+                            type: "spring",
+                            duration: 1.25,
+                            delay: 2.5,
+                          },
+                        },
+                      }}
+                    >
+                      <div>
+                        <motion.div
+                          initial={{ scale: 1 }} // Initial state: very small and invisible
+                          animate={{
+                            scale: isHoveredIap ? 1.04 : 1, // Zoom in
+                          }}
+                          transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                          className="blog-image"
+                        >
+                          <img
+                            src={sdkresearchMobile}
+                            alt="home pic"
+                            className="img-fluid"
+                          />
+                        </motion.div>
+                      </div>
+                    </motion.div>
+                  </a>
+                </Col>
+              ) : (
+                <Col
+                  sm={12}
+                  md={12}
+                  style={{
+                    padding: "18px",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    className="custom-link cursor-pointer"
+                    href="https://medium.com/@anisurrahmanbup/react-native-in-app-purchase-for-android-and-ios-implementation-details-3735fb398a5d"
+                  >
+                    <motion.div
+                      className="blog-box"
+                      style={{
+                        borderRadius: "15px",
+                        textAlign: "left",
+                        position: "relative",
+                        overflow: "hidden",
+                        height: "100%",
+                        overflow: "hidden",
+                      }}
+                      onHoverStart={handleHoverIap}
+                      onHoverEnd={handleHoverIap}
+                      variants={{
+                        hidden: {
+                          x: -100,
+                          opacity: 0,
+                        },
+                        show: {
+                          x: 0,
+                          opacity: 1,
+                          transition: {
+                            type: "spring",
+                            duration: 1.25,
+                            delay: 2.5,
+                          },
+                        },
+                      }}
+                    >
+                      <div>
+                        <motion.div
+                          initial={{ scale: 1 }} // Initial state: very small and invisible
+                          animate={{
+                            scale: isHoveredIap ? 1.04 : 1, // Zoom in
+                          }}
+                          transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                          className="blog-image"
+                        >
+                          <img
+                            src={sdkresearch}
+                            alt="home pic"
+                            className="img-fluid"
+                          />
+                        </motion.div>
+                      </div>
+                    </motion.div>
+                  </a>
+                </Col>
+              )}
             </Row>
           </Container>
         </motion.section>
