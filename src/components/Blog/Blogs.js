@@ -525,7 +525,7 @@ function Blogs() {
             <motion.div
               animate={{
                 scale: isMobile ? [1] : [1, 1.02],
-                x: isMobile ? [1] : [0, 2],
+                x: isMobile ? [1] : [0, 1.5],
               }}
               transition={{
                 duration: 1,
