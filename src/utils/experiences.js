@@ -8,7 +8,7 @@ export default [
     companyName: "BasementSports (USA - Remote)",
     icon: basementsports,
     iconBg: "#383E56",
-    date: "May 2022 - Current",
+    date: "May 2022 - Currently working",
     points: [
       "⭐️ Enabled <b style='color: gold;'>5-10 investors</b> by Sports Streaming feature.",
       "⭐️ Led Streaming SDK Agora R&D (Android + iOS + Web).",

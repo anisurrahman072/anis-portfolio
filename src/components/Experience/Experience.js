@@ -138,8 +138,8 @@ function Experience() {
                       style={{
                         fontWeight: "bold",
                         fontSize: "12px",
-                        color: "black",
-                        backgroundColor: "rgb(68, 118, 192)",
+                        color: "white",
+                        backgroundColor: "#0f4657",
                         display: "inline-block",
                         paddingLeft: "10px",
                         paddingRight: "10px",
