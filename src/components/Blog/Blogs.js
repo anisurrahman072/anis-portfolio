@@ -105,7 +105,7 @@ function Blogs() {
             <h1
               style={{
                 color: "white",
-                paddingTop: "140px",
+                paddingTop: "200px",
               }}
             >
               MY <strong className="main-name">BLOGS</strong> - CODE INSIGHTS
@@ -522,197 +522,209 @@ function Blogs() {
             {/* React Native #NotJustDev Research */}
             {/* React Native #NotJustDev Research */}
             {/* React Native #NotJustDev Research */}
-            <Row className="justify-content-center">
-              {isMobile ? (
-                <Col
-                  sm={6}
-                  md={4}
-                  style={{
-                    padding: "18px",
-                  }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="custom-link cursor-pointer"
-                    href="https://github.com/anisurrahman072/React-Native-SDK-Research"
+            <motion.div
+              animate={{
+                scale: isMobile ? [1] : [1, 1.02],
+                x: isMobile ? [1] : [0, 2],
+              }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+            >
+              <Row className="justify-content-center">
+                {isMobile ? (
+                  <Col
+                    sm={6}
+                    md={4}
+                    style={{
+                      padding: "18px",
+                    }}
                   >
-                    <motion.div
-                      className="research-box"
-                      style={{
-                        borderRadius: "15px",
-                        textAlign: "left",
-                        position: "relative",
-                        overflow: "hidden",
-                        height: "100%",
-                        overflow: "hidden",
-                      }}
-                      onHoverStart={handleHoverResearch}
-                      onHoverEnd={handleHoverResearch}
-                      variants={{
-                        hidden: {
-                          x: -100,
-                          opacity: 0,
-                        },
-                        show: {
-                          x: 0,
-                          opacity: 1,
-                          transition: {
-                            type: "spring",
-                            duration: 1.25,
-                            delay: 1.6,
-                          },
-                        },
-                      }}
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      className="custom-link cursor-pointer"
+                      href="https://github.com/anisurrahman072/React-Native-SDK-Research"
                     >
-                      <div>
+                      <motion.div
+                        className="research-box"
+                        style={{
+                          borderRadius: "15px",
+                          textAlign: "left",
+                          position: "relative",
+                          overflow: "hidden",
+                          height: "100%",
+                          overflow: "hidden",
+                        }}
+                        onHoverStart={handleHoverResearch}
+                        onHoverEnd={handleHoverResearch}
+                        variants={{
+                          hidden: {
+                            x: -100,
+                            opacity: 0,
+                          },
+                          show: {
+                            x: 0,
+                            opacity: 1,
+                            transition: {
+                              type: "spring",
+                              duration: 1.25,
+                              delay: 1.6,
+                            },
+                          },
+                        }}
+                      >
+                        <div>
+                          <motion.div
+                            initial={{ scale: 1 }} // Initial state: very small and invisible
+                            animate={{
+                              scale: isHoveredResearch ? 1.04 : 1, // Zoom in
+                            }}
+                            transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                            className="research-image"
+                          >
+                            <img
+                              src={sdkresearchMobile}
+                              alt="home pic"
+                              className="img-fluid"
+                            />
+                          </motion.div>
+                        </div>
+
                         <motion.div
-                          initial={{ scale: 1 }} // Initial state: very small and invisible
-                          animate={{
-                            scale: isHoveredResearch ? 1.04 : 1, // Zoom in
+                          style={{
+                            position: "absolute",
+                            top: -15,
+                            right: -13,
+                            opacity: 0.2,
                           }}
-                          transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                          className="research-image"
+                          initial={{ rotate: 0, scale: 1 }}
+                          animate={{
+                            rotate: isHoveredResearch ? -20 : 0,
+                            scale: isHoveredResearch ? 1.1 : 0.8,
+                          }}
+                          transition={{ duration: 0.4 }}
                         >
-                          <img
-                            src={sdkresearchMobile}
-                            alt="home pic"
-                            className="img-fluid"
-                          />
+                          <img src={reactLogo} height={100} />
                         </motion.div>
-                      </div>
 
-                      <motion.div
-                        style={{
-                          position: "absolute",
-                          top: -15,
-                          right: -13,
-                          opacity: 0.2,
-                        }}
-                        initial={{ rotate: 0, scale: 1 }}
-                        animate={{
-                          rotate: isHoveredResearch ? -20 : 0,
-                          scale: isHoveredResearch ? 1.1 : 0.8,
-                        }}
-                        transition={{ duration: 0.4 }}
-                      >
-                        <img src={reactLogo} height={100} />
+                        <motion.div
+                          style={{
+                            position: "absolute",
+                            top: 0,
+                            right: 3,
+                          }}
+                          initial={{ rotate: 0, scale: 1 }}
+                          animate={{
+                            rotate: isHoveredResearch ? 150 : 0,
+                            scale: isHoveredResearch ? 1 : 0.8,
+                          }}
+                          transition={{ duration: 0.45 }}
+                        >
+                          <img src={reactLogo} height={60} />
+                        </motion.div>
                       </motion.div>
-
-                      <motion.div
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          right: 3,
-                        }}
-                        initial={{ rotate: 0, scale: 1 }}
-                        animate={{
-                          rotate: isHoveredResearch ? 150 : 0,
-                          scale: isHoveredResearch ? 1 : 0.8,
-                        }}
-                        transition={{ duration: 0.45 }}
-                      >
-                        <img src={reactLogo} height={60} />
-                      </motion.div>
-                    </motion.div>
-                  </a>
-                </Col>
-              ) : (
-                <Col
-                  sm={12}
-                  md={12}
-                  style={{
-                    padding: "18px",
-                  }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="custom-link cursor-pointer"
-                    href="https://github.com/anisurrahman072/React-Native-SDK-Research"
+                    </a>
+                  </Col>
+                ) : (
+                  <Col
+                    sm={12}
+                    md={12}
+                    style={{
+                      padding: "18px",
+                    }}
                   >
-                    <motion.div
-                      className="research-box"
-                      style={{
-                        borderRadius: "15px",
-                        textAlign: "left",
-                        position: "relative",
-                        overflow: "hidden",
-                        height: "100%",
-                        overflow: "hidden",
-                      }}
-                      onHoverStart={handleHoverResearch}
-                      onHoverEnd={handleHoverResearch}
-                      variants={{
-                        hidden: {
-                          x: -100,
-                          opacity: 0,
-                        },
-                        show: {
-                          x: 0,
-                          opacity: 1,
-                          transition: {
-                            type: "spring",
-                            duration: 1.25,
-                            delay: 1.6,
-                          },
-                        },
-                      }}
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      className="custom-link cursor-pointer"
+                      href="https://github.com/anisurrahman072/React-Native-SDK-Research"
                     >
-                      <div>
+                      <motion.div
+                        className="research-box"
+                        style={{
+                          borderRadius: "15px",
+                          textAlign: "left",
+                          position: "relative",
+                          overflow: "hidden",
+                          height: "100%",
+                          overflow: "hidden",
+                        }}
+                        onHoverStart={handleHoverResearch}
+                        onHoverEnd={handleHoverResearch}
+                        variants={{
+                          hidden: {
+                            x: -100,
+                            opacity: 0,
+                          },
+                          show: {
+                            x: 0,
+                            opacity: 1,
+                            transition: {
+                              type: "spring",
+                              duration: 1.25,
+                              delay: 1.6,
+                            },
+                          },
+                        }}
+                      >
+                        <div>
+                          <motion.div
+                            initial={{ scale: 1 }} // Initial state: very small and invisible
+                            animate={{
+                              scale: isHoveredResearch ? 1.04 : 1, // Zoom in
+                            }}
+                            transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                            className="research-image"
+                          >
+                            <img
+                              src={sdkresearch}
+                              alt="home pic"
+                              className="img-fluid"
+                            />
+                          </motion.div>
+                        </div>
+
                         <motion.div
-                          initial={{ scale: 1 }} // Initial state: very small and invisible
-                          animate={{
-                            scale: isHoveredResearch ? 1.04 : 1, // Zoom in
+                          style={{
+                            position: "absolute",
+                            top: 0,
+                            right: 5,
+                            opacity: 0.2,
                           }}
-                          transition={{ duration: 0.45 }} // Animation duration (in seconds)
-                          className="research-image"
+                          initial={{ rotate: 0, scale: 1 }}
+                          animate={{
+                            rotate: isHoveredResearch ? -20 : 0,
+                            scale: isHoveredResearch ? 1.7 : 1,
+                          }}
+                          transition={{ duration: 0.4 }}
                         >
-                          <img
-                            src={sdkresearch}
-                            alt="home pic"
-                            className="img-fluid"
-                          />
+                          <img src={reactLogo} height={100} />
                         </motion.div>
-                      </div>
 
-                      <motion.div
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          right: 5,
-                          opacity: 0.2,
-                        }}
-                        initial={{ rotate: 0, scale: 1 }}
-                        animate={{
-                          rotate: isHoveredResearch ? -20 : 0,
-                          scale: isHoveredResearch ? 1.7 : 1,
-                        }}
-                        transition={{ duration: 0.4 }}
-                      >
-                        <img src={reactLogo} height={100} />
+                        <motion.div
+                          style={{
+                            position: "absolute",
+                            top: 20,
+                            right: 23,
+                          }}
+                          initial={{ rotate: 0, scale: 1 }}
+                          animate={{
+                            rotate: isHoveredResearch ? 150 : 0,
+                            scale: isHoveredResearch ? 1.6 : 1,
+                          }}
+                          transition={{ duration: 0.45 }}
+                        >
+                          <img src={reactLogo} height={60} />
+                        </motion.div>
                       </motion.div>
-
-                      <motion.div
-                        style={{
-                          position: "absolute",
-                          top: 20,
-                          right: 23,
-                        }}
-                        initial={{ rotate: 0, scale: 1 }}
-                        animate={{
-                          rotate: isHoveredResearch ? 150 : 0,
-                          scale: isHoveredResearch ? 1.6 : 1,
-                        }}
-                        transition={{ duration: 0.45 }}
-                      >
-                        <img src={reactLogo} height={60} />
-                      </motion.div>
-                    </motion.div>
-                  </a>
-                </Col>
-              )}
-            </Row>
+                    </a>
+                  </Col>
+                )}
+              </Row>
+            </motion.div>
           </Container>
         </motion.section>
       </Container>

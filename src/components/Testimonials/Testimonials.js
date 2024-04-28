@@ -75,7 +75,7 @@ function Testimonials() {
             <h1
               style={{
                 color: "white",
-                marginTop: "160px",
+                marginTop: "200px",
               }}
             >
               <strong className="main-name">TESTIMONIALS</strong> FROM COMMUNITY
