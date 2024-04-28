@@ -89,12 +89,11 @@ function Home() {
                 </h1>
 
                 <h5
+                  className="home-general-text-common-style"
                   style={{
                     paddingTop: 30,
-                    paddingLeft: 50,
                     paddingRight: 50,
                     paddingBottom: 20,
-                    textAlign: "left",
                   }}
                 >
                   🟢 Sr. Software Engineer with{" "}
@@ -102,12 +101,7 @@ function Home() {
                   <b style={{ color: "gold" }}>Full Stack</b> exp.
                 </h5>
 
-                <h5
-                  style={{
-                    paddingLeft: 50,
-                    textAlign: "left",
-                  }}
-                >
+                <h5 className="home-general-text-common-style">
                   🟢 <b style={{ color: "gold" }}>Web</b>,{" "}
                   <b style={{ color: "gold" }}>Mobile</b> &{" "}
                   <b style={{ color: "gold" }}>Blockchain</b> expert with{" "}
@@ -150,11 +144,10 @@ function Home() {
                 </div>
 
                 <h5
+                  className="home-general-text-common-style"
                   style={{
                     paddingTop: 30,
-                    paddingLeft: 50,
                     paddingBottom: 20,
-                    textAlign: "left",
                     position: "relative",
                   }}
                 >
@@ -171,10 +164,9 @@ function Home() {
                 </h5>
 
                 <h5
+                  className="home-general-text-common-style"
                   style={{
-                    paddingLeft: 50,
                     paddingBottom: 20,
-                    textAlign: "left",
                     position: "relative",
                   }}
                 >
@@ -211,9 +203,8 @@ function Home() {
                 </h5> */}
 
                 <h5
+                  className="home-general-text-common-style"
                   style={{
-                    paddingLeft: 50,
-                    textAlign: "left",
                     position: "relative",
                   }}
                 >
