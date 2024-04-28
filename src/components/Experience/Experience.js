@@ -121,9 +121,8 @@ function Experience() {
                       fontSize: "14px",
                       marginBottom: "10px",
                     }}
-                  >
-                    ⭐️ {point}
-                  </div>
+                    dangerouslySetInnerHTML={{ __html: point }}
+                  ></div>
                 ))}
               </div>
             </VerticalTimelineElement>
