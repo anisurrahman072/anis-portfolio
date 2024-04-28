@@ -124,6 +124,36 @@ function Experience() {
                     dangerouslySetInnerHTML={{ __html: point }}
                   ></div>
                 ))}
+
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    marginTop: "18px",
+                    alignContent: "center",
+                  }}
+                >
+                  {experience.skills.map((skill, index) => (
+                    <p
+                      style={{
+                        fontWeight: "bold",
+                        fontSize: "12px",
+                        color: "black",
+                        backgroundColor: "rgb(68, 118, 192)",
+                        display: "inline-block",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
+                        paddingTop: "2px",
+                        paddingBottom: "2px",
+                        borderRadius: "15px",
+                        marginRight: "10px",
+                        marginBottom: "5px",
+                      }}
+                      className="project-bsport-years"
+                      dangerouslySetInnerHTML={{ __html: skill }}
+                    ></p>
+                  ))}
+                </div>
               </div>
             </VerticalTimelineElement>
           ))}

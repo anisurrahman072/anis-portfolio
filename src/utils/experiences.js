@@ -19,6 +19,17 @@ export default [
       "⭐️ Implemented <b style='color: gold;'>In App Purchase</b> for Android and iOS.",
       "⭐️ Enabled <b style='color: gold;'>60K+ users</b> by Video Player marketing in crawlers.",
     ],
+    skills: [
+      "React Native",
+      "React",
+      "Node.js",
+      "Blockchain",
+      "MongoDB",
+      "GraphQL",
+      "Next.js",
+      "AWS S3",
+      "Stripe",
+    ],
   },
   {
     title: "Full Stack Software Engineer",
@@ -33,6 +44,15 @@ export default [
       "⭐️ Implemented & maintained a database of <b style='color: gold;'>1M live users</b>.",
       "⭐️ Led team to implement RabbitMQ in 7 Microservices.",
     ],
+    skills: [
+      "React Native",
+      "React",
+      "Node.js",
+      "MySQL",
+      "RabbitMQ",
+      "MicroService",
+      "Payment Gateway",
+    ],
   },
   {
     title: "Software Engineer",
@@ -45,5 +65,6 @@ export default [
       "⭐️ Successfully provided timely full-stack solutions.",
       "⭐️ Developed a localized landing page that drew <b style='color: gold;'>2-3 investors</b>.",
     ],
+    skills: ["React", "Node.js", "MongoDB", "Payment Gateway"],
   },
 ];
