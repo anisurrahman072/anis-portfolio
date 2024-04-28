@@ -5,6 +5,7 @@ import projectEcommerce from "../../Assets/projectEcommerce.gif";
 import projectNft from "../../Assets/projectNft.gif";
 import projectYouth from "../../Assets/projectYouth.gif";
 import projectTruck from "../../Assets/projectTruck.gif";
+import projectMedia from "../../Assets/projectMedia.gif";
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -15,6 +16,7 @@ function Projects() {
   const [isHoveredBsport, setIsHoveredBsport] = useState(false);
   const [isHoveredEcommerce, setIsHoveredEcommerce] = useState(false);
   const [isHoveredNft, setIsHoveredNft] = useState(false);
+  const [isHoveredMedia, setIsHoveredMedia] = useState(false);
   const [isHoveredYouth, setIsHoveredYouth] = useState(false);
   const [isHoveredTruck, setIsHoveredTruck] = useState(false);
 
@@ -53,6 +55,10 @@ function Projects() {
 
   const handleHoverNft = () => {
     setIsHoveredNft(!isHoveredNft);
+  };
+
+  const handleHoverMedia = () => {
+    setIsHoveredMedia(!isHoveredMedia);
   };
 
   const handleHoverYouth = () => {
@@ -1155,6 +1161,181 @@ function Projects() {
                       className="project-truck-years"
                     >
                       MongoDB
+                    </p>
+                  </div>
+                </motion.div>
+              </Col>
+
+              {/* PROJECT ABU DHABI */}
+              {/* PROJECT ABU DHABI */}
+              {/* PROJECT ABU DHABI */}
+              <Col
+                sm={6}
+                md={4}
+                style={{
+                  padding: "18px",
+                }}
+              >
+                <motion.div
+                  className="project-bsport-box"
+                  style={{
+                    borderRadius: "15px",
+                    padding: "20px",
+                    textAlign: "left",
+                    position: "relative",
+                    overflow: "hidden",
+                    height: "100%",
+                  }}
+                  onHoverStart={handleHoverMedia}
+                  onHoverEnd={handleHoverMedia}
+                  variants={{
+                    hidden: {
+                      x: -100,
+                      opacity: 0,
+                    },
+                    show: {
+                      x: 0,
+                      opacity: 1,
+                      transition: {
+                        type: "spring",
+                        duration: 1.25,
+                        delay: 2.5,
+                      },
+                    },
+                  }}
+                >
+                  <p
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "23px",
+                      marginTop: "6px",
+                    }}
+                  >
+                    Media Gallery
+                  </p>
+
+                  <div style={{ overflow: "hidden" }}>
+                    <motion.div
+                      initial={{ scale: 1 }} // Initial state: very small and invisible
+                      animate={{
+                        scale: isHoveredMedia ? 1.06 : 1, // Zoom in
+                      }}
+                      transition={{ duration: 0.45 }} // Animation duration (in seconds)
+                      style={{
+                        marginTop: "15px",
+                        marginBottom: "15px",
+                      }}
+                      className="project-bsport-image"
+                    >
+                      <img
+                        src={projectMedia}
+                        alt="home pic"
+                        className="img-fluid"
+                        style={{
+                          maxHeight: "600px",
+                          borderRadius: "15px",
+                          position: "relative",
+                        }}
+                      />
+                    </motion.div>
+                  </div>
+
+                  <p
+                    style={{
+                      fontWeight: "normal",
+                      fontSize: "15px",
+                    }}
+                    className="project-bsport-special-job"
+                  >
+                    Developed iOS & Android app in <b>just 6 days</b>, earning a{" "}
+                    <b>$1500 bonus</b> from CEO for super fast-delivery!
+                  </p>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                      marginTop: "15px",
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontWeight: "bold",
+                        fontSize: "12px",
+                        color: "black",
+                        backgroundColor: "rgb(68, 118, 192)",
+                        display: "inline-block",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
+                        paddingTop: "2px",
+                        paddingBottom: "2px",
+                        borderRadius: "15px",
+                        marginRight: "10px",
+                        marginBottom: "10px",
+                      }}
+                      className="project-bsport-years"
+                    >
+                      React Native
+                    </p>
+
+                    <p
+                      style={{
+                        fontWeight: "bold",
+                        fontSize: "12px",
+                        color: "black",
+                        backgroundColor: "rgb(68, 118, 192)",
+                        display: "inline-block",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
+                        paddingTop: "2px",
+                        paddingBottom: "2px",
+                        borderRadius: "15px",
+                        marginRight: "10px",
+                        marginBottom: "10px",
+                      }}
+                      className="project-bsport-years"
+                    >
+                      Video SDK
+                    </p>
+
+                    <p
+                      style={{
+                        fontWeight: "bold",
+                        fontSize: "12px",
+                        color: "black",
+                        backgroundColor: "rgb(68, 118, 192)",
+                        display: "inline-block",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
+                        paddingTop: "2px",
+                        paddingBottom: "2px",
+                        borderRadius: "15px",
+                        marginRight: "10px",
+                        marginBottom: "10px",
+                      }}
+                      className="project-bsport-years"
+                    >
+                      App Orientation
+                    </p>
+
+                    <p
+                      style={{
+                        fontWeight: "bold",
+                        fontSize: "12px",
+                        color: "black",
+                        backgroundColor: "rgb(68, 118, 192)",
+                        display: "inline-block",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
+                        paddingTop: "2px",
+                        paddingBottom: "2px",
+                        borderRadius: "15px",
+                        marginRight: "10px",
+                        marginBottom: "10px",
+                      }}
+                      className="project-bsport-years"
+                    >
+                      Rest API
                     </p>
                   </div>
                 </motion.div>
