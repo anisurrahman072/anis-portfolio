@@ -871,7 +871,7 @@ button:focus {
 /* JOB EXPERIENCE SECTION */
 .experience-background {
   background-image: url(./Assets/expBackground.svg);
-  padding-bottom: 50px !important;
+  padding-bottom: 70px !important;
   background-size: cover;
 }
 
@@ -891,7 +891,7 @@ button:focus {
 
 .leadershipContents {
   margin-top: 5rem  !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 5rem !important;
   color: whitesmoke;
   text-align: left;
 }
