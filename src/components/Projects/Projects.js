@@ -666,7 +666,7 @@ function Projects() {
                     className="project-nft-special-job"
                   >
                     Guided team through unknown topic - <b>Deploy 64K NFTs</b>{" "}
-                    on <b>Polygon</b> Chain & increased <b>more 20K users</b> in
+                    on <b>Polygon</b> Chain & increased <b>more 50K users</b> in
                     App.
                   </p>
 

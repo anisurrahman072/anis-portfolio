@@ -13,7 +13,7 @@ export default [
       "⭐️ Enabled <b style='color: gold;'>5-10 investors</b> by Sports Streaming feature.",
       "⭐️ Led Streaming SDK Agora R&D (Android + iOS + Web).",
       "⭐️ Increased <b style='color: gold;'>50K+ users</b> in App by Polygon NFT feature.",
-      "⭐️ Increased SOLANA Token volume by <b style='color: gold;'>$200K</b> by a Bot",
+      "⭐️ Increased SOLANA Token volume by <b style='color: gold;'>$200K</b> by Bot",
       "⭐️ Re-wrote a clock function which made Mobile App <b style='color: gold;'>5x faster</b>.",
       "⭐️ Led full-stack mobile (Android & iOS) & web development.",
       "⭐️ Implemented <b style='color: gold;'>In App Purchase</b> for Android and iOS.",
