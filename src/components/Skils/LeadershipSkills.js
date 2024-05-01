@@ -174,7 +174,7 @@ function LeadershipSkills() {
                     <h1>🎖️</h1>
                   </motion.div>{" "}
                   <h5 style={{ marginLeft: "10px" }}>
-                    <b style={{ color: "gold" }}>Led</b> BD Govt Project{" "}
+                    Managed BD Govt Project{" "}
                     <b style={{ color: "gold" }}>Backend Team</b>, scaled to{" "}
                     <b style={{ color: "gold" }}>1M users</b>, won Best Software
                     Engineer Award in 2022.
@@ -210,10 +210,9 @@ function LeadershipSkills() {
                     <h1>🎖️</h1>
                   </motion.div>{" "}
                   <h5 style={{ marginLeft: "10px" }}>
-                    <b style={{ color: "gold" }}>Led team</b> to deploy 64K NFTs
-                    on Polygon Chain, attracting{" "}
-                    <b style={{ color: "gold" }}>20K users</b>. CEO sponsored
-                    Indonesia Tour.
+                    Directed team to deploy 64K NFTs on Polygon Chain,
+                    attracting <b style={{ color: "gold" }}>50K users</b>. CEO
+                    sponsored Indonesia Tour.
                   </h5>
                 </div>
               </motion.div>

@@ -882,7 +882,7 @@ function Projects() {
                     }}
                     className="project-youth-special-job"
                   >
-                    Led the backend <b>R&D team</b>, deftly managing{" "}
+                    Directed backend <b>R&D team</b>, deftly managing{" "}
                     <b>1M active users</b> across 7 microservices using
                     RabbitMQ.
                   </p>
@@ -1076,7 +1076,7 @@ function Projects() {
                     className="project-truck-special-job"
                   >
                     Integrated 3 BD <b>payment gateways</b>, delivered{" "}
-                    <b>full-stack</b> solutions, and enrolled <b>50K+ users</b>.
+                    <b>full-stack</b> solutions, and enrolled <b>70K+ users</b>.
                   </p>
 
                   <div
