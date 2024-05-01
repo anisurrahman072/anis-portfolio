@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/book.gif";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import { motion } from "framer-motion";
 import Experience from "../Experience/Experience";
 import Skills from "../Skils/Skills";
