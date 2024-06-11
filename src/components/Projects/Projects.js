@@ -100,7 +100,10 @@ function Projects() {
                 paddingTop: "150px",
               }}
             >
-              MOBILE & WEB <strong className="main-name">PROJECTS</strong>
+              <strong className="main-name" style={{ color: "#c1ebb7" }}>
+                MOBILE
+              </strong>{" "}
+              & WEB <strong className="main-name">PROJECTS</strong>
             </h1>
           </motion.div>
         </motion.section>
