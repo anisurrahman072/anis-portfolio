@@ -4,7 +4,7 @@ import digitruck from "../Assets/digitruck.webp";
 
 export default [
   {
-    title: "Sr. Full Stack Lead Engineer",
+    title: "Sr. Full Stack Mobile Engineer",
     companyName: "BasementSports (USA - Remote)",
     icon: basementsports,
     iconBg: "#383E56",

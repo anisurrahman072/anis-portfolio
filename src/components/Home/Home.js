@@ -95,7 +95,7 @@ function Home() {
                     paddingBottom: 20,
                   }}
                 >
-                  🟢 Sr. Software Engineer with{" "}
+                  🟢 Sr. Mobile Engineer with{" "}
                   <b style={{ color: "gold" }}>5+ years</b> of JS{" "}
                   <b style={{ color: "gold" }}>Full Stack</b> exp.
                 </h5>

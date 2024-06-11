@@ -59,7 +59,8 @@ function Skills() {
             marginBottom: "50px",
           }}
         >
-          5 YEARS <strong className="main-name">SKILLS</strong> (FULL-STACK)
+          5 YEARS <strong className="main-name">SKILLS</strong> (FULL-STACK
+          MOBILE)
         </h1>
       </motion.div>
 

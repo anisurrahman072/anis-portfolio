@@ -100,7 +100,7 @@ function Projects() {
                 paddingTop: "150px",
               }}
             >
-              MY <strong className="main-name">PROJECTS</strong>
+              MOBILE & WEB <strong className="main-name">PROJECTS</strong>
             </h1>
           </motion.div>
         </motion.section>
