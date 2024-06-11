@@ -101,8 +101,8 @@ function Home() {
                 </h5>
 
                 <h5 className="home-general-text-common-style">
-                  🟢 <b style={{ color: "gold" }}>Web</b>,{" "}
-                  <b style={{ color: "gold" }}>Mobile</b> &{" "}
+                  🟢 <b style={{ color: "gold" }}>Mobile</b>,{" "}
+                  <b style={{ color: "gold" }}>Web</b> &{" "}
                   <b style={{ color: "gold" }}>Blockchain</b> expert with{" "}
                   <b style={{ color: "gold" }}>R&D</b> skill.
                 </h5>
