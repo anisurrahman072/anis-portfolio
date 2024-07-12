@@ -175,7 +175,7 @@ function Skills() {
                 }}
                 className="react-native-special-job"
               >
-                Built <b>3 Production</b> grade Apps with complex SDKs (
+                Built over <b>5 Production</b> grade Apps with complex SDKs (
                 <b>IAP</b>, <b>Video Stream</b>,<b> Camera</b>, <b>Jest</b>,
                 more).
               </p>
