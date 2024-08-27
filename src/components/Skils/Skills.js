@@ -155,7 +155,7 @@ function Skills() {
                 }}
                 className="react-native-years"
               >
-                3 yrs
+                4 yrs
               </p>
 
               <p
