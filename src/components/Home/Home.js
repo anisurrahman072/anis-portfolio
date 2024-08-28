@@ -83,8 +83,8 @@ function Home() {
                 transition={{ duration: 2 }} // Animation duration
               >
                 <h1 className="heading-name">
-                  I'M
-                  <strong className="main-name"> ANISUR RAHMAN 🙋‍♂️ </strong>
+                  🙋‍♂️ I'M
+                  <strong className="main-name"> ANISUR RAHMAN </strong>
                 </h1>
 
                 <h5
